@@ -1,0 +1,1674 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "unicode",
+      "name": "Unicode",
+      "version": "1.0.5",
+      "category": "文本",
+      "归属group": "编码解码",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 17476,
+          "sha256": "4672efbd71f148594cb0959fe195084bc42d15181dc0bb90de5c33c89af67af6"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 293,
+          "sha256": "37abfcb351f87a516f6337b36c6f3c719165fd56360e36dc204d383fababe8b8"
+        }
+      ],
+      "archiveBytes": 7973,
+      "archiveSha256": "6e7f8a611c27584e7ba84e0be8029d25cf2afcbfb451bd1eea5f8cba937b3ad1",
+      "relativePath": "文本/Unicode-unicode/Unicode-unicode.zip"
+    },
+    {
+      "id": "watermark",
+      "name": "图片水印",
+      "version": "1.0.6",
+      "category": "图片",
+      "归属group": "图文创作",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 42872,
+          "sha256": "66868660bf72432faecbaea5c1bc99af729d71fee7a474c315c155afc326b773"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 290,
+          "sha256": "1d2762c898dfdbb648e18e034ea5970f99227f66dc42bfa8d2f19a6c76570cfe"
+        }
+      ],
+      "archiveBytes": 12495,
+      "archiveSha256": "8ba8949f6b01affb6050c31529306610048dec6d7ee86e103e8e3a3493268de7",
+      "relativePath": "图片/图片水印-watermark/图片水印-watermark.zip"
+    },
+    {
+      "id": "text2img",
+      "name": "文字转长图",
+      "version": "1.0.6",
+      "category": "图片",
+      "归属group": "图文创作",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 35079,
+          "sha256": "103eaa6e43ae13feedc01ab577351c0fccb1c9a4d95a53b3961efcb001cc1fc6"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 293,
+          "sha256": "9f3b68ca676eb2844a2af2f78524d2aabed4be5b9686d10d38bb8411755e6b63"
+        }
+      ],
+      "archiveBytes": 11454,
+      "archiveSha256": "342dadb48d8482c9ef48467380e7966c319eea83d91ffc5b490aa1bbe9ffb7c8",
+      "relativePath": "图片/文字转长图-text2img/文字转长图-text2img.zip"
+    },
+    {
+      "id": "pixelart",
+      "name": "点阵像素画",
+      "version": "1.0.7",
+      "category": "图片",
+      "归属group": "图文创作",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 30233,
+          "sha256": "2ccd20aa0f3a0a373fcbbaee6c01621f7bd23383da590c2c32d40af310aa7819"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 338,
+          "sha256": "40dd24f7977de81c9240efab8e69b1fd01f4316229801907ef3be9533ea52bbc"
+        }
+      ],
+      "archiveBytes": 11189,
+      "archiveSha256": "19a6cd10078786601fb3f162fb627ac9847080b76fcd0ce587df20cde8fdd359",
+      "relativePath": "图片/点阵像素画-pixelart/点阵像素画-pixelart.zip"
+    },
+    {
+      "id": "drawpad",
+      "name": "画板",
+      "version": "1.0.6",
+      "category": "图片",
+      "归属group": "图文创作",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 31521,
+          "sha256": "a987138f6ac0b912a15209249260f879bdb9d07548fddd3208269460508bf59a"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 263,
+          "sha256": "dc630457d6b0c8628b28efb48bc948f36d181c227909a65233c4d95687cd86dc"
+        }
+      ],
+      "archiveBytes": 9817,
+      "archiveSha256": "18d89f5bacdb877f3fe1ebe1bef665b1e47ce1fefa0c73e19bc6c72c983c23ff",
+      "relativePath": "图片/画板-drawpad/画板-drawpad.zip"
+    },
+    {
+      "id": "barcode",
+      "name": "条形码生成",
+      "version": "1.0.9",
+      "category": "图片",
+      "归属group": "图片生成",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 42649,
+          "sha256": "ed528f83dfbf967a1757557dfebe1843a8c5574d9d722a49116526d3bc32df16"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 272,
+          "sha256": "ae2e6700aef7c962ccdd63ecf75f166df3247555964cd875805a1eb1483ea6c9"
+        }
+      ],
+      "archiveBytes": 13136,
+      "archiveSha256": "d515b230e9d7b6c876fa8dc8df5c59cac29a2b3f4e81029d2e763d6318c12abe",
+      "relativePath": "图片/条形码生成-barcode/条形码生成-barcode.zip"
+    },
+    {
+      "id": "wallpaper",
+      "name": "渐变壁纸",
+      "version": "1.0.6",
+      "category": "图片",
+      "归属group": "图片生成",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 45789,
+          "sha256": "94313995570da01e715d8f178e72d8b4cd20a9bfb0ecd990bc2204d1e4e4f7bd"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 289,
+          "sha256": "cd47ff02e70ad43ff3043adba75fd89217ad65946b3255b44f2e706b1b9e0855"
+        }
+      ],
+      "archiveBytes": 13290,
+      "archiveSha256": "6102e30041b2ddd985702a0aa0cf76d483d6bcd41b2bd9012ee3d6288c140af7",
+      "relativePath": "图片/渐变壁纸-wallpaper/渐变壁纸-wallpaper.zip"
+    },
+    {
+      "id": "chinesecolors",
+      "name": "中国传统色",
+      "version": "1.0.6",
+      "category": "图片",
+      "归属group": "颜色配色",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 31434,
+          "sha256": "c07817e77699be7c7623866dffb6045c03d99377e695d68176abc41267780a03"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 314,
+          "sha256": "84c5c351891f761d1ee61721bc6fc3cac5f0a2bb74332d1cd6e87e3dd96bd274"
+        }
+      ],
+      "archiveBytes": 9199,
+      "archiveSha256": "b7b7b312f821196dba6ca1dafe7a3dfe56e07ed109e959f1b73045f792047c82",
+      "relativePath": "图片/中国传统色-chinesecolors/中国传统色-chinesecolors.zip"
+    },
+    {
+      "id": "palettegen",
+      "name": "配色生成器",
+      "version": "1.0.7",
+      "category": "图片",
+      "归属group": "颜色配色",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 39103,
+          "sha256": "5987c410974fee6121ac61f9aafcf2c1f5c256551559764318c81fbf10bcb32c"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 293,
+          "sha256": "37ec87697c571ed0d0234fe47b4f86bb848c7e87137e5e6e2e4ba5f506ce16f3"
+        }
+      ],
+      "archiveBytes": 11345,
+      "archiveSha256": "322beac62e06fcaad8ce95f1825e21bbd92515c5ea5c4cb649963f399eb256f2",
+      "relativePath": "图片/配色生成器-palettegen/配色生成器-palettegen.zip"
+    },
+    {
+      "id": "tdee",
+      "name": "代谢计算器",
+      "version": "1.0.8",
+      "category": "计算",
+      "归属group": "健康计算",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 22600,
+          "sha256": "6e759ae2a4b20055f9d2c6114a6cbe487ff244fe6338dd8326bc5c34a0a7c49c"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 308,
+          "sha256": "8d627db13a90a876d5df332eb924318bee625446a162dff83c29fe486ddaa69b"
+        }
+      ],
+      "archiveBytes": 8189,
+      "archiveSha256": "166cf4cc106b4095f946dc1e9ce5494422a167985c72880fb60f36e2664e7670",
+      "relativePath": "计算/代谢计算器-tdee/代谢计算器-tdee.zip"
+    },
+    {
+      "id": "health",
+      "name": "健康计算",
+      "version": "1.0.9",
+      "category": "计算",
+      "归属group": "健康计算",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 41514,
+          "sha256": "27ef0ec6ee6cd97c5bf02830f5974d8fd3455a5116d55dfa7c63786b7ad1a88a"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 277,
+          "sha256": "57cb96445e469e42b75a7340303adad8f6cf1209cdd6020ac5c0b084d4ab9349"
+        }
+      ],
+      "archiveBytes": 12202,
+      "archiveSha256": "66753dee5789e94a4e7ccc12bc03789a5ee47c37a4ca8dd0690bf5c8a88a8aaa",
+      "relativePath": "计算/健康计算-health/健康计算-health.zip"
+    },
+    {
+      "id": "aasplit",
+      "name": "AA 分摊",
+      "version": "1.0.8",
+      "category": "计算",
+      "归属group": "日常算账",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 35918,
+          "sha256": "35c34c17d5fa8ee4029289955be0e91c970d6c249732d00576ffd9942e6c1e44"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 284,
+          "sha256": "79b4f742e4b94ec109be762359a142f5b927e0dc6840115979032329f0db0474"
+        }
+      ],
+      "archiveBytes": 10727,
+      "archiveSha256": "7a061d494e2f3b4e7d2d5d81c708ff1e9c7d851856fadf1e75f2f959e26b939f",
+      "relativePath": "计算/AA 分摊-aasplit/AA 分摊-aasplit.zip"
+    },
+    {
+      "id": "ioscalc",
+      "name": "iOS 计算器",
+      "version": "1.2.7",
+      "category": "计算",
+      "归属group": "日常算账",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 30323,
+          "sha256": "61090511aa83fb58595632c173f5553d2bee5c1232a9337552468c7b4b9b62c5"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 276,
+          "sha256": "41ee4bf8dddc901b46b34b8db89b2f5548023e59f77ddd2ab9b119da30406aca"
+        }
+      ],
+      "archiveBytes": 9445,
+      "archiveSha256": "0199a09b01a444088e176baab9131b300fdb26ebf34870c2dca2ca457648edb4",
+      "relativePath": "计算/iOS 计算器-ioscalc/iOS 计算器-ioscalc.zip"
+    },
+    {
+      "id": "taxcalc",
+      "name": "个税计算器",
+      "version": "1.0.9",
+      "category": "计算",
+      "归属group": "理财计算",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 42823,
+          "sha256": "20e4b08842aacff4223de4829bf418b2a78d650f4f8c3746fe564bf483133595"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 295,
+          "sha256": "95fb564b14dc8f3338d78a72b3ffabd0657248d13923e9ec80d90454ad20efa5"
+        }
+      ],
+      "archiveBytes": 12976,
+      "archiveSha256": "fc09cc6da4c57ca1c0e5cd4633ea06b4dad8a27ff9a465e008dacbd580016ec6",
+      "relativePath": "计算/个税计算器-taxcalc/个税计算器-taxcalc.zip"
+    },
+    {
+      "id": "mortgage",
+      "name": "房贷计算器",
+      "version": "1.1.9",
+      "category": "计算",
+      "归属group": "理财计算",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 44834,
+          "sha256": "9802933e70300559d936f38d4e3f5269bd2ef1b6ec26e77c419c485e53b1ea37"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 289,
+          "sha256": "4fc1beee6de2cfd59bdc841063ef1d72f5d134bb6aff28dcf012eb38493d12db"
+        }
+      ],
+      "archiveBytes": 13248,
+      "archiveSha256": "e7578bc2dd8091d2ef361bbc2fefc3926129c98eb6830ca329be2e4056d1bc86",
+      "relativePath": "计算/房贷计算器-mortgage/房贷计算器-mortgage.zip"
+    },
+    {
+      "id": "eleccalc",
+      "name": "电费计算",
+      "version": "1.0.6",
+      "category": "计算",
+      "归属group": "理财计算",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 25626,
+          "sha256": "f1d17ead9b28c8d7b87ca3b43a8ce9564146f71ecaa4c5322f783ef35465af37"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 295,
+          "sha256": "39e13603992b96b06d61d9c5e02af41acf9884b834a257a9f5c7c2d60961d175"
+        }
+      ],
+      "archiveBytes": 8160,
+      "archiveSha256": "9c72935ffac1794ee98a478316f2b1f7074b81e5fe2eb97082433ebcd1145233",
+      "relativePath": "计算/电费计算-eleccalc/电费计算-eleccalc.zip"
+    },
+    {
+      "id": "apk1",
+      "name": "APK.1 安装",
+      "version": "1.0.5",
+      "category": "效率",
+      "归属group": "安装传输",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 15920,
+          "sha256": "25ae5228c69d362a823620a23d409cdd54b503048a3c0f2cc56159c85af86372"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 379,
+          "sha256": "9b4a53bdf8c59ceef4cca6bb3d7f7442362a95a3d6c002e3f8e31621d7b50209"
+        }
+      ],
+      "archiveBytes": 6131,
+      "archiveSha256": "617f728c32ed1c3137069fca64299e58175e020ca951c1c5f160ac20f12fd3c0",
+      "relativePath": "效率/APK.1 安装-apk1/APK.1 安装-apk1.zip"
+    },
+    {
+      "id": "webapk",
+      "name": "网页打包",
+      "version": "1.0.6",
+      "category": "效率",
+      "归属group": "安装传输",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 8960,
+          "sha256": "45da67832ed180ca8ae813e116cde14b2243208f45064399637d2b41a24294bf"
+        },
+        {
+          "path": "index.html",
+          "bytes": 6979,
+          "sha256": "3ad1dbc012154f3d3c182462815b3bf50c17fa1695c00c14ce792fd7293cfdfa"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 278,
+          "sha256": "da4b1bd7d9e1efab5a00742cfee2d7f8a09de0fe35d41a3b498100fbea4f7352"
+        }
+      ],
+      "archiveBytes": 6484,
+      "archiveSha256": "c9d49358824e06d31c9d9001adf8c9c397ba0ee72c4c4cfa43e4d89f0de1ab3f",
+      "relativePath": "效率/网页打包-webapk/网页打包-webapk.zip"
+    },
+    {
+      "id": "mdnote",
+      "name": "MD 笔记",
+      "version": "1.0.10",
+      "category": "效率",
+      "归属group": "待办笔记",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 46428,
+          "sha256": "cc80fa1d642420d5131c31dd248989ba487c727dc2caa2a569eb3816d0937a7a"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 270,
+          "sha256": "4a155e06f37ae5563f653f67005d44eff8ac6acb084dca6a7486a72185b9d817"
+        }
+      ],
+      "archiveBytes": 13691,
+      "archiveSha256": "b792004b5f06aade8725f789b6f5d82e0b3c2a66598d04b7bc5e8518a1a57cc1",
+      "relativePath": "效率/MD 笔记-mdnote/MD 笔记-mdnote.zip"
+    },
+    {
+      "id": "mindmap",
+      "name": "思维导图",
+      "version": "1.0.5",
+      "category": "效率",
+      "归属group": "待办笔记",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 42206,
+          "sha256": "463c5b2d8f1c48c5b1edecbe97b8ded5c6b5a58f82fd8d8fe76ca4e9d43d48e2"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 294,
+          "sha256": "f7532199d5036a6db81058e4271066df1c0198fa207e6773da7ddf96bbecb218"
+        }
+      ],
+      "archiveBytes": 12645,
+      "archiveSha256": "8b9fc3c4d21ae5079992e9870727e24e6876dafdee92f27db083c08acbdfada8",
+      "relativePath": "效率/思维导图-mindmap/思维导图-mindmap.zip"
+    },
+    {
+      "id": "pdf2txt",
+      "name": "PDF 转 TXT",
+      "version": "1.0.0",
+      "category": "效率",
+      "归属group": "文档提词",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 22393,
+          "sha256": "63f58bc06c2c44d7f0dfde51b9568369d434999db35f0dacea75ed365b60f07f"
+        },
+        {
+          "path": "clean.js",
+          "bytes": 20400,
+          "sha256": "84b4d285589a9843cda56eb49e0f0238dec0a0ed9a5bd007460e430b53de7f47"
+        },
+        {
+          "path": "index.html",
+          "bytes": 8692,
+          "sha256": "24712f40094e01ff0b892c35b7fa5634210e461e17a22e1d6e4ff2c32fd6a3c2"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 290,
+          "sha256": "b3693eb890e35ae303fdbd39bc582d2b3c48f268494305369c155f5ca86efb94"
+        }
+      ],
+      "archiveBytes": 19758,
+      "archiveSha256": "d6a788436304337e539452ae4fdb5e3aef6812be6f851114c93a9567e3e4f62b",
+      "relativePath": "效率/PDF 转 TXT-pdf2txt/PDF 转 TXT-pdf2txt.zip"
+    },
+    {
+      "id": "pomodoro",
+      "name": "番茄钟",
+      "version": "1.1.4",
+      "category": "效率",
+      "归属group": "时间管理",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 23854,
+          "sha256": "32446013f139b6498ffa40f011ad5eeeabf237a4e311275c9b64b3ed32dcb87c"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 325,
+          "sha256": "94cd26a7f67137e4f151e251a05359e5c1ff4fddaf4fc36d49fdbbe47b96915c"
+        }
+      ],
+      "archiveBytes": 9023,
+      "archiveSha256": "49c3a4b5788d7879f6cef0e1fb048dc274797a0fd59466c574aecb07288d83c4",
+      "relativePath": "效率/番茄钟-pomodoro/番茄钟-pomodoro.zip"
+    },
+    {
+      "id": "eartest",
+      "name": "耳龄测试",
+      "version": "1.0.6",
+      "category": "媒体",
+      "归属group": "录音声学",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 22905,
+          "sha256": "a7869de95207dac88ea43f209f976e028e273446a7435cc0dfd632939dc2ba4a"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 295,
+          "sha256": "b2d18bc8e9793e12e8bc6b1cb545f7e53e0efa9293665e7f6ebffb9cf6847594"
+        }
+      ],
+      "archiveBytes": 8138,
+      "archiveSha256": "d23a4519b6d38eb6410738932b13d55305c3c7b139adb218addb7b7e643a0d83",
+      "relativePath": "媒体/耳龄测试-eartest/耳龄测试-eartest.zip"
+    },
+    {
+      "id": "audiolab",
+      "name": "音频实验室",
+      "version": "1.2.6",
+      "category": "媒体",
+      "归属group": "录音声学",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 61083,
+          "sha256": "9bef334a8d6707ab6c59aac3a4279bd46e1dfb7f1734a08b3a1307471b95e8ba"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 278,
+          "sha256": "601346f204597803933267c676f5730a92a1311daa70715a4684efd7982d367c"
+        }
+      ],
+      "archiveBytes": 17961,
+      "archiveSha256": "1e5765e3b2518442ef0175d0e527159b32a2fc07dd1474640272e02565725f5b",
+      "relativePath": "媒体/音频实验室-audiolab/音频实验室-audiolab.zip"
+    },
+    {
+      "id": "instrument_box",
+      "name": "乐器盒",
+      "version": "2.0.1",
+      "category": "媒体",
+      "归属group": "音乐声音",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 99069,
+          "sha256": "4e958d417da73f71b6cd75767c706ca224076b92a3d8a50e94821fc2090087c3"
+        },
+        {
+          "path": "audio.js",
+          "bytes": 51245,
+          "sha256": "e00ec6ef969a763cb99c7bf056179995e374a8bae06b7731d20703070b29f386"
+        },
+        {
+          "path": "index.html",
+          "bytes": 33577,
+          "sha256": "ac804fcdae1138a30852c8e285b57f7b14568ad6e7dcce5850cc2f29a8d54388"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 544,
+          "sha256": "f1236cd85fbf102dc602e4f37ac383960f275719adba3c4ff13c761d2cd068c7"
+        },
+        {
+          "path": "scoreio.js",
+          "bytes": 35343,
+          "sha256": "092e36cf68718871a67a2643f5ed35e0bab572830e11eb70164bc797d00f1014"
+        },
+        {
+          "path": "scores.js",
+          "bytes": 39728,
+          "sha256": "1513c20e0350b3071d84824e5d9e22bdc6a9899a3fda6db898dd1337b810d349"
+        }
+      ],
+      "archiveBytes": 80749,
+      "archiveSha256": "1497aff4e3824b2405ce804c7324ad34a666cd717afde2de9ecfb390702ce1ca",
+      "relativePath": "媒体/乐器盒-instrument_box/乐器盒-instrument_box.zip"
+    },
+    {
+      "id": "score_player",
+      "name": "乐谱播放",
+      "version": "2.0.0",
+      "category": "媒体",
+      "归属group": "音乐声音",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 52232,
+          "sha256": "1ca59aeb99a1d72de7625336e91000de9b6b7395e53020bbe4b0d8459e0b54a7"
+        },
+        {
+          "path": "arrangements.js",
+          "bytes": 4577,
+          "sha256": "4cfa49f526a0e6a8d9746b2fe46505efc3288c84b1bd983e9da176d3dc58bc5d"
+        },
+        {
+          "path": "audio.js",
+          "bytes": 51245,
+          "sha256": "e00ec6ef969a763cb99c7bf056179995e374a8bae06b7731d20703070b29f386"
+        },
+        {
+          "path": "index.html",
+          "bytes": 14049,
+          "sha256": "42ee73091d86c2617607d1191dca0f480fe67928a2cbb2772b59d836681ca2f3"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 425,
+          "sha256": "8cc5cf73902371f8dbfe8da4fbf7e73473127afc9f564bc4e415e0a0a6749662"
+        },
+        {
+          "path": "scoreio.js",
+          "bytes": 35343,
+          "sha256": "092e36cf68718871a67a2643f5ed35e0bab572830e11eb70164bc797d00f1014"
+        }
+      ],
+      "archiveBytes": 53582,
+      "archiveSha256": "576a8cbebdb200aaae2d16d8a9194a8a427f4e7c3f8c88311ae0cfbc23f32631",
+      "relativePath": "媒体/乐谱播放-score_player/乐谱播放-score_player.zip"
+    },
+    {
+      "id": "whitenoise",
+      "name": "白噪音",
+      "version": "1.0.9",
+      "category": "媒体",
+      "归属group": "音乐声音",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 41054,
+          "sha256": "c1c6ba9f7e9d912cb2bce6db8032d77301a40a8c6f6cc8fcdf9015e4d3baaeaa"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 313,
+          "sha256": "ab6d403b6857d5eb1aed9f234875773bb1f30c7e185e6f65e463e6ab785c5095"
+        }
+      ],
+      "archiveBytes": 12824,
+      "archiveSha256": "ec619350d017dd113d1d4adeb0841d38ef2128a4fb26fe1e28b02bccd873390a",
+      "relativePath": "媒体/白噪音-whitenoise/白噪音-whitenoise.zip"
+    },
+    {
+      "id": "metronome",
+      "name": "节拍器",
+      "version": "1.0.5",
+      "category": "媒体",
+      "归属group": "音乐声音",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 26671,
+          "sha256": "fa906873e4eae4bd0529798f339d306ce0d4d757f928df0f55a8c7f506c906bf"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 281,
+          "sha256": "b1d0ef110b05a059966ea61a83183d7b160cce14ea02923d3494551b4b148699"
+        }
+      ],
+      "archiveBytes": 8453,
+      "archiveSha256": "15cadbc27609ffe43754f1f4b5846175e208555e2e8988523b3dc1d4b115cdc0",
+      "relativePath": "媒体/节拍器-metronome/节拍器-metronome.zip"
+    },
+    {
+      "id": "super_band",
+      "name": "超级乐器",
+      "version": "2.0.1",
+      "category": "媒体",
+      "归属group": "音乐声音",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 64247,
+          "sha256": "b9cc51c8d5b0a58a51327067bfb65505f9bd3e3ff87f2f62de7a3a1541813d08"
+        },
+        {
+          "path": "audio.js",
+          "bytes": 51245,
+          "sha256": "e00ec6ef969a763cb99c7bf056179995e374a8bae06b7731d20703070b29f386"
+        },
+        {
+          "path": "index.html",
+          "bytes": 19436,
+          "sha256": "52011b1ee96cbd2f3fdf6377c3cc967df5c97e9b88ce02b78f9f34dd45d4391e"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 401,
+          "sha256": "3bd26c5d2aa9763e31ff6a43898cf845910231363cac807aa21d9d9f61d99df1"
+        },
+        {
+          "path": "presets.js",
+          "bytes": 1678,
+          "sha256": "202caaf1123ef985165691904f595b5da88bce56f97dc7e631160612b7bec524"
+        }
+      ],
+      "archiveBytes": 44167,
+      "archiveSha256": "8c3a43a6691c41e840ab51f4b648662ca50530e4f440906e5f59813535f0a63a",
+      "relativePath": "媒体/超级乐器-super_band/超级乐器-super_band.zip"
+    },
+    {
+      "id": "piano",
+      "name": "随身钢琴",
+      "version": "1.1.10",
+      "category": "媒体",
+      "归属group": "音乐声音",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 85562,
+          "sha256": "180d54c844f43952c81cf68b2ff17121257b0462eaa32d88839a86c403de39e7"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 347,
+          "sha256": "625ab1be3bba4cee7a890ca693b35d4b11255757c5be9e90b90770026a63d888"
+        },
+        {
+          "path": "scoreio.js",
+          "bytes": 35343,
+          "sha256": "092e36cf68718871a67a2643f5ed35e0bab572830e11eb70164bc797d00f1014"
+        },
+        {
+          "path": "scores.js",
+          "bytes": 6083,
+          "sha256": "16230ce84a436bbad20f2234bd70c40a85fd2c9b2ed73347eed38d9073bfff1f"
+        }
+      ],
+      "archiveBytes": 41461,
+      "archiveSha256": "d1a7092e93bc45172fb04b2256794281abd6c3098e6a121ac62393c2e619e9a2",
+      "relativePath": "媒体/随身钢琴-piano/随身钢琴-piano.zip"
+    },
+    {
+      "id": "weight",
+      "name": "体重记录",
+      "version": "1.0.8",
+      "category": "生活",
+      "归属group": "健康记录",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 40946,
+          "sha256": "64ccf111aece409b40bbb352abe9eff57662c88d4593ef4312fe5d42e4e05d05"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 304,
+          "sha256": "948b24d0ecec417d79d8872eaf81ba25b651499f24665c8e5d922b544c6e1a89"
+        }
+      ],
+      "archiveBytes": 12422,
+      "archiveSha256": "a0490055084cf0c375f434a80eed7ba5e2ff260dbf328ee5acffd4085dc11a11",
+      "relativePath": "生活/体重记录-weight/体重记录-weight.zip"
+    },
+    {
+      "id": "water",
+      "name": "喝水记录",
+      "version": "1.0.5",
+      "category": "生活",
+      "归属group": "健康记录",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 40965,
+          "sha256": "090e59bcf689da9350d49078c2a494958baf9524bd744c547881bbcae38998ba"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 281,
+          "sha256": "d02d460f5824e9e6e6ac7bf6235195ad4591728c5b0b6a040b05b15a2c2acaf0"
+        }
+      ],
+      "archiveBytes": 12171,
+      "archiveSha256": "b40d38de01109507312415d7d647d662bf9369a8951504fa35b64ac1d5f51bd0",
+      "relativePath": "生活/喝水记录-water/喝水记录-water.zip"
+    },
+    {
+      "id": "sleepcalc",
+      "name": "睡眠周期",
+      "version": "1.0.4",
+      "category": "生活",
+      "归属group": "健康记录",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 23701,
+          "sha256": "7094afc77cdd23cea7bd301322f0ebd8c33fc19d34dc4051f7921ffaf429652c"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 293,
+          "sha256": "5c6e2a6b2524732b8bb10c4183e49f4b62fd4cb657b5991f0f47e39fe122d6c1"
+        }
+      ],
+      "archiveBytes": 8333,
+      "archiveSha256": "55baf44a46f7bf3a39499fbbc0c184b1e47ccb20ab9d52b67b34e38aa52551c9",
+      "relativePath": "生活/睡眠周期-sleepcalc/睡眠周期-sleepcalc.zip"
+    },
+    {
+      "id": "worldclock",
+      "name": "世界时钟",
+      "version": "1.0.7",
+      "category": "生活",
+      "归属group": "日期提醒",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 50529,
+          "sha256": "48ccd9fb5b392142a2b63dbcf1ea7bcdaaad48ebbd44f2e58b300e33da26a082"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 290,
+          "sha256": "a928bc8a0452ad70e43546518b4969436891ae6b99e64070fadc6e49a7a09a93"
+        }
+      ],
+      "archiveBytes": 15069,
+      "archiveSha256": "4d895fb99ac6ee5765343ed16cda640279f189b093a531d9c896cb25ff590ff2",
+      "relativePath": "生活/世界时钟-worldclock/世界时钟-worldclock.zip"
+    },
+    {
+      "id": "days",
+      "name": "倒数日",
+      "version": "1.0.9",
+      "category": "生活",
+      "归属group": "日期提醒",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 56275,
+          "sha256": "e1ea643951c1a8ea7bc21da99187258942ec8331113b30dc71c0f95d13adf568"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 290,
+          "sha256": "63b5e834836faf2712d63869241eccda7324ae73144fb7da1a7db09c474de64a"
+        }
+      ],
+      "archiveBytes": 17195,
+      "archiveSha256": "aa08c58168ccf9e175d3ff5643cc6f1abae994089e5d3dcc59cf2848aaedeb30",
+      "relativePath": "生活/倒数日-days/倒数日-days.zip"
+    },
+    {
+      "id": "screentest",
+      "name": "屏幕检测",
+      "version": "1.0.8",
+      "category": "生活",
+      "归属group": "硬件传感",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 33322,
+          "sha256": "afae4f1bf6526b26abe0905cea534e2235154616ca8d97cdd0c2855513d2670f"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 286,
+          "sha256": "703a270504f72cc7aa30c2179039350fa0eaae029e3d8bc0c9369115433d1550"
+        }
+      ],
+      "archiveBytes": 9268,
+      "archiveSha256": "308d120cd545557d2e315f43f9e88d4d144fb069de9bf439304dd905cf0179f9",
+      "relativePath": "生活/屏幕检测-screentest/屏幕检测-screentest.zip"
+    },
+    {
+      "id": "screenlight",
+      "name": "柔光补光灯",
+      "version": "1.0.5",
+      "category": "生活",
+      "归属group": "硬件传感",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 18298,
+          "sha256": "1e7dd628b9d3b4441bff989cb561f2141ba84c4ef76aab7b207046d17889c1ba"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 298,
+          "sha256": "d9f199d6a25b6d81e14a819fc9fa7b20d6b7052592876622ba7fd008a9fe52ca"
+        }
+      ],
+      "archiveBytes": 6620,
+      "archiveSha256": "55e0a429fcf8eaa4a06e62bbd378e647ed1ad5728ef2c9ebdd51a97fb0e796c9",
+      "relativePath": "生活/柔光补光灯-screenlight/柔光补光灯-screenlight.zip"
+    },
+    {
+      "id": "relatives",
+      "name": "亲戚称呼",
+      "version": "1.0.9",
+      "category": "生活",
+      "归属group": "记账参考",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 48616,
+          "sha256": "78acf7e36d2ee6748be384e13f3b439ba6fc2fb525d8b19060d6aa0b5d2cbcb8"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 279,
+          "sha256": "ceca180c06a6804a859c09261a55f0c0adf02faad7b4104b34fe946c84342f39"
+        }
+      ],
+      "archiveBytes": 14432,
+      "archiveSha256": "973d3e56c0fd9f8544db740dc9e5a66cd7019bd46ad03deebe531da135f3f6ba",
+      "relativePath": "生活/亲戚称呼-relatives/亲戚称呼-relatives.zip"
+    },
+    {
+      "id": "sizechart",
+      "name": "尺码对照",
+      "version": "1.0.3",
+      "category": "生活",
+      "归属group": "记账参考",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 13893,
+          "sha256": "12f30e4533e3d01b34fa7f133c5840b9e0734012887a9d5c8d5544d005f61866"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 276,
+          "sha256": "d45f4a24afbbd3495770e9aad9b1f0ffc99aa44eb8d3bcd53a3bb3ac4d7b6416"
+        }
+      ],
+      "archiveBytes": 5559,
+      "archiveSha256": "826db76af629a1dfe0aa87ce92e25a08f5e742201eada6f1012082bcd669e467",
+      "relativePath": "生活/尺码对照-sizechart/尺码对照-sizechart.zip"
+    },
+    {
+      "id": "ledger",
+      "name": "记账本",
+      "version": "1.0.8",
+      "category": "生活",
+      "归属group": "记账参考",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 54851,
+          "sha256": "1bbaf33cc4b212852e57b2e1d1c5f469af0dec22e12c1132662ba1f3ad543f86"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 285,
+          "sha256": "e8b9da99464bcbe13dbc0ac1a31b0313c5ed3822584e09a019a02417e355d6ab"
+        }
+      ],
+      "archiveBytes": 13641,
+      "archiveSha256": "50a3af8572202d8358afb1727cbb1b3da448641e78112ca0286475b9fd671be2",
+      "relativePath": "生活/记账本-ledger/记账本-ledger.zip"
+    },
+    {
+      "id": "passbook",
+      "name": "密码本",
+      "version": "1.0.7",
+      "category": "生活",
+      "归属group": "证件密码",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 133894,
+          "sha256": "dec0419abb1e909b0194deb0808fb06c9e829f58bcb9cc1f15e6d04fcdccfeb9"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 289,
+          "sha256": "71b746a69b9c11175c0a69aea998f4c23f6e6a0c68ebe1c087a7d69ccb22fce6"
+        }
+      ],
+      "archiveBytes": 35519,
+      "archiveSha256": "7c44ab40533b74e29e7441a867d571aecfe603b3da740abea93a8079dd8dd62f",
+      "relativePath": "生活/密码本-passbook/密码本-passbook.zip"
+    },
+    {
+      "id": "idcard",
+      "name": "身份证解析",
+      "version": "1.0.5",
+      "category": "生活",
+      "归属group": "证件密码",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 93443,
+          "sha256": "b4fbbe57a2421a3a6c2eadeb2ce9abc60562cbcc4ed7f0a1120db924b9798e27"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 308,
+          "sha256": "7b57db595b5e96ee4cb74b14d35db4a90a0bb7761db57f417e7b9fe6958a7959"
+        }
+      ],
+      "archiveBytes": 34018,
+      "archiveSha256": "b5f8cdffdc3669009c4a218c36948faf10d88385eb2629ce3c93d78f8fd7fd3a",
+      "relativePath": "生活/身份证解析-idcard/身份证解析-idcard.zip"
+    },
+    {
+      "id": "bankbin",
+      "name": "银行卡BIN",
+      "version": "1.0.8",
+      "category": "生活",
+      "归属group": "证件密码",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 30658,
+          "sha256": "72192c0eae4a607a149875cbd06c80bb3c42e8b3a5de7b041a57af127426e850"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 312,
+          "sha256": "512776850f053a7cc0b6f7b9c7b8402ef8e83b58e655ac2b3da4d89b46481ecf"
+        }
+      ],
+      "archiveBytes": 8336,
+      "archiveSha256": "b83b08eac6133ea851a92e628a6081293010e397511f6de9ab5e2a1649eba781",
+      "relativePath": "生活/银行卡BIN-bankbin/银行卡BIN-bankbin.zip"
+    },
+    {
+      "id": "fuelcalc",
+      "name": "油耗计算",
+      "version": "1.0.8",
+      "category": "生活",
+      "归属group": "车辆出行",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 29104,
+          "sha256": "2e47a9fd7d006fef4837b2a8b1fa373f45c44026f7d51b91e2c63b4c5a6ba340"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 293,
+          "sha256": "8ba53e551b50354bed566bd416d60b72311a5ec5bbda5d7c8be3946df71b5399"
+        }
+      ],
+      "archiveBytes": 10179,
+      "archiveSha256": "932dcea5dec5feb7161e02b77d65d685bbb660396ef5baf489e47b515f65dc0d",
+      "relativePath": "生活/油耗计算-fuelcalc/油耗计算-fuelcalc.zip"
+    },
+    {
+      "id": "carplate",
+      "name": "车牌归属地",
+      "version": "1.0.6",
+      "category": "生活",
+      "归属group": "车辆出行",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 23905,
+          "sha256": "9b723805daafb3083a9defe695e012e51e8f1135f90410553fb8061e07654fb7"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 304,
+          "sha256": "9fd0f6ce0b3fa849b3c8963b20d4194a7782fada050a1738091811999436c35f"
+        }
+      ],
+      "archiveBytes": 9262,
+      "archiveSha256": "dca157d6370cd537178a7ef607632d4e0ab6fbeac130c98e1114affdc082594a",
+      "relativePath": "生活/车牌归属地-carplate/车牌归属地-carplate.zip"
+    },
+    {
+      "id": "reaction",
+      "name": "反应力测试",
+      "version": "1.0.4",
+      "category": "娱乐",
+      "归属group": "手速反应",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 19795,
+          "sha256": "7ac5e2ee79281c71d121a7336230e757d8215441960685603d65476223418328"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 290,
+          "sha256": "438faa0d9805f4e717269def6482592f37349c8e69185777cd651eaa1c1c4842"
+        }
+      ],
+      "archiveBytes": 6772,
+      "archiveSha256": "2a534b6812e8eb8b5f4fb4bbbf9171ab709f0b9245aa927d3fab1c604d1b2603",
+      "relativePath": "娱乐/反应力测试-reaction/反应力测试-reaction.zip"
+    },
+    {
+      "id": "cps",
+      "name": "手速测试",
+      "version": "1.0.5",
+      "category": "娱乐",
+      "归属group": "手速反应",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 23964,
+          "sha256": "b5fa6f05805b23919ddc5192a7ab116ed544ad153ed0f62da934b23fcd8e3daa"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 300,
+          "sha256": "bcf51dae028b2cc16c788c98fa5928d9d13985919addc36108072bd90dd52cbf"
+        }
+      ],
+      "archiveBytes": 8205,
+      "archiveSha256": "ded1daa4219089ab2aa1aa73ea56e64bd2e3116399d7245ac9d6aed45bd69a82",
+      "relativePath": "娱乐/手速测试-cps/手速测试-cps.zip"
+    },
+    {
+      "id": "tierlist",
+      "name": "从夯到拉",
+      "version": "1.0.9",
+      "category": "娱乐",
+      "归属group": "整活决策",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 55046,
+          "sha256": "6e981b13aa4ef619b95a7192040ba768ed59e4ced7a852977d62dda6ea3e2b7a"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 308,
+          "sha256": "7bb28617a1d2e1387e47e81412a8ebdfc5bd3721771776c12431124556615038"
+        }
+      ],
+      "archiveBytes": 17302,
+      "archiveSha256": "3cda5f60d24061bcab6e52f222b720081a53fcd10c71e4d2bfe097a1517088cb",
+      "relativePath": "娱乐/从夯到拉-tierlist/从夯到拉-tierlist.zip"
+    },
+    {
+      "id": "woodenfish",
+      "name": "电子木鱼",
+      "version": "1.0.6",
+      "category": "娱乐",
+      "归属group": "整活决策",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 17263,
+          "sha256": "cc2f3c06aa5b8bed679a7f80bf148e5c36d7a998b4d98dc0543061f4bdf5e798"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 271,
+          "sha256": "ab54c6caf3e6d68ca841e0c934b2e2ef018cf29b33855e0fc8013b11ca021e80"
+        }
+      ],
+      "archiveBytes": 7037,
+      "archiveSha256": "21d2ae09f13d1e2d800535480ea672af4a729e873ad43f8d072357f175528910",
+      "relativePath": "娱乐/电子木鱼-woodenfish/电子木鱼-woodenfish.zip"
+    },
+    {
+      "id": "g2048",
+      "name": "2048",
+      "version": "1.1.4",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 33686,
+          "sha256": "20e1a17cadcf5977f7c5e684633fd352e9a5f256b370a8ce92c55a28af4b946e"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 251,
+          "sha256": "d9ca1891dfb32f604f5d57e42c430f65d0c322c3a3b26401e9f8a76a807d77aa"
+        }
+      ],
+      "archiveBytes": 10167,
+      "archiveSha256": "2eca905942bafe4ff9218c1dbe4fe79fac253f98e377d41265141f0fc282d07f",
+      "relativePath": "娱乐/2048-g2048/2048-g2048.zip"
+    },
+    {
+      "id": "g24",
+      "name": "24 点",
+      "version": "1.0.5",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 30805,
+          "sha256": "1990407c00cdf1363509f50258c0981607db887c61a15ee5029c9092c917a1dd"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 290,
+          "sha256": "49655cdd4e7ec9156f19cd4a41d3fed32a7d1342cfe55980795a35549328fa15"
+        }
+      ],
+      "archiveBytes": 9555,
+      "archiveSha256": "da8daad1082588fa26a276ca94f621b6335c64bf3a5389865e7185979df8c50b",
+      "relativePath": "娱乐/24 点-g24/24 点-g24.zip"
+    },
+    {
+      "id": "gomoku",
+      "name": "五子棋",
+      "version": "1.0.7",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 38345,
+          "sha256": "802e015ada3ee60f026d70339e2d4ec2818f0c698252884ac78ded8bd2760e3a"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 278,
+          "sha256": "9aa20563333a3aec665d9b663da9fe3704618f57f72022abb1dff24c6220adb0"
+        }
+      ],
+      "archiveBytes": 11991,
+      "archiveSha256": "9d77d3d2dfef3d0e9ee6e706c49db8506aae41f3805d08daeba24917adf6598c",
+      "relativePath": "娱乐/五子棋-gomoku/五子棋-gomoku.zip"
+    },
+    {
+      "id": "mines",
+      "name": "扫雷",
+      "version": "1.1.7",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 43435,
+          "sha256": "71ac28c6b7a738cd9df4c9818d9b6800b5cf1e4e6067319c6ec98892b16c9406"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 258,
+          "sha256": "eed20a64c25812d7c27db13f3bed0319776e162f6b109bbd3019815b21353694"
+        }
+      ],
+      "archiveBytes": 12987,
+      "archiveSha256": "92ba8d5c6a6c6c951d92061371e43dbe01d6c15256dba9dc40e64afcd85e5471",
+      "relativePath": "娱乐/扫雷-mines/扫雷-mines.zip"
+    },
+    {
+      "id": "fifteen",
+      "name": "数字华容道",
+      "version": "1.1.6",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 29775,
+          "sha256": "91d894d8919b67434fd798440aa3edc43b5ee28104919791599c024cf5bd3a89"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 271,
+          "sha256": "d4aa485e5f8c94a0d7288f367b59652ed1c57f21493f4442d2850d4920fb2d37"
+        }
+      ],
+      "archiveBytes": 9275,
+      "archiveSha256": "d507e14fe6eb9bbb88e02b98141409a79b48c9633c550f5632a677ffa4973577",
+      "relativePath": "娱乐/数字华容道-fifteen/数字华容道-fifteen.zip"
+    },
+    {
+      "id": "sudoku",
+      "name": "数独",
+      "version": "1.1.6",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 43349,
+          "sha256": "78e05d253243a8fca30c9976b02ba79500d91a921bfc6ee43637fdafa88b766d"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 271,
+          "sha256": "35af493f59eb7f869e23b43c2f934e0ea19d3fc320dec4b7d2acb0a570b00f09"
+        }
+      ],
+      "archiveBytes": 12930,
+      "archiveSha256": "952157443763d3c52e2c42880b9bec98a6b3086dc7f9997e30dcb549d1b5d37f",
+      "relativePath": "娱乐/数独-sudoku/数独-sudoku.zip"
+    },
+    {
+      "id": "wordle",
+      "name": "猜单词",
+      "version": "1.0.3",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 38607,
+          "sha256": "1566ea595dc564715f6491d1d58e68a4117e8571525f962b163b68ab7b93f5da"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 279,
+          "sha256": "03321f0641e5c15e86422de575f8a4e0a4ea1c0f7daa4e7ef70e225f76141e65"
+        }
+      ],
+      "archiveBytes": 13031,
+      "archiveSha256": "e3183dd2f89a759df7d81e524ff40363c13fff952da4d10a5ece85251f583492",
+      "relativePath": "娱乐/猜单词-wordle/猜单词-wordle.zip"
+    },
+    {
+      "id": "riddles",
+      "name": "谜语大全",
+      "version": "1.0.4",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 29659,
+          "sha256": "8e6742edcf2936f2f42d732106f50c425e727d7416762f3fb41dabaf232af322"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 322,
+          "sha256": "242684f21571917477f5bb2a3707f77ef8c37cfa0c27d5bb51777004ab880b3a"
+        }
+      ],
+      "archiveBytes": 12728,
+      "archiveSha256": "46dee853375ed1c899e4a010e063b164a32f8288271cc6694d07406295a1ff89",
+      "relativePath": "娱乐/谜语大全-riddles/谜语大全-riddles.zip"
+    },
+    {
+      "id": "snake",
+      "name": "贪吃蛇",
+      "version": "1.1.4",
+      "category": "娱乐",
+      "归属group": "益智游戏",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 32635,
+          "sha256": "8d26eb4b7d07d21994064a196f3f5111f9966a1a4a5e05bd485ab41b3ef05a88"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 259,
+          "sha256": "ad52030fc2a506362501c4fcf5c52981cf95a27056b380b4716d56c295a81e5f"
+        }
+      ],
+      "archiveBytes": 10304,
+      "archiveSha256": "97c18cba1f36fdd34e3178f5b3918b50ed471e340376a720f63d040d8f37a036",
+      "relativePath": "娱乐/贪吃蛇-snake/贪吃蛇-snake.zip"
+    },
+    {
+      "id": "memory",
+      "name": "数字记忆",
+      "version": "1.0.3",
+      "category": "娱乐",
+      "归属group": "记忆专注",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 23277,
+          "sha256": "e501d652c45bfb2daca1f3dc490e9d2dcca932a09c254989fc4765a7b98373ae"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 316,
+          "sha256": "ff515818399dda56d9f6645929539093752f28b2db8bf2602f4a73303ab46049"
+        }
+      ],
+      "archiveBytes": 7467,
+      "archiveSha256": "eecf94b5778a73dc942ed32915360f65810feaf5a8adeda7e25feba6b4c2b343",
+      "relativePath": "娱乐/数字记忆-memory/数字记忆-memory.zip"
+    },
+    {
+      "id": "schulte",
+      "name": "舒尔特方格",
+      "version": "1.0.8",
+      "category": "娱乐",
+      "归属group": "记忆专注",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 38201,
+          "sha256": "247ff338e82cecdda0366dd6d4c75bc58a36bbca46e242d338eead15d9993317"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 289,
+          "sha256": "44cf37fa7c5d9b40a241778fec72afa86c7d6714fc5981176a190ac9093f5a3f"
+        }
+      ],
+      "archiveBytes": 11086,
+      "archiveSha256": "6b4cb5f66e7804db6d352dd7d6df9b1ad46c6e7ba541540279445182d66c733b",
+      "relativePath": "娱乐/舒尔特方格-schulte/舒尔特方格-schulte.zip"
+    },
+    {
+      "id": "simon",
+      "name": "记忆彩灯",
+      "version": "1.1.2",
+      "category": "娱乐",
+      "归属group": "记忆专注",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 21922,
+          "sha256": "96d7cc6f80f010dc16cc64a0997f25201d1bd6448a6b52dbfefb1b2f24149acd"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 268,
+          "sha256": "22f8fd9792fba0140d10c4ee5000c02418ddd01ecc010f1942d085b8ddc84871"
+        }
+      ],
+      "archiveBytes": 7058,
+      "archiveSha256": "e16c77818cb0d5f427b4113eb8f9e0c776507955af88ac7d1277a3e1204e164d",
+      "relativePath": "娱乐/记忆彩灯-simon/记忆彩灯-simon.zip"
+    },
+    {
+      "id": "sign",
+      "name": "每日一签",
+      "version": "1.0.6",
+      "category": "娱乐",
+      "归属group": "骰子抽签",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 11497,
+          "sha256": "0ce8588c428f64606ada2631fac258d25bc2c4650e9c5c07a7707cf7d2159bff"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 292,
+          "sha256": "48e95bb2e3c3df1e83ea5e2c4661ac9eabb107904a42fe4500558e4177caff1f"
+        },
+        {
+          "path": "signs_data.js",
+          "bytes": 75571,
+          "sha256": "3d7ffaabf029eaa71d8827a8dbdf5552e97ad7333e601dd29f4c2570b6b1e709"
+        }
+      ],
+      "archiveBytes": 37437,
+      "archiveSha256": "2afa9bef158363003d360d6154ea6fcafe58afc6e8b5d4d843bb29ba6542819d",
+      "relativePath": "娱乐/每日一签-sign/每日一签-sign.zip"
+    },
+    {
+      "id": "answers",
+      "name": "答案之书",
+      "version": "1.0.5",
+      "category": "娱乐",
+      "归属group": "骰子抽签",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 13046,
+          "sha256": "11837c1e3c1f60597a255012b5a918f37830746527c5bbf9e8d602b844cbb86c"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 273,
+          "sha256": "be83f6be1a0205cc1d944c582b8aa72c7f9fabbe4f3e87429d4d511fac4eea47"
+        }
+      ],
+      "archiveBytes": 6165,
+      "archiveSha256": "ae1c5efe7670dbb7644441505695be6e78bfb41fb35ffb120248ca7e79b17c4b",
+      "relativePath": "娱乐/答案之书-answers/答案之书-answers.zip"
+    },
+    {
+      "id": "dice",
+      "name": "跑团骰子",
+      "version": "1.0.7",
+      "category": "娱乐",
+      "归属group": "骰子抽签",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 47954,
+          "sha256": "3ec39c645a5ed413467061816d80cdad19b955f120fe6c536c1b15976647defa"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 288,
+          "sha256": "2579b443d00f7b284696cb6d9c782a0737b0ff30fd1e3583c94af7373446ae0d"
+        }
+      ],
+      "archiveBytes": 14833,
+      "archiveSha256": "a70dce9fb74acd7c8485fdd03e15f54b909cf3f3187d6e029e1a8869a64c60bc",
+      "relativePath": "娱乐/跑团骰子-dice/跑团骰子-dice.zip"
+    },
+    {
+      "id": "coursetable",
+      "name": "课程表",
+      "version": "1.0.8",
+      "category": "学习",
+      "归属group": "校园课程",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 47773,
+          "sha256": "2065602a62dfe41df9206fbcc2cdd27c79bd603f5dfe6e41ef3b5c900a2ee054"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 288,
+          "sha256": "2dd2fdc7ab2e72100055f0a7d935945c150b5c4851c07ecbbadabcd47bc31df3"
+        }
+      ],
+      "archiveBytes": 13153,
+      "archiveSha256": "e8173ceb239a8c9baad19bfbc2c68c6807a2c41f3ba9ce005731e2ce4e0eda2b",
+      "relativePath": "学习/课程表-coursetable/课程表-coursetable.zip"
+    },
+    {
+      "id": "elements",
+      "name": "元素周期表",
+      "version": "1.0.6",
+      "category": "学习",
+      "归属group": "理科速查",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 45704,
+          "sha256": "cbcde592d75a8fd0b320618f04d7a5c618e9bb2526918e251997d88cfe1c58b5"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 294,
+          "sha256": "383acf78ca140ac0c3bbc8d97e78910dd9ef455d8585fbd16b0c10decbdadcd4"
+        }
+      ],
+      "archiveBytes": 13901,
+      "archiveSha256": "489e8c40579f5f9886f7e20a937369ce4fca62b8530b949b2cd8c595a7bda6c2",
+      "relativePath": "学习/元素周期表-elements/元素周期表-elements.zip"
+    },
+    {
+      "id": "typing",
+      "name": "打字测速",
+      "version": "1.0.6",
+      "category": "学习",
+      "归属group": "语言输入",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 53395,
+          "sha256": "b7beeca0b8b7fd0e7f6c0b1dbb2dc1694ea720d5d3a4189f9c24b0bdb5211214"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 283,
+          "sha256": "fe7905088c83832f5a9e24377ba765bc78700074f0d650794c0ff244f8f5a637"
+        }
+      ],
+      "archiveBytes": 15616,
+      "archiveSha256": "30c7cd68e78adcea2ee49daea1b945efbd61d013e9e05cf70aef437af0a645a0",
+      "relativePath": "学习/打字测速-typing/打字测速-typing.zip"
+    },
+    {
+      "id": "dailyeng",
+      "name": "每日英语",
+      "version": "1.0.6",
+      "category": "学习",
+      "归属group": "语言输入",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 77700,
+          "sha256": "93fd2847fb1e5502df52ee0e5c03bacfb453ce4b547ed6ab0dae3fe4076250a7"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 280,
+          "sha256": "c15cbc34c92a8c06f98b4190a80f6e0c2c378440145c02da3c3d2a2d3454fbf7"
+        }
+      ],
+      "archiveBytes": 33758,
+      "archiveSha256": "d8b2f474a2b9a5dd60156ede05e52cb514ab006b3828d5d8f9f37d9068531fc4",
+      "relativePath": "学习/每日英语-dailyeng/每日英语-dailyeng.zip"
+    },
+    {
+      "id": "hitokoto",
+      "name": "一言",
+      "version": "1.0.5",
+      "category": "联网",
+      "归属group": "公开数据",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 23663,
+          "sha256": "d50d42cf896ee4fe4cbc66feabed5259f559fb1e8a691efa489be03f4901a276"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 272,
+          "sha256": "58ade4cdc6321cab2532cefbf97ab1c41c13e5de8fa1d6969141d4b4f15b9492"
+        }
+      ],
+      "archiveBytes": 10376,
+      "archiveSha256": "8ccb7d2d8a2fca0e3e1b7ca4f443d08da2f08d2ac900c3cd3f289f0ed3004efc",
+      "relativePath": "联网/一言-hitokoto/一言-hitokoto.zip"
+    },
+    {
+      "id": "speedtest",
+      "name": "网速测试",
+      "version": "1.0.3",
+      "category": "联网",
+      "归属group": "网络工具",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 38955,
+          "sha256": "c72ed65b9299e0616ae6b02433e60546e5a9711d0e9a670b456930763cddf9b5"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 278,
+          "sha256": "349e1c4d9542845d0fdee8c8c3cb64a48ae4e1961e6e6f29cb3925b1506a4faf"
+        }
+      ],
+      "archiveBytes": 11966,
+      "archiveSha256": "7685dbdfabd4fdcbe8b7b78c45b1c339d5ffe72d954157cc089f40d7acea5aec",
+      "relativePath": "联网/网速测试-speedtest/网速测试-speedtest.zip"
+    },
+    {
+      "id": "downloader",
+      "name": "下载器",
+      "version": "1.0.5",
+      "category": "联网",
+      "归属group": "网络文件",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 25263,
+          "sha256": "3f003e6afd45ae7efa2f6e0ff2163ff21eeb0f586ed18de1856848d017ed549c"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 291,
+          "sha256": "60548416b15f53460ac555b3b02b322570cdcdc7ef696af76d6a074542181128"
+        }
+      ],
+      "archiveBytes": 8133,
+      "archiveSha256": "1148e95606592715f548c096d5b94f32dda8a81972577d6c369048d1c58a4c08",
+      "relativePath": "联网/下载器-downloader/下载器-downloader.zip"
+    },
+    {
+      "id": "exchrate",
+      "name": "汇率换算",
+      "version": "1.0.7",
+      "category": "联网",
+      "归属group": "行情财经",
+      "文件字节sha256": [
+        {
+          "path": "index.html",
+          "bytes": 20932,
+          "sha256": "74ca8dd1e915f39d2b076bf20332c62b01f26fef33d9bb733bdcec992dad3ccd"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 290,
+          "sha256": "d99a603ea8f29284d7f47c352f928af5a90255d8b12b938469aa6526519cdc17"
+        }
+      ],
+      "archiveBytes": 8336,
+      "archiveSha256": "294e18e2e4c225153d40b3769c4c4c8fdd2832553f785a65bd0ba00d3cd98b71",
+      "relativePath": "联网/汇率换算-exchrate/汇率换算-exchrate.zip"
+    }
+  ]
+}
