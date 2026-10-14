@@ -579,29 +579,29 @@
     {
       "id": "instrument_box",
       "name": "乐器盒",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "category": "媒体",
       "归属group": "音乐声音",
       "文件字节sha256": [
         {
           "path": "app.js",
-          "bytes": 99069,
-          "sha256": "4e958d417da73f71b6cd75767c706ca224076b92a3d8a50e94821fc2090087c3"
+          "bytes": 103111,
+          "sha256": "1ee721803808a493a2cca823cf782457e5047236a7332b274faaeac1baba02fa"
         },
         {
           "path": "audio.js",
-          "bytes": 51245,
-          "sha256": "e00ec6ef969a763cb99c7bf056179995e374a8bae06b7731d20703070b29f386"
+          "bytes": 54585,
+          "sha256": "96696391ab8a91edfb213413b26d5f28871f8a965b1e939ba943d316c496fee7"
         },
         {
           "path": "index.html",
-          "bytes": 33577,
-          "sha256": "ac804fcdae1138a30852c8e285b57f7b14568ad6e7dcce5850cc2f29a8d54388"
+          "bytes": 37218,
+          "sha256": "29a3fcae824359537dc1e3596b5ed0220a4b299af55ab8c8222e1dd83c9bc4e2"
         },
         {
           "path": "plugin.json",
           "bytes": 544,
-          "sha256": "f1236cd85fbf102dc602e4f37ac383960f275719adba3c4ff13c761d2cd068c7"
+          "sha256": "1eda6e1faed9e8866ee42a2f6d93b45097962b3aee7065b1b9689144fd934bf2"
         },
         {
           "path": "scoreio.js",
@@ -614,21 +614,21 @@
           "sha256": "1513c20e0350b3071d84824e5d9e22bdc6a9899a3fda6db898dd1337b810d349"
         }
       ],
-      "archiveBytes": 80749,
-      "archiveSha256": "1497aff4e3824b2405ce804c7324ad34a666cd717afde2de9ecfb390702ce1ca",
+      "archiveBytes": 83989,
+      "archiveSha256": "6131ea4874cec2aa6eb6e4e6e60d3a5a8905af2ebf3c9f97225d9e19bef53b49",
       "relativePath": "媒体/乐器盒-instrument_box/乐器盒-instrument_box.zip"
     },
     {
       "id": "score_player",
       "name": "乐谱播放",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "category": "媒体",
       "归属group": "音乐声音",
       "文件字节sha256": [
         {
           "path": "app.js",
-          "bytes": 52232,
-          "sha256": "1ca59aeb99a1d72de7625336e91000de9b6b7395e53020bbe4b0d8459e0b54a7"
+          "bytes": 57694,
+          "sha256": "a34c4bf0667105e70f61ca5d07e0e8b6ee69f4ae8119c9e6a77a977bf52e7f56"
         },
         {
           "path": "arrangements.js",
@@ -637,18 +637,18 @@
         },
         {
           "path": "audio.js",
-          "bytes": 51245,
-          "sha256": "e00ec6ef969a763cb99c7bf056179995e374a8bae06b7731d20703070b29f386"
+          "bytes": 54585,
+          "sha256": "96696391ab8a91edfb213413b26d5f28871f8a965b1e939ba943d316c496fee7"
         },
         {
           "path": "index.html",
-          "bytes": 14049,
-          "sha256": "42ee73091d86c2617607d1191dca0f480fe67928a2cbb2772b59d836681ca2f3"
+          "bytes": 14932,
+          "sha256": "a849622a8e2e2b938a4926acbc5d212a8bd073b7ff319c0c65a33661510da49e"
         },
         {
           "path": "plugin.json",
           "bytes": 425,
-          "sha256": "8cc5cf73902371f8dbfe8da4fbf7e73473127afc9f564bc4e415e0a0a6749662"
+          "sha256": "23e0c6461f3b67a2ea7e4a06439923c02c5ad9852ad968beb33cffdb6c6c74c0"
         },
         {
           "path": "scoreio.js",
@@ -656,8 +656,8 @@
           "sha256": "092e36cf68718871a67a2643f5ed35e0bab572830e11eb70164bc797d00f1014"
         }
       ],
-      "archiveBytes": 53582,
-      "archiveSha256": "576a8cbebdb200aaae2d16d8a9194a8a427f4e7c3f8c88311ae0cfbc23f32631",
+      "archiveBytes": 56089,
+      "archiveSha256": "2dd889073a194966ec825498d1bbc1ad79c68184c78b42042e451252b6001f85",
       "relativePath": "媒体/乐谱播放-score_player/乐谱播放-score_player.zip"
     },
     {
@@ -707,29 +707,29 @@
     {
       "id": "super_band",
       "name": "超级乐器",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "category": "媒体",
       "归属group": "音乐声音",
       "文件字节sha256": [
         {
           "path": "app.js",
-          "bytes": 64247,
-          "sha256": "b9cc51c8d5b0a58a51327067bfb65505f9bd3e3ff87f2f62de7a3a1541813d08"
+          "bytes": 67281,
+          "sha256": "69955f8cf2b59765f8360199d2b56b1c79c0a7f6fe558971e442c5fba5a794ad"
         },
         {
           "path": "audio.js",
-          "bytes": 51245,
-          "sha256": "e00ec6ef969a763cb99c7bf056179995e374a8bae06b7731d20703070b29f386"
+          "bytes": 54585,
+          "sha256": "96696391ab8a91edfb213413b26d5f28871f8a965b1e939ba943d316c496fee7"
         },
         {
           "path": "index.html",
-          "bytes": 19436,
-          "sha256": "52011b1ee96cbd2f3fdf6377c3cc967df5c97e9b88ce02b78f9f34dd45d4391e"
+          "bytes": 15710,
+          "sha256": "f00db0b1e2d43322b57074a36457bd51768f3d314baee3391b3e15b2d9e91b57"
         },
         {
           "path": "plugin.json",
           "bytes": 401,
-          "sha256": "3bd26c5d2aa9763e31ff6a43898cf845910231363cac807aa21d9d9f61d99df1"
+          "sha256": "a35b86b316fcfdb0477ff5f68ea8de6897a6f86db6318ebe9961cbeae061000d"
         },
         {
           "path": "presets.js",
@@ -737,8 +737,8 @@
           "sha256": "202caaf1123ef985165691904f595b5da88bce56f97dc7e631160612b7bec524"
         }
       ],
-      "archiveBytes": 44167,
-      "archiveSha256": "8c3a43a6691c41e840ab51f4b648662ca50530e4f440906e5f59813535f0a63a",
+      "archiveBytes": 44627,
+      "archiveSha256": "cc94a42ee9c7f3f91c291ea86fb9783b9bd2ad2b1bc1fd0f9815432a76beaf9b",
       "relativePath": "媒体/超级乐器-super_band/超级乐器-super_band.zip"
     },
     {
