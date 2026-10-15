@@ -1,6 +1,6 @@
 # 课程表
 
-- 插件 id：`coursetable`
+- 工具 id：`coursetable`
 - 版本：`1.0.8`
 - 分类：学习 / 校园课程
 - 入口：`index.html`

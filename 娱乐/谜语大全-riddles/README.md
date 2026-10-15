@@ -1,6 +1,6 @@
 # 谜语大全
 
-- 插件 id：`riddles`
+- 工具 id：`riddles`
 - 版本：`1.0.4`
 - 分类：娱乐 / 益智游戏
 - 入口：`index.html`

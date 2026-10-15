@@ -1,6 +1,6 @@
 # 车牌归属地
 
-- 插件 id：`carplate`
+- 工具 id：`carplate`
 - 版本：`1.0.6`
 - 分类：生活 / 车辆出行
 - 入口：`index.html`

@@ -1,6 +1,6 @@
 # 番茄钟
 
-- 插件 id：`pomodoro`
+- 工具 id：`pomodoro`
 - 版本：`1.1.4`
 - 分类：效率 / 时间管理
 - 入口：`index.html`

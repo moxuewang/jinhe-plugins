@@ -1,6 +1,6 @@
 # 个税计算器
 
-- 插件 id：`taxcalc`
+- 工具 id：`taxcalc`
 - 版本：`1.0.9`
 - 分类：计算 / 理财计算
 - 入口：`index.html`

@@ -1,6 +1,6 @@
 # 答案之书
 
-- 插件 id：`answers`
+- 工具 id：`answers`
 - 版本：`1.0.5`
 - 分类：娱乐 / 骰子抽签
 - 入口：`index.html`

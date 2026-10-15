@@ -1,6 +1,6 @@
 # 配色生成器
 
-- 插件 id：`palettegen`
+- 工具 id：`palettegen`
 - 版本：`1.0.7`
 - 分类：图片 / 颜色配色
 - 入口：`index.html`

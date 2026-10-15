@@ -1,6 +1,6 @@
 # 银行卡BIN
 
-- 插件 id：`bankbin`
+- 工具 id：`bankbin`
 - 版本：`1.0.8`
 - 分类：生活 / 证件密码
 - 入口：`index.html`

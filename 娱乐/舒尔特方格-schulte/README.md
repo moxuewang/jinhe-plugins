@@ -1,6 +1,6 @@
 # 舒尔特方格
 
-- 插件 id：`schulte`
+- 工具 id：`schulte`
 - 版本：`1.0.8`
 - 分类：娱乐 / 记忆专注
 - 入口：`index.html`

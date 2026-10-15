@@ -1,6 +1,6 @@
 # 汇率换算
 
-- 插件 id：`exchrate`
+- 工具 id：`exchrate`
 - 版本：`1.0.7`
 - 分类：联网 / 行情财经
 - 入口：`index.html`

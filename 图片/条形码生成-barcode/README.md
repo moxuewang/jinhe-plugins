@@ -1,6 +1,6 @@
 # 条形码生成
 
-- 插件 id：`barcode`
+- 工具 id：`barcode`
 - 版本：`1.0.9`
 - 分类：图片 / 图片生成
 - 入口：`index.html`

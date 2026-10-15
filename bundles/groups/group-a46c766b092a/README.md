@@ -1,0 +1,15 @@
+# 安装传输族工具包
+
+包含 2 件可扩展工具，适用于锦盒 1.8.61。
+应用内其他原生工具依赖安装包，不包含在此工具包中。
+
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-a46c766b092a/jinhe-tools-group-a46c766b092a.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+
+| 工具 | 版本 | 分类 | 族 |
+|---|---|---|---|
+| APK\.1 安装 | 1\.0\.5 | 效率 | 安装传输 |
+| 网页打包 | 1\.0\.6 | 效率 | 安装传输 |
+
+ZIP：12994 bytes
+
+SHA-256：`e4f79768f26f9aaae69930f598a3e5bd252e93faeade5404a93c170218489d59`

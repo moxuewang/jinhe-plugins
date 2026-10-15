@@ -1,6 +1,6 @@
 # 节拍器
 
-- 插件 id：`metronome`
+- 工具 id：`metronome`
 - 版本：`1.0.5`
 - 分类：媒体 / 音乐声音
 - 入口：`index.html`

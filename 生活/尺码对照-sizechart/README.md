@@ -1,6 +1,6 @@
 # 尺码对照
 
-- 插件 id：`sizechart`
+- 工具 id：`sizechart`
 - 版本：`1.0.3`
 - 分类：生活 / 记账参考
 - 入口：`index.html`

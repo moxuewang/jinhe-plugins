@@ -1,6 +1,6 @@
 # 睡眠周期
 
-- 插件 id：`sleepcalc`
+- 工具 id：`sleepcalc`
 - 版本：`1.0.4`
 - 分类：生活 / 健康记录
 - 入口：`index.html`

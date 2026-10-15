@@ -1,6 +1,6 @@
 # 房贷计算器
 
-- 插件 id：`mortgage`
+- 工具 id：`mortgage`
 - 版本：`1.1.9`
 - 分类：计算 / 理财计算
 - 入口：`index.html`

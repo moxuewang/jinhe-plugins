@@ -1,6 +1,6 @@
 # 耳龄测试
 
-- 插件 id：`eartest`
+- 工具 id：`eartest`
 - 版本：`1.0.6`
 - 分类：媒体 / 录音声学
 - 入口：`index.html`

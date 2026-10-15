@@ -1,6 +1,6 @@
 # AA 分摊
 
-- 插件 id：`aasplit`
+- 工具 id：`aasplit`
 - 版本：`1.0.8`
 - 分类：计算 / 日常算账
 - 入口：`index.html`

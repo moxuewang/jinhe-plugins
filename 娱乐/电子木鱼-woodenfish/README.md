@@ -1,6 +1,6 @@
 # 电子木鱼
 
-- 插件 id：`woodenfish`
+- 工具 id：`woodenfish`
 - 版本：`1.0.6`
 - 分类：娱乐 / 整活决策
 - 入口：`index.html`

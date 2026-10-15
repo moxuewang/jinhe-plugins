@@ -1,6 +1,6 @@
 # 中国传统色
 
-- 插件 id：`chinesecolors`
+- 工具 id：`chinesecolors`
 - 版本：`1.0.6`
 - 分类：图片 / 颜色配色
 - 入口：`index.html`

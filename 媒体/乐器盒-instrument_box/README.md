@@ -1,6 +1,6 @@
 # 乐器盒
 
-- 插件 id：`instrument_box`
+- 工具 id：`instrument_box`
 - 版本：`2.1.1`
 - 分类：媒体 / 音乐声音
 - 入口：`index.html`

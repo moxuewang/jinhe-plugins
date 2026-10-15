@@ -1,6 +1,6 @@
 # 渐变壁纸
 
-- 插件 id：`wallpaper`
+- 工具 id：`wallpaper`
 - 版本：`1.0.6`
 - 分类：图片 / 图片生成
 - 入口：`index.html`

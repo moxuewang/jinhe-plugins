@@ -1,6 +1,6 @@
 # 电费计算
 
-- 插件 id：`eleccalc`
+- 工具 id：`eleccalc`
 - 版本：`1.0.6`
 - 分类：计算 / 理财计算
 - 入口：`index.html`

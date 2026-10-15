@@ -1,6 +1,6 @@
 # 一言
 
-- 插件 id：`hitokoto`
+- 工具 id：`hitokoto`
 - 版本：`1.0.5`
 - 分类：联网 / 公开数据
 - 入口：`index.html`

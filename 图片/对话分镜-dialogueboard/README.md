@@ -1,6 +1,6 @@
 # 对话分镜
 
-- 插件 id：`dialogueboard`
+- 工具 id：`dialogueboard`
 - 版本：`1.0.0`
 - 分类：图片 / 图文创作
 - 入口：`index.html`

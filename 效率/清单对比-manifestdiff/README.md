@@ -1,6 +1,6 @@
 # 清单对比
 
-- 插件 id：`manifestdiff`
+- 工具 id：`manifestdiff`
 - 版本：`1.0.0`
 - 分类：效率 / 文件整理
 - 入口：`index.html`

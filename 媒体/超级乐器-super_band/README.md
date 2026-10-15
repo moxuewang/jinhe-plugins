@@ -1,6 +1,6 @@
 # 超级乐器
 
-- 插件 id：`super_band`
+- 工具 id：`super_band`
 - 版本：`2.1.0`
 - 分类：媒体 / 音乐声音
 - 入口：`index.html`

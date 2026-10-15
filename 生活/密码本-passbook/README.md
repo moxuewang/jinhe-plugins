@@ -1,6 +1,6 @@
 # 密码本
 
-- 插件 id：`passbook`
+- 工具 id：`passbook`
 - 版本：`1.1.1`
 - 分类：生活 / 证件密码
 - 入口：`index.html`

@@ -1,6 +1,6 @@
 # 每日英语
 
-- 插件 id：`dailyeng`
+- 工具 id：`dailyeng`
 - 版本：`1.0.6`
 - 分类：学习 / 语言输入
 - 入口：`index.html`

@@ -1,6 +1,6 @@
 # 油耗计算
 
-- 插件 id：`fuelcalc`
+- 工具 id：`fuelcalc`
 - 版本：`1.0.8`
 - 分类：生活 / 车辆出行
 - 入口：`index.html`

@@ -1,6 +1,6 @@
 # 思维导图
 
-- 插件 id：`mindmap`
+- 工具 id：`mindmap`
 - 版本：`1.0.5`
 - 分类：效率 / 待办笔记
 - 入口：`index.html`

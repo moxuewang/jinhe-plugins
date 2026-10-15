@@ -1,6 +1,6 @@
 # 柔光补光灯
 
-- 插件 id：`screenlight`
+- 工具 id：`screenlight`
 - 版本：`1.0.5`
 - 分类：生活 / 硬件传感
 - 入口：`index.html`

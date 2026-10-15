@@ -1,6 +1,6 @@
 # 元素周期表
 
-- 插件 id：`elements`
+- 工具 id：`elements`
 - 版本：`1.0.6`
 - 分类：学习 / 理科速查
 - 入口：`index.html`

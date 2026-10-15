@@ -1,6 +1,6 @@
 # 数字华容道
 
-- 插件 id：`fifteen`
+- 工具 id：`fifteen`
 - 版本：`1.1.6`
 - 分类：娱乐 / 益智游戏
 - 入口：`index.html`

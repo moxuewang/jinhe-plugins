@@ -1,6 +1,6 @@
 # MD 笔记
 
-- 插件 id：`mdnote`
+- 工具 id：`mdnote`
 - 版本：`1.0.10`
 - 分类：效率 / 待办笔记
 - 入口：`index.html`

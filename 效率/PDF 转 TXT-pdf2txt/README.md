@@ -1,6 +1,6 @@
 # PDF 转 TXT
 
-- 插件 id：`pdf2txt`
+- 工具 id：`pdf2txt`
 - 版本：`1.0.0`
 - 分类：效率 / 文档提词
 - 入口：`index.html`

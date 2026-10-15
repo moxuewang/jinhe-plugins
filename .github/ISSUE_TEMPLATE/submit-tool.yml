@@ -1,0 +1,61 @@
+name: 工具投稿
+description: 提交你制作的锦盒工具，供维护者审核
+title: "[工具投稿] "
+body:
+  - type: markdown
+    attributes:
+      value: 提供可下载工具包即可，无需公开锦盒本体源码或你的工具源码仓库。提交后由维护者人工检查，不会自动成为官方工具。
+  - type: input
+    id: tool-name
+    attributes:
+      label: 工具名称与版本
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者
+      description: 署名或昵称即可
+    validations:
+      required: true
+  - type: input
+    id: package-url
+    attributes:
+      label: 工具包下载链接
+      description: 可直接下载的 ZIP，或可取得 ZIP 的公开下载页面
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 用途与使用方法
+    validations:
+      required: true
+  - type: textarea
+    id: permissions-network
+    attributes:
+      label: 权限或外部联网说明
+      description: 请列明读取或保存的数据、所需权限、外部服务及发送的数据；没有也请写明
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图
+      description: 请拖入截图或提供图片链接，先去除私人信息
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: 授权说明
+      description: 请说明代码及素材授权、是否允许官方再分发，以及必须保留的署名；无需提供本体源码
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我有权提交此工具及素材，并已说明权限、联网行为和授权；理解投稿不等于官方收录。
+          required: true

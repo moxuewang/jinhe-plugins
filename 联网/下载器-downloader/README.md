@@ -1,6 +1,6 @@
 # 下载器
 
-- 插件 id：`downloader`
+- 工具 id：`downloader`
 - 版本：`1.0.5`
 - 分类：联网 / 网络文件
 - 入口：`index.html`

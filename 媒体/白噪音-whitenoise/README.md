@@ -1,6 +1,6 @@
 # 白噪音
 
-- 插件 id：`whitenoise`
+- 工具 id：`whitenoise`
 - 版本：`1.0.9`
 - 分类：媒体 / 音乐声音
 - 入口：`index.html`

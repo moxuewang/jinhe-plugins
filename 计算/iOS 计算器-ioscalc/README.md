@@ -1,6 +1,6 @@
 # iOS 计算器
 
-- 插件 id：`ioscalc`
+- 工具 id：`ioscalc`
 - 版本：`1.2.7`
 - 分类：计算 / 日常算账
 - 入口：`index.html`

@@ -1,6 +1,6 @@
 # 世界时钟
 
-- 插件 id：`worldclock`
+- 工具 id：`worldclock`
 - 版本：`1.0.7`
 - 分类：生活 / 日期提醒
 - 入口：`index.html`

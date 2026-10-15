@@ -1,6 +1,6 @@
 # 亲戚称呼
 
-- 插件 id：`relatives`
+- 工具 id：`relatives`
 - 版本：`1.0.9`
 - 分类：生活 / 记账参考
 - 入口：`index.html`

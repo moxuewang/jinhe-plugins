@@ -1,6 +1,6 @@
 # 从夯到拉
 
-- 插件 id：`tierlist`
+- 工具 id：`tierlist`
 - 版本：`1.0.9`
 - 分类：娱乐 / 整活决策
 - 入口：`index.html`

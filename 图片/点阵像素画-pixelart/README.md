@@ -1,6 +1,6 @@
 # 点阵像素画
 
-- 插件 id：`pixelart`
+- 工具 id：`pixelart`
 - 版本：`1.0.7`
 - 分类：图片 / 图文创作
 - 入口：`index.html`

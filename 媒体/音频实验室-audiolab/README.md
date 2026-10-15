@@ -1,6 +1,6 @@
 # 音频实验室
 
-- 插件 id：`audiolab`
+- 工具 id：`audiolab`
 - 版本：`1.2.6`
 - 分类：媒体 / 录音声学
 - 入口：`index.html`

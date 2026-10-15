@@ -1,6 +1,6 @@
 # 网速测试
 
-- 插件 id：`speedtest`
+- 工具 id：`speedtest`
 - 版本：`1.0.3`
 - 分类：联网 / 网络工具
 - 入口：`index.html`

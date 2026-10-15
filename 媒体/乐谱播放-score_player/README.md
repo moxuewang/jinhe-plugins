@@ -1,6 +1,6 @@
 # 乐谱播放
 
-- 插件 id：`score_player`
+- 工具 id：`score_player`
 - 版本：`2.1.0`
 - 分类：媒体 / 音乐声音
 - 入口：`index.html`

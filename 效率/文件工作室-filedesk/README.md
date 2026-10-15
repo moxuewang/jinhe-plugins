@@ -1,6 +1,6 @@
 # 文件工作室
 
-- 插件 id：`filedesk`
+- 工具 id：`filedesk`
 - 版本：`1.0.0`
 - 分类：效率 / 文件整理
 - 入口：`index.html`

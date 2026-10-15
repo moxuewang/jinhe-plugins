@@ -1,6 +1,6 @@
 # 画板
 
-- 插件 id：`drawpad`
+- 工具 id：`drawpad`
 - 版本：`1.0.6`
 - 分类：图片 / 图文创作
 - 入口：`index.html`

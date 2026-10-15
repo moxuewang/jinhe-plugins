@@ -1,6 +1,6 @@
 # 屏幕检测
 
-- 插件 id：`screentest`
+- 工具 id：`screentest`
 - 版本：`1.0.8`
 - 分类：生活 / 硬件传感
 - 入口：`index.html`

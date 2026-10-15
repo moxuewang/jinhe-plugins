@@ -1,6 +1,6 @@
 # 文件管家
 
-- 插件 id：`filemanager`
+- 工具 id：`filemanager`
 - 版本：`1.1.0`
 - 分类：效率 / 文件整理
 - 入口：`index.html`

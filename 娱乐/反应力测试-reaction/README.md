@@ -1,6 +1,6 @@
 # 反应力测试
 
-- 插件 id：`reaction`
+- 工具 id：`reaction`
 - 版本：`1.0.4`
 - 分类：娱乐 / 手速反应
 - 入口：`index.html`

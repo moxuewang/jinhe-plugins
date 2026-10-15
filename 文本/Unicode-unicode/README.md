@@ -1,6 +1,6 @@
 # Unicode
 
-- 插件 id：`unicode`
+- 工具 id：`unicode`
 - 版本：`1.0.5`
 - 分类：文本 / 编码解码
 - 入口：`index.html`
