@@ -1,6 +1,6 @@
 # 锦盒插件
 
-新装锦盒默认已装 PDF 转 TXT 和三个音乐插件。其他插件可卸载，也可按需从这里补回。
+新版锦盒内置全部最新官方插件；这里仍按分类/族提供独立 ZIP，卸载后可以按需补回。文件族联动需要锦盒 1.8.60 或更新版本。
 
 使用方法：
 
@@ -49,7 +49,10 @@
 | [网页打包](%E6%95%88%E7%8E%87/%E7%BD%91%E9%A1%B5%E6%89%93%E5%8C%85-webapk/README.md) | 1\.0\.6 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E7%BD%91%E9%A1%B5%E6%89%93%E5%8C%85-webapk/%E7%BD%91%E9%A1%B5%E6%89%93%E5%8C%85-webapk.zip) | 6.3 KB |
 | [MD 笔记](%E6%95%88%E7%8E%87/MD%20%E7%AC%94%E8%AE%B0-mdnote/README.md) | 1\.0\.10 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/MD%20%E7%AC%94%E8%AE%B0-mdnote/MD%20%E7%AC%94%E8%AE%B0-mdnote.zip) | 13.4 KB |
 | [思维导图](%E6%95%88%E7%8E%87/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE-mindmap/README.md) | 1\.0\.5 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE-mindmap/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE-mindmap.zip) | 12.3 KB |
-| [文件管家](%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E7%AE%A1%E5%AE%B6-filemanager/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E7%AE%A1%E5%AE%B6-filemanager/%E6%96%87%E4%BB%B6%E7%AE%A1%E5%AE%B6-filemanager.zip) | 11.6 KB |
+| [文件工作室](%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E5%B7%A5%E4%BD%9C%E5%AE%A4-filedesk/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E5%B7%A5%E4%BD%9C%E5%AE%A4-filedesk/%E6%96%87%E4%BB%B6%E5%B7%A5%E4%BD%9C%E5%AE%A4-filedesk.zip) | 7.7 KB |
+| [文件清单](%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E6%B8%85%E5%8D%95-filemanifest/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E6%B8%85%E5%8D%95-filemanifest/%E6%96%87%E4%BB%B6%E6%B8%85%E5%8D%95-filemanifest.zip) | 11.3 KB |
+| [文件管家](%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E7%AE%A1%E5%AE%B6-filemanager/README.md) | 1\.1\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%96%87%E4%BB%B6%E7%AE%A1%E5%AE%B6-filemanager/%E6%96%87%E4%BB%B6%E7%AE%A1%E5%AE%B6-filemanager.zip) | 16.4 KB |
+| [清单对比](%E6%95%88%E7%8E%87/%E6%B8%85%E5%8D%95%E5%AF%B9%E6%AF%94-manifestdiff/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%B8%85%E5%8D%95%E5%AF%B9%E6%AF%94-manifestdiff/%E6%B8%85%E5%8D%95%E5%AF%B9%E6%AF%94-manifestdiff.zip) | 11.1 KB |
 | [PDF 转 TXT](%E6%95%88%E7%8E%87/PDF%20%E8%BD%AC%20TXT-pdf2txt/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/PDF%20%E8%BD%AC%20TXT-pdf2txt/PDF%20%E8%BD%AC%20TXT-pdf2txt.zip) | 19.3 KB |
 | [番茄钟](%E6%95%88%E7%8E%87/%E7%95%AA%E8%8C%84%E9%92%9F-pomodoro/README.md) | 1\.1\.4 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E7%95%AA%E8%8C%84%E9%92%9F-pomodoro/%E7%95%AA%E8%8C%84%E9%92%9F-pomodoro.zip) | 8.8 KB |
 
@@ -59,7 +62,7 @@
 |---|---:|---|---:|
 | [耳龄测试](%E5%AA%92%E4%BD%93/%E8%80%B3%E9%BE%84%E6%B5%8B%E8%AF%95-eartest/README.md) | 1\.0\.6 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E8%80%B3%E9%BE%84%E6%B5%8B%E8%AF%95-eartest/%E8%80%B3%E9%BE%84%E6%B5%8B%E8%AF%95-eartest.zip) | 7.9 KB |
 | [音频实验室](%E5%AA%92%E4%BD%93/%E9%9F%B3%E9%A2%91%E5%AE%9E%E9%AA%8C%E5%AE%A4-audiolab/README.md) | 1\.2\.6 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E9%9F%B3%E9%A2%91%E5%AE%9E%E9%AA%8C%E5%AE%A4-audiolab/%E9%9F%B3%E9%A2%91%E5%AE%9E%E9%AA%8C%E5%AE%A4-audiolab.zip) | 17.5 KB |
-| [乐器盒](%E5%AA%92%E4%BD%93/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box/README.md) | 2\.1\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box.zip) | 82.0 KB |
+| [乐器盒](%E5%AA%92%E4%BD%93/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box/README.md) | 2\.1\.1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box.zip) | 82.1 KB |
 | [乐谱播放](%E5%AA%92%E4%BD%93/%E4%B9%90%E8%B0%B1%E6%92%AD%E6%94%BE-score_player/README.md) | 2\.1\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E4%B9%90%E8%B0%B1%E6%92%AD%E6%94%BE-score_player/%E4%B9%90%E8%B0%B1%E6%92%AD%E6%94%BE-score_player.zip) | 54.8 KB |
 | [白噪音](%E5%AA%92%E4%BD%93/%E7%99%BD%E5%99%AA%E9%9F%B3-whitenoise/README.md) | 1\.0\.9 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E7%99%BD%E5%99%AA%E9%9F%B3-whitenoise/%E7%99%BD%E5%99%AA%E9%9F%B3-whitenoise.zip) | 12.5 KB |
 | [节拍器](%E5%AA%92%E4%BD%93/%E8%8A%82%E6%8B%8D%E5%99%A8-metronome/README.md) | 1\.0\.5 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E8%8A%82%E6%8B%8D%E5%99%A8-metronome/%E8%8A%82%E6%8B%8D%E5%99%A8-metronome.zip) | 8.3 KB |

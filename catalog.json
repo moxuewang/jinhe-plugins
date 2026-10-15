@@ -447,21 +447,130 @@
       "relativePath": "效率/思维导图-mindmap/思维导图-mindmap.zip"
     },
     {
-      "id": "filemanager",
-      "name": "文件管家",
+      "id": "filedesk",
+      "name": "文件工作室",
       "version": "1.0.0",
       "category": "效率",
       "归属group": "文件整理",
       "文件字节sha256": [
         {
           "path": "app.js",
-          "bytes": 19191,
-          "sha256": "5b2c8f18e0591f2efcf8fcbc96ab5fe4dd9f92c3c459da7d0be6ebb4b4189367"
+          "bytes": 8515,
+          "sha256": "3a04b68ba68d30d6ae7700e367558baf7a9ccfeb35df70e104abda491625ce68"
+        },
+        {
+          "path": "icon/filedesk-icon.svg",
+          "bytes": 1217,
+          "sha256": "3d0ed04096515933664c21cfcd42bc3b2abad8ce8e5dfb4050eae34e3b339504"
+        },
+        {
+          "path": "icon/filedesk-mark.svg",
+          "bytes": 951,
+          "sha256": "4fd5e84f2f0d4e88fc42296a60726b0c16dbc90d2eef0f1ff3e1cbcff1c90f15"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 1987,
+          "sha256": "3199292823919e08a3bbba149f2559d873e6b81d5975b653256c445bd78e1d40"
         },
         {
           "path": "index.html",
-          "bytes": 9085,
-          "sha256": "4ed2ede1b99e5d19891e543fa4f168d3aaac9b4bf052e2cc4c9a32e235af89b2"
+          "bytes": 5263,
+          "sha256": "4ff4a139a30e50699d183673ae0b86344162ff91f93015977d49ae990ea3bffa"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 382,
+          "sha256": "75c540fddd85c4f36e739d11375d75ac93ded7173e83d4959c2f1a7725eca990"
+        }
+      ],
+      "archiveBytes": 7865,
+      "archiveSha256": "b5273622d0c014207a3cb534a590cacd82c69cb0e2b4977f36e8962301e599a6",
+      "relativePath": "效率/文件工作室-filedesk/文件工作室-filedesk.zip"
+    },
+    {
+      "id": "filemanifest",
+      "name": "文件清单",
+      "version": "1.0.0",
+      "category": "效率",
+      "归属group": "文件整理",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 5234,
+          "sha256": "d2c2a12a653653cf5fb5ebd25d3b01d215752f5a8308cf788057188e7e3c634b"
+        },
+        {
+          "path": "family.js",
+          "bytes": 6440,
+          "sha256": "9bb1eed4a74338a69f59c7824adf9187561033ffb7bbfff6332d0f3b4b5e3d1a"
+        },
+        {
+          "path": "icon/filemanifest-icon.svg",
+          "bytes": 807,
+          "sha256": "3f1ef29b3b77d2985255eddfbe5f1a382f2fd318b2cc6e8d1e2170af161a70b5"
+        },
+        {
+          "path": "icon/filemanifest-mark.svg",
+          "bytes": 751,
+          "sha256": "ed2913b8902920cfc27d4601941b161934a6e3d38409ab2bfd7b5b826a996df6"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 3104,
+          "sha256": "1377fd47cb14c9c0150c585bb5633a8579d2b5a8efbf41346eaee4a871782e02"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5201,
+          "sha256": "c1267fe3e3cda458f8a17d1bf7f010b9511acd8f1ff8e5c1993e250401bf2b8f"
+        },
+        {
+          "path": "manifest.js",
+          "bytes": 5118,
+          "sha256": "981597ebad1096a47c21f3b2ead82d4cb32200faee77552edb01b11ad2b03efb"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 415,
+          "sha256": "0f1239e473f1b9682b91ed36fe1cc1c479c26fa6f91e837256a840c0455bd96c"
+        }
+      ],
+      "archiveBytes": 11578,
+      "archiveSha256": "50c2652f3e0695c0264ee5b764b71669279a7ad108e5af473fe75f4cd928b066",
+      "relativePath": "效率/文件清单-filemanifest/文件清单-filemanifest.zip"
+    },
+    {
+      "id": "filemanager",
+      "name": "文件管家",
+      "version": "1.1.0",
+      "category": "效率",
+      "归属group": "文件整理",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 28574,
+          "sha256": "cf2c292fdf9015dd280b44011fd330ab8e1eb437a6eec0112ae8001e96740d9d"
+        },
+        {
+          "path": "icon/filemanager-icon.svg",
+          "bytes": 748,
+          "sha256": "93616ded4189ad291b1bac5231484ade5570254308e4186d1b4b98f7aca75bef"
+        },
+        {
+          "path": "icon/filemanager-mark.svg",
+          "bytes": 692,
+          "sha256": "feb495336f7fc50781e7c527cbd46ffa12de9f90220b89304bb916df05385bbb"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 3079,
+          "sha256": "5b57bf41193300e6f1b911814c05ad87bb57628126ac3f9684ad514b55984fdd"
+        },
+        {
+          "path": "index.html",
+          "bytes": 11293,
+          "sha256": "4286590c061883b65b984356fe2295dfa91e6244d0d8ba53e51b406dcb3e0a63"
         },
         {
           "path": "naming.js",
@@ -470,13 +579,65 @@
         },
         {
           "path": "plugin.json",
-          "bytes": 297,
-          "sha256": "37a103a75fd8a16ed58d650db3e9ebeb600b7813ea51cc3f547cc4d7b41f462f"
+          "bytes": 387,
+          "sha256": "76d95e43511575596d681600e3eca5c69b621879a791ad23abe392bb9cb9f6ee"
         }
       ],
-      "archiveBytes": 11870,
-      "archiveSha256": "ee5167dc864c0322d1b23fbee9ff9f5c6ad6d35d283bb23693f88303d258bf51",
+      "archiveBytes": 16765,
+      "archiveSha256": "24906869628976a8c8cf0cf377b45835ea052ea7b84473148dc000e5225738d7",
       "relativePath": "效率/文件管家-filemanager/文件管家-filemanager.zip"
+    },
+    {
+      "id": "manifestdiff",
+      "name": "清单对比",
+      "version": "1.0.0",
+      "category": "效率",
+      "归属group": "文件整理",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 4551,
+          "sha256": "8afc4866cb1fb215a361fb64eb4e7664c0b512e6633aaaa34f6d1e8c066f8797"
+        },
+        {
+          "path": "family.js",
+          "bytes": 6440,
+          "sha256": "9bb1eed4a74338a69f59c7824adf9187561033ffb7bbfff6332d0f3b4b5e3d1a"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 3104,
+          "sha256": "6dde7208eff95014138ff89c3d7b4fe7ac3e352b5432dabb8d3e9673759f265e"
+        },
+        {
+          "path": "icon/manifestdiff-icon.svg",
+          "bytes": 789,
+          "sha256": "e853fc244a0b780943659e4afc70350b6fa937af12f46b075f379481f8f1eb29"
+        },
+        {
+          "path": "icon/manifestdiff-mark.svg",
+          "bytes": 733,
+          "sha256": "5ad1df891c7bc1814ce8e033c0ae04789b688115935e29525256cda7f68117a6"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5358,
+          "sha256": "c3325602c48cf3e49416b63402f243a36375914e058ba80d31ac83f3377b4218"
+        },
+        {
+          "path": "manifest.js",
+          "bytes": 5118,
+          "sha256": "981597ebad1096a47c21f3b2ead82d4cb32200faee77552edb01b11ad2b03efb"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 392,
+          "sha256": "8b03bc898fa9245633e77641a158b52410c0fce906904f8cdbe4678bae36ff90"
+        }
+      ],
+      "archiveBytes": 11353,
+      "archiveSha256": "e1003b9d0521c2f5806835a76662913e2e7e8c52d273661c163dfde6557e48f3",
+      "relativePath": "效率/清单对比-manifestdiff/清单对比-manifestdiff.zip"
     },
     {
       "id": "pdf2txt",
@@ -579,14 +740,14 @@
     {
       "id": "instrument_box",
       "name": "乐器盒",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "category": "媒体",
       "归属group": "音乐声音",
       "文件字节sha256": [
         {
           "path": "app.js",
-          "bytes": 103111,
-          "sha256": "1ee721803808a493a2cca823cf782457e5047236a7332b274faaeac1baba02fa"
+          "bytes": 103304,
+          "sha256": "5e9eeec9ee7c670f786c11bd8e2b9f92b08199cb675a7fdb61f86501e4483735"
         },
         {
           "path": "audio.js",
@@ -601,7 +762,7 @@
         {
           "path": "plugin.json",
           "bytes": 544,
-          "sha256": "1eda6e1faed9e8866ee42a2f6d93b45097962b3aee7065b1b9689144fd934bf2"
+          "sha256": "74b139f3421af5afccfca400e06c7ac1d7f6097e74e6783e3cf8c17723101e31"
         },
         {
           "path": "scoreio.js",
@@ -614,8 +775,8 @@
           "sha256": "1513c20e0350b3071d84824e5d9e22bdc6a9899a3fda6db898dd1337b810d349"
         }
       ],
-      "archiveBytes": 83989,
-      "archiveSha256": "6131ea4874cec2aa6eb6e4e6e60d3a5a8905af2ebf3c9f97225d9e19bef53b49",
+      "archiveBytes": 84033,
+      "archiveSha256": "1cb4acadbb996f11b67e194c1059805ff02fe6da76226247873206d5325fefb1",
       "relativePath": "媒体/乐器盒-instrument_box/乐器盒-instrument_box.zip"
     },
     {

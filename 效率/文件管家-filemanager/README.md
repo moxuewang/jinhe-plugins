@@ -1,23 +1,26 @@
 # 文件管家
 
 - 插件 id：`filemanager`
-- 版本：`1.0.0`
+- 版本：`1.1.0`
 - 分类：效率 / 文件整理
 - 入口：`index.html`
-- ZIP：`文件管家-filemanager.zip`（11.6 KB）
+- ZIP：`文件管家-filemanager.zip`（16.4 KB）
 
-浏览授权文件夹，预览批量改名，支持撤销
+浏览与整理文件，复制、批量改名并交给工作台
 
 <details>
 <summary>文件与完整性校验</summary>
 
-ZIP SHA-256：`ee5167dc864c0322d1b23fbee9ff9f5c6ad6d35d283bb23693f88303d258bf51`
+ZIP SHA-256：`24906869628976a8c8cf0cf377b45835ea052ea7b84473148dc000e5225738d7`
 
 ## 文件校验
 
-- `app.js` — 19191 bytes — `5b2c8f18e0591f2efcf8fcbc96ab5fe4dd9f92c3c459da7d0be6ebb4b4189367`
-- `index.html` — 9085 bytes — `4ed2ede1b99e5d19891e543fa4f168d3aaac9b4bf052e2cc4c9a32e235af89b2`
+- `app.js` — 28574 bytes — `cf2c292fdf9015dd280b44011fd330ab8e1eb437a6eec0112ae8001e96740d9d`
+- `icon/filemanager-icon.svg` — 748 bytes — `93616ded4189ad291b1bac5231484ade5570254308e4186d1b4b98f7aca75bef`
+- `icon/filemanager-mark.svg` — 692 bytes — `feb495336f7fc50781e7c527cbd46ffa12de9f90220b89304bb916df05385bbb`
+- `icon/icon-preview.html` — 3079 bytes — `5b57bf41193300e6f1b911814c05ad87bb57628126ac3f9684ad514b55984fdd`
+- `index.html` — 11293 bytes — `4286590c061883b65b984356fe2295dfa91e6244d0d8ba53e51b406dcb3e0a63`
 - `naming.js` — 6551 bytes — `fe44d493db2e28007ca4a44975a6edf9db61c1c44090c49bcbc08381c792b2f6`
-- `plugin.json` — 297 bytes — `37a103a75fd8a16ed58d650db3e9ebeb600b7813ea51cc3f547cc4d7b41f462f`
+- `plugin.json` — 387 bytes — `76d95e43511575596d681600e3eca5c69b621879a791ad23abe392bb9cb9f6ee`
 
 </details>
