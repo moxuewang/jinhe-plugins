@@ -46,6 +46,58 @@
       "relativePath": "图片/图片水印-watermark/图片水印-watermark.zip"
     },
     {
+      "id": "dialogueboard",
+      "name": "对话分镜",
+      "version": "1.0.0",
+      "category": "图片",
+      "归属group": "图文创作",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 17281,
+          "sha256": "9067b4b269ddfd060755faa450e5470ad54201ce12393276d895306fa47f6489"
+        },
+        {
+          "path": "icon/dialogueboard-icon.svg",
+          "bytes": 1097,
+          "sha256": "8aa6516891ad2b8b04a50d2d29055b61527d2d1513a15e00856948533909c102"
+        },
+        {
+          "path": "icon/dialogueboard-mark.svg",
+          "bytes": 870,
+          "sha256": "a21d0e4f026e926c5022f23ebc46bdb2a20c13f7d2077b71c4f703a977c94050"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 1362,
+          "sha256": "48149c79883ef128d15a8425ddd8fe2c6344797b0b3b729160e0b35a0da36225"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4704,
+          "sha256": "66d5d5a0b9cc5a3fc8872e906fafefa26a2ef06050a500957c58bf2f15567c8c"
+        },
+        {
+          "path": "model.js",
+          "bytes": 7222,
+          "sha256": "72ea6ed870ed70aaa07b2421b731f8469c51b861cf390ca6eb92d5fdad5fadd0"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 327,
+          "sha256": "26b2e03de12878819aded14e491d46c12bd5e94ba1350e8b471a72abd2327a3c"
+        },
+        {
+          "path": "style.css",
+          "bytes": 3318,
+          "sha256": "f6c11df77796bff3272fad65316d4348151806b4802199522361c8aa565969a3"
+        }
+      ],
+      "archiveBytes": 14603,
+      "archiveSha256": "115cc4da04ae22a536b45c2dd59e3ef57d85d8c179e9580f88f646aa16d278cd",
+      "relativePath": "图片/对话分镜-dialogueboard/对话分镜-dialogueboard.zip"
+    },
+    {
       "id": "text2img",
       "name": "文字转长图",
       "version": "1.0.6",
@@ -1167,23 +1219,23 @@
     {
       "id": "passbook",
       "name": "密码本",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "category": "生活",
       "归属group": "证件密码",
       "文件字节sha256": [
         {
           "path": "index.html",
-          "bytes": 141281,
-          "sha256": "6aaa799fccb8db94a23a9e2fa6805229354bd05665c046ad3bdaf1d43967b85c"
+          "bytes": 151293,
+          "sha256": "516a368c6518abd49c465bca33b381638b34a77bf859a5d885eb965b974126b7"
         },
         {
           "path": "plugin.json",
-          "bytes": 318,
-          "sha256": "de3ed5523ca293a70163b6676ae0bceeef875dd2b8a283eab078ab2faef3510f"
+          "bytes": 306,
+          "sha256": "87ce24a4033de5672f7cdbaa6d479e993f5f0f729d5202919b4688ca6ea2c66a"
         }
       ],
-      "archiveBytes": 37720,
-      "archiveSha256": "4342e7975f2a4e60ea4c8474753a722d53cfdd4d3b3330d5bfdeb91031d7640d",
+      "archiveBytes": 40486,
+      "archiveSha256": "042b334efebcc102f3e6a4c95fe1b300af22917d0d07a4b78075b93e039de8a0",
       "relativePath": "生活/密码本-passbook/密码本-passbook.zip"
     },
     {
