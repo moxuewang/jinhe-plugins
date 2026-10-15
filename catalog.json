@@ -1135,45 +1135,55 @@
     {
       "id": "ledger",
       "name": "记账本",
-      "version": "1.0.8",
+      "version": "1.1.0",
       "category": "生活",
       "归属group": "记账参考",
       "文件字节sha256": [
         {
+          "path": "app.js",
+          "bytes": 14357,
+          "sha256": "93b4b8d92a36dadfa5b7a4d24483e201a9cf765d52a624e04d011dbd0198b7fe"
+        },
+        {
           "path": "index.html",
-          "bytes": 54851,
-          "sha256": "1bbaf33cc4b212852e57b2e1d1c5f469af0dec22e12c1132662ba1f3ad543f86"
+          "bytes": 9286,
+          "sha256": "e786728a686b0916612685b8b0ac4cee7e6918e45abdcba9fee39ac572809d67"
+        },
+        {
+          "path": "model.js",
+          "bytes": 5216,
+          "sha256": "0c3281d560d46307f24ddf274179becb41214a713797813f226da3c682e19508"
         },
         {
           "path": "plugin.json",
-          "bytes": 285,
-          "sha256": "e8b9da99464bcbe13dbc0ac1a31b0313c5ed3822584e09a019a02417e355d6ab"
+          "bytes": 314,
+          "sha256": "0336a096e99a6f5fca89740d5fe137038e2c59785942a9d1d445cec2e5a44991"
         }
       ],
-      "archiveBytes": 13641,
-      "archiveSha256": "50a3af8572202d8358afb1727cbb1b3da448641e78112ca0286475b9fd671be2",
+      "archiveBytes": 11276,
+      "archiveSha256": "9738b54f354a064a2b44ccbab95eb3e4be3aaa06f7d613497f73942c667cc8c1",
       "relativePath": "生活/记账本-ledger/记账本-ledger.zip"
     },
     {
       "id": "passbook",
       "name": "密码本",
-      "version": "1.0.7",
+      "version": "1.1.0",
       "category": "生活",
       "归属group": "证件密码",
       "文件字节sha256": [
         {
           "path": "index.html",
-          "bytes": 133894,
-          "sha256": "dec0419abb1e909b0194deb0808fb06c9e829f58bcb9cc1f15e6d04fcdccfeb9"
+          "bytes": 141281,
+          "sha256": "6aaa799fccb8db94a23a9e2fa6805229354bd05665c046ad3bdaf1d43967b85c"
         },
         {
           "path": "plugin.json",
-          "bytes": 289,
-          "sha256": "71b746a69b9c11175c0a69aea998f4c23f6e6a0c68ebe1c087a7d69ccb22fce6"
+          "bytes": 318,
+          "sha256": "de3ed5523ca293a70163b6676ae0bceeef875dd2b8a283eab078ab2faef3510f"
         }
       ],
-      "archiveBytes": 35519,
-      "archiveSha256": "7c44ab40533b74e29e7441a867d571aecfe603b3da740abea93a8079dd8dd62f",
+      "archiveBytes": 37720,
+      "archiveSha256": "4342e7975f2a4e60ea4c8474753a722d53cfdd4d3b3330d5bfdeb91031d7640d",
       "relativePath": "生活/密码本-passbook/密码本-passbook.zip"
     },
     {
