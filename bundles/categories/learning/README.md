@@ -1,6 +1,6 @@
 # 学习分类工具包
 
-包含 4 件可扩展工具，适用于锦盒 1.8.62。
+包含 4 件可扩展工具，适用于锦盒 1.8.63。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/learning/jinhe-tools-learning.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -14,4 +14,4 @@
 
 ZIP：76907 bytes
 
-SHA-256：`48097dbbc638b05d25eb8a63a8dd4fd28ddd114aed78e6cb8420e26f76db3a88`
+SHA-256：`bec35c073f8e070dc773e4660d1e3c49f1e47d4ecd41f894cbf50faad0b5f86f`

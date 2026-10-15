@@ -1,6 +1,6 @@
 # 表格数据族工具包
 
-包含 4 件可扩展工具，适用于锦盒 1.8.62。
+包含 4 件可扩展工具，适用于锦盒 1.8.63。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-b3f32ead847b/jinhe-tools-group-b3f32ead847b.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -14,4 +14,4 @@
 
 ZIP：132507 bytes
 
-SHA-256：`bb81d6f005abcd589fd83a150195f71d155108df98a1a1fa3702dd2b5a8c2ba0`
+SHA-256：`041dc77043c68e91a0438265a1af09572b56ecf2d2fa19f86b2d1537a8ed4422`

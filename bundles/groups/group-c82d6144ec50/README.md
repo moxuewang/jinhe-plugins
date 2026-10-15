@@ -1,6 +1,6 @@
 # 文件整理族工具包
 
-包含 4 件可扩展工具，适用于锦盒 1.8.62。
+包含 4 件可扩展工具，适用于锦盒 1.8.63。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c82d6144ec50/jinhe-tools-group-c82d6144ec50.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -14,4 +14,4 @@
 
 ZIP：48566 bytes
 
-SHA-256：`1bc8e8c9ca2902b5e00ff965348fc208da31eef482bff82754f30772180a0480`
+SHA-256：`d7d6039708baea2975107624ac71d0833c51f181f71331396659eb926b3b8cc1`

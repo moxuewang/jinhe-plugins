@@ -1,6 +1,6 @@
 # 娱乐分类工具包
 
-包含 22 件可扩展工具，适用于锦盒 1.8.62。
+包含 22 件可扩展工具，适用于锦盒 1.8.63。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/games/jinhe-tools-games.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -30,6 +30,6 @@
 | 电子木鱼 | 1\.0\.6 | 娱乐 | 整活决策 |
 | 猜单词 | 1\.0\.3 | 娱乐 | 益智游戏 |
 
-ZIP：285008 bytes
+ZIP：285009 bytes
 
-SHA-256：`1f84b4d501883be56804db99463742ef78844a7f45762e134fb6fb74be4eccc1`
+SHA-256：`79581c11b85207ac1792bd6aa83bbeea97b0233189d1a37e8c2aa3c700aaeadc`

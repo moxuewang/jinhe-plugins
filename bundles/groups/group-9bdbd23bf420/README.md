@@ -1,6 +1,6 @@
 # 图文创作族工具包
 
-包含 5 件可扩展工具，适用于锦盒 1.8.62。
+包含 5 件可扩展工具，适用于锦盒 1.8.63。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-9bdbd23bf420/jinhe-tools-group-9bdbd23bf420.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -15,4 +15,4 @@
 
 ZIP：60266 bytes
 
-SHA-256：`c9f30b8d45d0fbe880583a02fe87537052d91902716ead15ec642f0f6d66b387`
+SHA-256：`228c52deb0a19470d4509c8da6df5f929ff7a7a86d2309ed61e542801922062e`

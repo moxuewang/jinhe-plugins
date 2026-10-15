@@ -1,6 +1,6 @@
 # 联网分类工具包
 
-包含 4 件可扩展工具，适用于锦盒 1.8.62。
+包含 4 件可扩展工具，适用于锦盒 1.8.63。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/online/jinhe-tools-online.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -14,4 +14,4 @@
 
 ZIP：39302 bytes
 
-SHA-256：`f231aeb6ee94392ba7ce0a4abf9c373db29e336fa0324c06a00cd7a5a9333d42`
+SHA-256：`b564049ed3d907e9a182043c137c1e4d843f0e26c280c7c6da7a164d3a46b8ce`
