@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>文本接力</title>
+<style>
+:root{--blue:#0061CB;--gray:#62646D;--paper:#FFF;--bg:#F2F2F7;--red:#BD302B}*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;background:var(--bg);color:#202126;font:1rem/1.5 -apple-system,"Microsoft YaHei",sans-serif}main{max-width:740px;margin:auto;padding:20px 16px calc(32px + env(safe-area-inset-bottom))}header,.actions,.sheetHead{display:flex;align-items:center;gap:8px}h1{font-size:1.4rem;flex:1;margin:0}h2{font-size:1.1rem;margin:0;flex:1}p{overflow-wrap:anywhere}.card{background:var(--paper);padding:16px;border-radius:16px;margin-top:16px}button,input,textarea,summary{font:inherit;min-width:44px;min-height:44px;max-width:100%}button{border:0;border-radius:10px;padding:10px 14px;color:var(--blue);background:#EEF1F5;cursor:pointer}button:disabled{color:var(--gray);cursor:default}.primary{background:var(--blue);color:#FFF}.primary:disabled{background:#EEF1F5;color:var(--gray)}.help{padding:10px;flex:none;width:44px;height:44px;background:transparent;color:var(--gray)}.help span{font-size:16px}textarea{display:block;width:100%;min-height:240px;border:1px solid #B7BAC3;border-radius:10px;padding:12px;margin-top:8px;resize:vertical;color:inherit;background:#FFF;white-space:pre;overflow-wrap:normal}label{display:block;margin-bottom:8px}.actions{flex-wrap:wrap;margin-top:12px}.actions>*{flex:1 1 140px}button:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}#status{min-height:24px;color:var(--gray)}#status.error,.error{color:var(--red)}dialog{color:inherit;background:#FFF;border:0;border-radius:18px;width:calc(100% - 24px);max-width:680px;max-height:88dvh;overflow:auto;padding:18px}dialog::backdrop{background:#0005}.sheetHead{margin-bottom:12px}.sheetHead button{flex:none}.choice{display:flex;gap:10px;align-items:center;margin-top:8px;overflow-wrap:anywhere}.choice input{width:44px;height:44px;flex:none;accent-color:var(--blue)}.choice span{min-width:0}.target{display:block;width:100%;text-align:left;margin-top:8px;overflow-wrap:anywhere}.detail{font-size:.88rem;color:var(--gray)}#stop{flex:none}#sheetError{margin:8px 0}
+</style></head><body><main>
+<header><h1>文本接力</h1><button id="help" class="help" aria-label="读取与流转说明"><span aria-hidden="true">？</span></button></header>
+<p id="status" role="status" aria-live="polite">选择材料，或直接编辑文本。</p>
+<section class="card"><label for="text">文本</label><textarea id="text" spellcheck="false" autocomplete="off" autocapitalize="off"></textarea><div class="actions"><button id="pick">从工作台</button><button id="put" class="primary">送到工作台</button><button id="targets" disabled>发送给工具</button></div><div class="actions"><button id="stop" hidden>取消读取</button></div></section>
+</main><dialog id="sheet" aria-labelledby="sheetTitle"><div class="sheetHead"><h2 id="sheetTitle"></h2><button id="close">取消</button></div><p id="sheetError" class="error" role="alert" hidden></p><div id="sheetBody"></div></dialog>
+<script>
+(function (root, factory) {
+    'use strict';
+    var api = factory();
+    if (typeof module === 'object' && module.exports) module.exports = api;
+    else root.WorkbenchTemplate = api;
+}(typeof window === 'object' ? window : this, function () {
+    'use strict';
+    var MAX_BYTES = 32 * 1024 * 1024, MAX_INPUTS = 16;
+    function error(message) { throw new Error(message); }
+    function utf8Size(text, max) {
+        if (typeof text !== 'string') error('没有读到完整文本。');
+        var bytes = 0, i, c, next;
+        for (i = 0; i < text.length; i += 1) {
+            c = text.charCodeAt(i);
+            if (c < 128) bytes += 1;
+            else if (c < 2048) bytes += 2;
+            else if (c >= 55296 && c <= 56319) {
+                next = text.charCodeAt(++i);
+                if (!(next >= 56320 && next <= 57343)) error('文本含无效 Unicode，当前输入仍保留。');
+                bytes += 4;
+            } else if (c >= 56320 && c <= 57343) error('文本含无效 Unicode，当前输入仍保留。');
+            else bytes += 3;
+            if (bytes > max) error('文本合计超过 32 MiB；没有截断，当前输入仍保留。');
+        }
+        return bytes;
+    }
+    function validIds(ids) {
+        if (!Array.isArray(ids) || !ids.length || ids.length > MAX_INPUTS) error('请选择 1 至 16 份材料；没有忽略多余材料。');
+        var seen = {}, i, id;
+        for (i = 0; i < ids.length; i += 1) {
+            id = ids[i];
+            if (typeof id !== 'string' || !id || Object.prototype.hasOwnProperty.call(seen, '$' + id)) error('材料 ID 无效或重复，请重新选择。');
+            seen['$' + id] = true;
+        }
+        return ids.slice();
+    }
+    function create(jh, view) {
+        var epoch = 0, alive = true, busy = false, off = null, selected = [], available = [], candidate = null, saved = null, offered = [], listing = 0;
+        function live(n) { return alive && n === epoch; }
+        function check(n) { if (!live(n)) error('操作已取消。'); }
+        function detach() { var fn = off; off = null; if (fn) { try { fn(); } catch (ignored) {} } }
+        function start() { epoch += 1; detach(); candidate = null; offered = []; return epoch; }
+        function setBusy(value, cancellable) { busy = value; if (alive) view.busy(value, cancellable !== false); }
+        function fail(n, e) { if (live(n)) { setBusy(false); view.status(e && e.message || '没有完成，请重试。', true); } }
+        function request(fn) { return Promise.resolve().then(fn); }
+        function cancel() { start(); if (alive) { setBusy(false); view.hide(); } }
+        function metadata(items, ids) {
+            if (!Array.isArray(items)) error('工作台没有返回材料清单，请重试。');
+            var total = Math.max(0, ids.length - 1) * 2;
+            return ids.map(function (id) {
+                var item = null, i;
+                for (i = 0; i < items.length; i += 1) if (items[i].id === id) { item = items[i]; break; }
+                if (!item || item.alive === false) error('所选材料已经无法读取，请重新选择。');
+                if (item.type !== 'text' && item.type !== 'file') error('请选择文本或 UTF-8 文件；没有把图片、音频当作文本。');
+                if (typeof item.size !== 'number' || item.size < 0 || item.size % 1 || item.size > MAX_BYTES) error('材料超过 32 MiB 或大小未知，请分成几份。');
+                total += item.size;
+                if (total > MAX_BYTES) error('材料合计超过 32 MiB（含拼接换行）；没有截断读取。');
+                return item;
+            });
+        }
+        function readFile(path, n) {
+            var size, offset = 0, pieces = [], decoder;
+            return request(function () { check(n); if (typeof TextDecoder !== 'function') error('当前 WebView 不支持严格 UTF-8 读取，请更新后重试。'); decoder = new TextDecoder('utf-8', {fatal:true, ignoreBOM:true}); return jh.file.info(path); }).then(function (info) {
+                check(n); size = info && info.size;
+                if (typeof size !== 'number' || size < 0 || size % 1 || size > MAX_BYTES) error('文件超过 32 MiB 或大小未知。');
+                function next() {
+                    check(n);
+                    if (offset === size) {
+                        try { pieces.push(decoder.decode()); } catch (e) { error('文件不是完整有效的 UTF-8；当前输入仍保留。'); }
+                        return jh.file.info(path).then(function (after) { check(n); if (!after || after.size !== size) error('文件大小发生变化，请重新读取。'); return pieces.join(''); });
+                    }
+                    var length = Math.min(65536, size - offset);
+                    return jh.file.readChunk(path, offset, length).then(function (chunk) {
+                        check(n);
+                        if (!chunk || typeof chunk.base64 !== 'string') error('文件分块没有完整返回。');
+                        var binary, data, i;
+                        try { binary = atob(chunk.base64); } catch (e) { error('文件分块编码无效，请重新读取。'); }
+                        data = new Uint8Array(binary.length);
+                        if (!data.length || data.length > length) error('文件没有读完整，请重试。');
+                        for (i = 0; i < data.length; i += 1) data[i] = binary.charCodeAt(i);
+                        try { pieces.push(decoder.decode(data, {stream:true})); } catch (e) { error('文件不是完整有效的 UTF-8；当前输入仍保留。'); }
+                        offset += data.length;
+                        view.status('正在完整读取 ' + offset + ' / ' + size + ' 字节…', false);
+                        return next();
+                    });
+                }
+                return next();
+            });
+        }
+        function read(ids) {
+            var n = start(), texts = [], names = [], used = Math.max(0, ids.length - 1) * 2;
+            setBusy(true); view.hide(); view.status('正在读取所选材料…', false);
+            return request(function () { check(n); ids = validIds(ids); return jh.workbench.list(); }).then(function (items) {
+                check(n); var chosen = metadata(items, ids), chain = Promise.resolve();
+                chosen.forEach(function (item) {
+                    chain = chain.then(function () { check(n); return jh.workbench.take(item.id); }).then(function (got) {
+                        check(n);
+                        if (got && got.type === 'text') { if (typeof got.text !== 'string') error('文本材料没有完整原文。'); return got.text; }
+                        if (got && got.type === 'file' && typeof got.path === 'string' && got.path) return readFile(got.path, n);
+                        error('材料类型已经改变，请重新选择文本或文件。');
+                    }).then(function (text) { check(n); used += utf8Size(text, MAX_BYTES - used); texts.push(text); names.push(item.name || '未命名材料'); });
+                });
+                return chain;
+            }).then(function () {
+                check(n); candidate = {text:texts.join('\n\n'), bytes:used, names:names}; setBusy(false); view.preview(candidate);
+            }).catch(function (e) { fail(n, e); });
+        }
+        function showItems(n, items) {
+            if (!live(n)) return;
+            if (!Array.isArray(items)) { fail(n, Error('工作台清单格式不完整。')); return; }
+            available = items.filter(function (x) { return x && (x.type === 'text' || x.type === 'file') && x.alive !== false; });
+            view.pick(available, selected.slice());
+        }
+        function pick() {
+            if (busy || !alive) return;
+            var n = start(), ticket = ++listing; selected = []; available = []; view.pick([], []);
+            try { off = jh.workbench.onChange(function (event) { if (live(n)) { listing += 1; showItems(n, event && event.items); } }); }
+            catch (e) { fail(n, e); return; }
+            request(function () { check(n); return jh.workbench.list(); }).then(function (items) { if (ticket === listing) showItems(n, items); }).catch(function (e) { if (ticket === listing) fail(n, e); });
+        }
+        function toggle(id, enabled) {
+            var i = selected.indexOf(id), exists = available.some(function (x) { return x.id === id; });
+            if (!exists || busy) return;
+            if (enabled && i < 0) { if (selected.length >= MAX_INPUTS) { view.status('一次最多选择 16 份材料。', true); return; } selected.push(id); }
+            if (!enabled && i >= 0) selected.splice(i, 1);
+            view.pick(available, selected.slice());
+        }
+        function confirm() {
+            if (!candidate || busy || !alive) return;
+            var text = candidate.text; cancel(); saved = null; view.replace(text); view.status('已完整读入，可编辑后送回工作台。', false);
+        }
+        function edit() { saved = null; offered = []; if (!busy) cancel(); view.saved(false); }
+        function put() {
+            if (busy || !alive) return Promise.resolve();
+            var n = start(), text = view.text();
+            setBusy(true, false); view.status('正在保存到工作台…', false);
+            return request(function () {
+                check(n); utf8Size(text, MAX_BYTES);
+                if (!text.trim()) error('先输入需要保存的文本。');
+                return jh.workbench.put({type:'text', text:text, name:'文本接力.txt'});
+            }).then(function (result) {
+                check(n);
+                if (!result || typeof result.id !== 'string' || !result.id) error('工作台没有确认材料 ID，请重试；当前文本仍保留。');
+                saved = {id:result.id, text:text}; setBusy(false); view.saved(true); view.status(result.merged ? '工作台已有相同内容，已更新位置。' : '完整文本已保存到工作台。', false);
+            }).catch(function (e) { fail(n, e); });
+        }
+        function targets() {
+            if (busy || !alive) return Promise.resolve();
+            var n = start(); setBusy(true);
+            return request(function () { check(n); if (!saved || saved.text !== view.text()) error('先将当前文本送到工作台。'); return jh.workbench.targets([saved.id]); }).then(function (list) {
+                check(n); if (!Array.isArray(list)) error('接收工具清单不完整，请重试。');
+                offered = list.filter(function (x) { return x && typeof x.id === 'string' && x.id; }); setBusy(false); view.targets(offered);
+            }).catch(function (e) { fail(n, e); });
+        }
+        function send(target) {
+            if (busy || !alive) return Promise.resolve();
+            var known = offered.some(function (x) { return x.id === target; }), n = epoch; setBusy(true, false); view.status('正在交给接收工具…', false);
+            return request(function () { check(n); if (!saved || saved.text !== view.text() || !known) error('文本或接收工具已变化，请重新选择。'); return jh.workbench.send([saved.id], target); }).then(function (result) {
+                check(n); if (!result || result.ok !== true) error('接收工具没有确认打开，请重试。'); setBusy(false); view.hide(); view.status('已交给接收工具。', false);
+            }).catch(function (e) { fail(n, e); });
+        }
+        function init() {
+            var n = start();
+            return request(function () { check(n); return jh.launchParams(); }).then(function (lp) {
+                check(n); lp = lp || {};
+                if (Object.prototype.hasOwnProperty.call(lp, 'workbenchIds')) return read(validIds(lp.workbenchIds));
+                if (lp.workbenchId) return read(validIds([lp.workbenchId]));
+                if (typeof lp.text === 'string' && lp.text) { var count = utf8Size(lp.text, MAX_BYTES); candidate = {text:lp.text, bytes:count, names:[lp.name || '分享文本']}; view.preview(candidate); }
+                else if (lp.uri) view.status('请先把文件放到工作台，再从这里选择。', true);
+            }).catch(function (e) { fail(n, e); });
+        }
+        return {init:init, pick:pick, toggle:toggle, read:function () { return read(selected.slice()); }, confirm:confirm, cancel:cancel, edit:edit, put:put, targets:targets, send:send, close:function () { cancel(); alive = false; epoch += 1; detach(); }};
+    }
+    return {MAX_BYTES:MAX_BYTES, MAX_INPUTS:MAX_INPUTS, utf8Size:utf8Size, create:create};
+}));
+
+(function () {
+    'use strict';
+    function $(id) { return document.getElementById(id); }
+    function node(tag, text, className) { var e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (className) e.className = className; return e; }
+    function button(text, fn, className) { var e = node('button', text, className); e.type = 'button'; e.onclick = fn; return e; }
+    var controller, pickerBody = null, listBox = null, selectedBox = null, readButton = null, page = 0, items = [], chosen = [], sent = false;
+    function status(text, failed) { $('status').textContent = text; $('status').className = failed ? 'error' : ''; if (failed && $('sheet').open) { $('sheetError').textContent = text; $('sheetError').hidden = false; } }
+    function hide() { if ($('sheet').open) $('sheet').close(); pickerBody = null; }
+    function sheet(title) { hide(); $('sheetTitle').textContent = title; $('sheetError').hidden = true; $('sheetBody').textContent = ''; $('sheet').showModal(); return $('sheetBody'); }
+    function shortName(name) { name = String(name || '未命名材料'); return name.length > 80 ? name.slice(0, 80) + '…' : name; }
+    function paintPicker() {
+        var focusId = document.activeElement && document.activeElement.getAttribute('data-material'), restore = null;
+        listBox.textContent = ''; selectedBox.textContent = '';
+        if (page * 20 >= items.length) page = 0;
+        items.slice(page * 20, (page + 1) * 20).forEach(function (item) {
+            var label = node('label', undefined, 'choice'), check = node('input'), order = chosen.indexOf(item.id);
+            check.type = 'checkbox'; check.checked = order >= 0; check.onchange = function () { controller.toggle(item.id, check.checked); };
+            check.setAttribute('data-material', item.id); if (focusId === item.id) restore = check;
+            label.appendChild(check); label.appendChild(node('span', (order >= 0 ? (order + 1) + '. ' : '') + shortName(item.name))); listBox.appendChild(label);
+        });
+        if (!items.length) listBox.appendChild(node('p', '工作台里没有可选的文本或文件。', 'detail'));
+        selectedBox.appendChild(node('p', '已选 ' + chosen.length + ' 份 · 按勾选顺序拼接', 'detail'));
+        var nav = node('div', undefined, 'actions'), prev = button('上一组', function () { page -= 1; paintPicker(); }), next = button('下一组', function () { page += 1; paintPicker(); });
+        prev.disabled = page === 0; next.disabled = (page + 1) * 20 >= items.length; nav.appendChild(prev); nav.appendChild(next); selectedBox.appendChild(nav); readButton.disabled = !chosen.length;
+        if (restore) restore.focus();
+    }
+    if (!window.JH) { status('请在锦盒中打开这个工具。', true); ['pick', 'put', 'targets'].forEach(function (id) { $(id).disabled = true; }); return; }
+    controller = WorkbenchTemplate.create(window.JH, {
+        text:function () { return $('text').value; }, replace:function (text) { $('text').value = text; sent = false; $('targets').disabled = true; },
+        status:status, hide:hide, saved:function (value) { sent = value; $('targets').disabled = !value; },
+        busy:function (value, cancellable) { ['pick', 'put', 'text'].forEach(function (id) { $(id).disabled = value; }); $('targets').disabled = value || !sent; $('stop').hidden = !value || !cancellable; },
+        pick:function (list, selection) {
+            if (!pickerBody || !$('sheet').open) { pickerBody = sheet('选择工作台材料'); listBox = node('div'); selectedBox = node('div'); readButton = button('完整读取所选材料', function () { controller.read(); }, 'primary'); pickerBody.appendChild(listBox); pickerBody.appendChild(selectedBox); var a = node('div', undefined, 'actions'); a.appendChild(readButton); pickerBody.appendChild(a); page = 0; }
+            items = list; chosen = selection; paintPicker();
+        },
+        preview:function (value) {
+            var body = sheet('使用这些材料？'); body.appendChild(node('p', value.names.length + ' 份材料 · 完整 UTF-8 ' + value.bytes + ' 字节'));
+            value.names.forEach(function (name, i) { body.appendChild(node('p', (i + 1) + '. ' + shortName(name), 'detail')); });
+            body.appendChild(node('p', '将按以上顺序用两个换行拼接，替换当前文本。', 'detail'));
+            body.appendChild(button('替换当前文本', function () { controller.confirm(); }, 'primary'));
+        },
+        targets:function (list) {
+            var body = sheet('选择接收工具'); if (!list.length) body.appendChild(node('p', '暂时没有能接收这份文本的已安装工具。', 'detail'));
+            list.forEach(function (target) { body.appendChild(button(shortName(target.name), function () { controller.send(target.id); }, 'target')); });
+        }
+    });
+    $('pick').onclick = function () { controller.pick(); }; $('put').onclick = function () { controller.put(); }; $('targets').onclick = function () { controller.targets(); };
+    $('text').oninput = function () { controller.edit(); }; $('close').onclick = $('stop').onclick = function () { controller.cancel(); };
+    $('sheet').addEventListener('cancel', function (e) { e.preventDefault(); controller.cancel(); });
+    $('help').onclick = function () { controller.cancel(); var body = sheet('读取与流转'); body.appendChild(node('p', '读取完整文本或严格 UTF-8 文件；最多 16 份，合计 32 MiB，超限拒绝，不截断。选择后先确认替换，编辑后送回工作台，再选择能继续处理的工具。取消读取不会保存到工作台。已发出的保存或跳转请求无法撤回，关闭后不会继续执行后续操作。')); };
+    window.addEventListener('pagehide', function () { controller.close(); });
+    if (JH.onBack) JH.onBack(function () { if ($('sheet').open || !$('stop').hidden) { controller.cancel(); return true; } return false; });
+    controller.init();
+}());
+
+</script></body></html>

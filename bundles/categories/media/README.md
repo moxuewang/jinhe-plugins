@@ -1,21 +1,23 @@
 # 媒体分类工具包
 
-包含 8 件可扩展工具，适用于锦盒 1.8.61。
+包含 10 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/media/jinhe-tools-media.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/media/jinhe-tools-media.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
 | 音频实验室 | 1\.2\.6 | 媒体 | 录音声学 |
+| 音程训练 | 1\.0\.0 | 媒体 | 音乐声音 |
 | 耳龄测试 | 1\.0\.6 | 媒体 | 录音声学 |
 | 乐器盒 | 2\.1\.1 | 媒体 | 音乐声音 |
 | 节拍器 | 1\.0\.5 | 媒体 | 音乐声音 |
 | 随身钢琴 | 1\.1\.10 | 媒体 | 音乐声音 |
 | 乐谱播放 | 2\.1\.0 | 媒体 | 音乐声音 |
+| 乐谱库 | 1\.0\.0 | 媒体 | 音乐声音 |
 | 超级乐器 | 2\.1\.0 | 媒体 | 音乐声音 |
 | 白噪音 | 1\.0\.9 | 媒体 | 音乐声音 |
 
-ZIP：274588 bytes
+ZIP：2688270 bytes
 
-SHA-256：`9937927360636dd28002471a90c3d28669ac675ee8302cadd7b4b8c222cb2a8e`
+SHA-256：`7cda33d3bff06018151c56069f7175c1b104a52fd590eecaaec8fbceb7db407b`

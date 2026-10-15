@@ -1,9 +1,9 @@
 # 颜色配色族工具包
 
-包含 2 件可扩展工具，适用于锦盒 1.8.61。
+包含 2 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-5ad36c5aaf45/jinhe-tools-group-5ad36c5aaf45.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-5ad36c5aaf45/jinhe-tools-group-5ad36c5aaf45.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -12,4 +12,4 @@
 
 ZIP：20981 bytes
 
-SHA-256：`f6b50c5022d2e5562db874a8d21b8785973f4fd86049c22e9e3ab089418abb58`
+SHA-256：`2031675b59e8e7940f239fc151b5ca56c7babe46cde6499797401945d3ae69fd`

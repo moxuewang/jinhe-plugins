@@ -1,9 +1,9 @@
 # 图片分类工具包
 
-包含 9 件可扩展工具，适用于锦盒 1.8.61。
+包含 9 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/images/jinhe-tools-images.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/images/jinhe-tools-images.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -17,6 +17,6 @@
 | 渐变壁纸 | 1\.0\.6 | 图片 | 图片生成 |
 | 图片水印 | 1\.0\.6 | 图片 | 图文创作 |
 
-ZIP：107415 bytes
+ZIP：107416 bytes
 
-SHA-256：`1cb605fe904d64073a69d7fd43ce6ebdc219c98e80b0b6dfbc889ac2dc343c57`
+SHA-256：`5e2c022ee40a552ca70efe55a252edc64d47a1152ccb079c85fb0b7a43c2cf9b`

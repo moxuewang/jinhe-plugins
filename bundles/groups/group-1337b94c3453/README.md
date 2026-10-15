@@ -1,9 +1,9 @@
 # 硬件传感族工具包
 
-包含 2 件可扩展工具，适用于锦盒 1.8.61。
+包含 2 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-1337b94c3453/jinhe-tools-group-1337b94c3453.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-1337b94c3453/jinhe-tools-group-1337b94c3453.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -12,4 +12,4 @@
 
 ZIP：16311 bytes
 
-SHA-256：`adfc34e2a4b1652c2e0050b831a88541b9888a9fc71ecf9271ddae08075b02a0`
+SHA-256：`3dc9f347c7e271ca22bc9d3648e6167a5a4e84ad2d683266e7fe77cdcd5cddb8`

@@ -1,9 +1,9 @@
 # 健康计算族工具包
 
-包含 2 件可扩展工具，适用于锦盒 1.8.61。
+包含 2 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bd69b3a41b11/jinhe-tools-group-bd69b3a41b11.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bd69b3a41b11/jinhe-tools-group-bd69b3a41b11.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -12,4 +12,4 @@
 
 ZIP：20750 bytes
 
-SHA-256：`bbb1a7ca5e91433470b27f2bf3dddc280b253fdd3275aac4871ddf7612feed60`
+SHA-256：`8e2b22d11d3c784c971150349f38345f9a4cd66df56e500c2a29f05f3da7cb34`

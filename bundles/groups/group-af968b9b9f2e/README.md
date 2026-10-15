@@ -1,9 +1,9 @@
 # 车辆出行族工具包
 
-包含 2 件可扩展工具，适用于锦盒 1.8.61。
+包含 2 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-af968b9b9f2e/jinhe-tools-group-af968b9b9f2e.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-af968b9b9f2e/jinhe-tools-group-af968b9b9f2e.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -12,4 +12,4 @@
 
 ZIP：19844 bytes
 
-SHA-256：`9be5c2b38c80c1abac4f743613d92bb24df7a39993b42e5d02827f1298d79e6f`
+SHA-256：`23f25d2bfbe0f86f639db9cd3b63a8ca118a5b289d111dbb9e7b19471f510456`

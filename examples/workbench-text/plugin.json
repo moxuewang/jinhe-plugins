@@ -1,0 +1,18 @@
+{
+  "id": "workbench_text_template",
+  "name": "文本接力",
+  "version": "1.0.0",
+  "author": "工具作者",
+  "category": "效率",
+  "description": "完整读取工作台文本与UTF-8文件，编辑后保存并交给兼容工具。",
+  "main": "index.html",
+  "glyph": "edit_note",
+  "color": "#0061CB",
+  "color2": "#62646D",
+  "accepts": [
+    "text",
+    "file"
+  ],
+  "acceptsMultiple": true,
+  "acceptsMaterialIds": true
+}

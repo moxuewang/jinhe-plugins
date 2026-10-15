@@ -1,19 +1,21 @@
 # 音乐声音族工具包
 
-包含 6 件可扩展工具，适用于锦盒 1.8.61。
+包含 8 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-89f0dd2c14ab/jinhe-tools-group-89f0dd2c14ab.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-89f0dd2c14ab/jinhe-tools-group-89f0dd2c14ab.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
+| 音程训练 | 1\.0\.0 | 媒体 | 音乐声音 |
 | 乐器盒 | 2\.1\.1 | 媒体 | 音乐声音 |
 | 节拍器 | 1\.0\.5 | 媒体 | 音乐声音 |
 | 随身钢琴 | 1\.1\.10 | 媒体 | 音乐声音 |
 | 乐谱播放 | 2\.1\.0 | 媒体 | 音乐声音 |
+| 乐谱库 | 1\.0\.0 | 媒体 | 音乐声音 |
 | 超级乐器 | 2\.1\.0 | 媒体 | 音乐声音 |
 | 白噪音 | 1\.0\.9 | 媒体 | 音乐声音 |
 
-ZIP：248412 bytes
+ZIP：2662097 bytes
 
-SHA-256：`a683a3b376b03e3d76f2b78a981c1b9ab9f5c32bfa20b4d2d9463c16f618ac9b`
+SHA-256：`d7fa9fc0cab3d1ec99fac0baeee2cc8fc3ec816cc133b3ee3fdf0e0014019496`

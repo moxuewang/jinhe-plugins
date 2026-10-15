@@ -1,12 +1,12 @@
 # 锦盒工具下载
 
-这里提供 77 件可扩展工具的单件、族包、分类包和官方全集。锦盒 1.8.61 内置全部 77 件官方可扩展工具，应用共 287 款工具；其余 210 款依赖安装包，不能作为独立工具包下载。
+这里提供 87 件可扩展工具的单件、族包、分类包和官方全集，适用于锦盒 1.8.62。安装包已内置全部官方工具；这些工具包可用于补装和更新，不在本目录中的工具随安装包提供。
 
 使用方法：
 
 1. 选择单件工具、族包、分类包或官方全集。
 2. 下载对应 ZIP，无需自行解压。
-3. 锦盒 1.8.61：打开「我的 → 工具与插件 → 导入插件包」，选择下载的 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。单件 ZIP 也可直接用锦盒打开。
+3. 打开「我的 → 工具管理 → 导入工具包」，选择下载的 ZIP，无需解压。也可在其他应用中选择用锦盒打开工具包。
 
 单件包保留原格式；组合包沿用锦盒现有整包格式，一次导入多个工具。同版本会跳过，更高版本会更新。
 
@@ -14,7 +14,7 @@
 
 | 工具包 | 件数 | 下载 | 体积 |
 |---|---:|---|---:|
-| [官方可扩展工具全集](bundles/all/README.md) | 77 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/all/jinhe-tools-all.zip) | 1111.7 KB |
+| [官方可扩展工具全集](bundles/all/README.md) | 87 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/all/jinhe-tools-all.zip) | 3677.3 KB |
 | [健康计算族工具包](bundles/groups/group-bd69b3a41b11/README.md) | 2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bd69b3a41b11/jinhe-tools-group-bd69b3a41b11.zip) | 20.3 KB |
 | [健康记录族工具包](bundles/groups/group-bd197c9a6cb5/README.md) | 3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bd197c9a6cb5/jinhe-tools-group-bd197c9a6cb5.zip) | 32.6 KB |
 | [公开数据族工具包](bundles/groups/group-54368dd38e57/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-54368dd38e57/jinhe-tools-group-54368dd38e57.zip) | 10.5 KB |
@@ -29,7 +29,7 @@
 | [文档提词族工具包](bundles/groups/group-cc62cccb4371/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-cc62cccb4371/jinhe-tools-group-cc62cccb4371.zip) | 19.7 KB |
 | [日常算账族工具包](bundles/groups/group-0fa38f8382e0/README.md) | 2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-0fa38f8382e0/jinhe-tools-group-0fa38f8382e0.zip) | 20.1 KB |
 | [日期提醒族工具包](bundles/groups/group-734bfa95fd19/README.md) | 2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-734bfa95fd19/jinhe-tools-group-734bfa95fd19.zip) | 31.9 KB |
-| [时间管理族工具包](bundles/groups/group-eb9488ef113c/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-eb9488ef113c/jinhe-tools-group-eb9488ef113c.zip) | 9.2 KB |
+| [时间管理族工具包](bundles/groups/group-eb9488ef113c/README.md) | 2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-eb9488ef113c/jinhe-tools-group-eb9488ef113c.zip) | 32.1 KB |
 | [校园课程族工具包](bundles/groups/group-53634894e133/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-53634894e133/jinhe-tools-group-53634894e133.zip) | 13.2 KB |
 | [理科速查族工具包](bundles/groups/group-1709f84637ad/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-1709f84637ad/jinhe-tools-group-1709f84637ad.zip) | 13.9 KB |
 | [理财计算族工具包](bundles/groups/group-016000235da0/README.md) | 3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-016000235da0/jinhe-tools-group-016000235da0.zip) | 34.0 KB |
@@ -39,27 +39,33 @@
 | [网络工具族工具包](bundles/groups/group-a5dc9a1212ba/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-a5dc9a1212ba/jinhe-tools-group-a5dc9a1212ba.zip) | 12.0 KB |
 | [网络文件族工具包](bundles/groups/group-e349e4c54efe/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-e349e4c54efe/jinhe-tools-group-e349e4c54efe.zip) | 8.3 KB |
 | [行情财经族工具包](bundles/groups/group-f148a2bd4c32/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-f148a2bd4c32/jinhe-tools-group-f148a2bd4c32.zip) | 8.5 KB |
+| [表格数据族工具包](bundles/groups/group-b3f32ead847b/README.md) | 4 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-b3f32ead847b/jinhe-tools-group-b3f32ead847b.zip) | 129.4 KB |
 | [记忆专注族工具包](bundles/groups/group-03c2f79dbf7b/README.md) | 3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-03c2f79dbf7b/jinhe-tools-group-03c2f79dbf7b.zip) | 25.4 KB |
 | [记账参考族工具包](bundles/groups/group-f647f3a263ae/README.md) | 3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-f647f3a263ae/jinhe-tools-group-f647f3a263ae.zip) | 31.0 KB |
 | [证件密码族工具包](bundles/groups/group-c335ecaf15fe/README.md) | 3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c335ecaf15fe/jinhe-tools-group-c335ecaf15fe.zip) | 81.3 KB |
 | [语言输入族工具包](bundles/groups/group-8996778bc9d7/README.md) | 2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-8996778bc9d7/jinhe-tools-group-8996778bc9d7.zip) | 48.6 KB |
+| [赛事记分族工具包](bundles/groups/group-34a788010167/README.md) | 3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-34a788010167/jinhe-tools-group-34a788010167.zip) | 56.8 KB |
 | [车辆出行族工具包](bundles/groups/group-af968b9b9f2e/README.md) | 2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-af968b9b9f2e/jinhe-tools-group-af968b9b9f2e.zip) | 19.4 KB |
-| [音乐声音族工具包](bundles/groups/group-89f0dd2c14ab/README.md) | 6 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-89f0dd2c14ab/jinhe-tools-group-89f0dd2c14ab.zip) | 242.6 KB |
+| [音乐声音族工具包](bundles/groups/group-89f0dd2c14ab/README.md) | 8 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-89f0dd2c14ab/jinhe-tools-group-89f0dd2c14ab.zip) | 2599.7 KB |
 | [颜色配色族工具包](bundles/groups/group-5ad36c5aaf45/README.md) | 2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-5ad36c5aaf45/jinhe-tools-group-5ad36c5aaf45.zip) | 20.5 KB |
 | [骰子抽签族工具包](bundles/groups/group-4b8953dd470d/README.md) | 3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-4b8953dd470d/jinhe-tools-group-4b8953dd470d.zip) | 57.5 KB |
 | [文本分类工具包](bundles/categories/text/README.md) | 1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/text/jinhe-tools-text.zip) | 8.1 KB |
 | [图片分类工具包](bundles/categories/images/README.md) | 9 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/images/jinhe-tools-images.zip) | 104.9 KB |
 | [计算分类工具包](bundles/categories/calculations/README.md) | 7 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/calculations/jinhe-tools-calculations.zip) | 73.7 KB |
-| [效率分类工具包](bundles/categories/productivity/README.md) | 10 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/productivity/jinhe-tools-productivity.zip) | 113.8 KB |
-| [媒体分类工具包](bundles/categories/media/README.md) | 8 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/media/jinhe-tools-media.zip) | 268.2 KB |
+| [效率分类工具包](bundles/categories/productivity/README.md) | 15 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/productivity/jinhe-tools-productivity.zip) | 265.8 KB |
+| [媒体分类工具包](bundles/categories/media/README.md) | 10 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/media/jinhe-tools-media.zip) | 2625.3 KB |
 | [生活分类工具包](bundles/categories/life/README.md) | 15 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/life/jinhe-tools-life.zip) | 210.5 KB |
-| [娱乐分类工具包](bundles/categories/games/README.md) | 19 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/games/jinhe-tools-games.zip) | 221.8 KB |
+| [娱乐分类工具包](bundles/categories/games/README.md) | 22 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/games/jinhe-tools-games.zip) | 278.3 KB |
 | [学习分类工具包](bundles/categories/learning/README.md) | 4 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/learning/jinhe-tools-learning.zip) | 75.1 KB |
 | [联网分类工具包](bundles/categories/online/README.md) | 4 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/online/jinhe-tools-online.zip) | 38.4 KB |
 
 ## 投稿
 
 欢迎提交你制作的工具：[填写工具投稿](https://github.com/moxuewang/jinhe-plugins/issues/new?template=submit-tool.yml)。提供工具包下载链接、用途和授权即可，不要求公开锦盒本体源码；投稿经过人工检查后再决定是否收录，不会自动成为官方工具。详见 [投稿说明](CONTRIBUTING.md)。
+
+## 开发示例
+
+[工作台开发示例](docs/workbench-text-template.md) · [下载可导入模板](examples/workbench-text.zip)。完整读取材料、编辑、保存，再交给兼容工具。
 
 ## 文本
 
@@ -107,6 +113,11 @@
 | [清单对比](%E6%95%88%E7%8E%87/%E6%B8%85%E5%8D%95%E5%AF%B9%E6%AF%94-manifestdiff/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%B8%85%E5%8D%95%E5%AF%B9%E6%AF%94-manifestdiff/%E6%B8%85%E5%8D%95%E5%AF%B9%E6%AF%94-manifestdiff.zip) | 11.1 KB |
 | [PDF 转 TXT](%E6%95%88%E7%8E%87/PDF%20%E8%BD%AC%20TXT-pdf2txt/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/PDF%20%E8%BD%AC%20TXT-pdf2txt/PDF%20%E8%BD%AC%20TXT-pdf2txt.zip) | 19.3 KB |
 | [番茄钟](%E6%95%88%E7%8E%87/%E7%95%AA%E8%8C%84%E9%92%9F-pomodoro/README.md) | 1\.1\.4 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E7%95%AA%E8%8C%84%E9%92%9F-pomodoro/%E7%95%AA%E8%8C%84%E9%92%9F-pomodoro.zip) | 8.8 KB |
+| [项目关键路径](%E6%95%88%E7%8E%87/%E9%A1%B9%E7%9B%AE%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84-projectpath/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E9%A1%B9%E7%9B%AE%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84-projectpath/%E9%A1%B9%E7%9B%AE%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84-projectpath.zip) | 22.6 KB |
+| [数据规则检查](%E6%95%88%E7%8E%87/%E6%95%B0%E6%8D%AE%E8%A7%84%E5%88%99%E6%A3%80%E6%9F%A5-schemacheck/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%95%B0%E6%8D%AE%E8%A7%84%E5%88%99%E6%A3%80%E6%9F%A5-schemacheck/%E6%95%B0%E6%8D%AE%E8%A7%84%E5%88%99%E6%A3%80%E6%9F%A5-schemacheck.zip) | 37.6 KB |
+| [数据透视](%E6%95%88%E7%8E%87/%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86-pivottable/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86-pivottable/%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86-pivottable.zip) | 28.5 KB |
+| [表格关联](%E6%95%88%E7%8E%87/%E8%A1%A8%E6%A0%BC%E5%85%B3%E8%81%94-tablejoin/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E8%A1%A8%E6%A0%BC%E5%85%B3%E8%81%94-tablejoin/%E8%A1%A8%E6%A0%BC%E5%85%B3%E8%81%94-tablejoin.zip) | 33.6 KB |
+| [表格筛选](%E6%95%88%E7%8E%87/%E8%A1%A8%E6%A0%BC%E7%AD%9B%E9%80%89-csvquery/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E8%A1%A8%E6%A0%BC%E7%AD%9B%E9%80%89-csvquery/%E8%A1%A8%E6%A0%BC%E7%AD%9B%E9%80%89-csvquery.zip) | 28.4 KB |
 
 ## 媒体
 
@@ -115,11 +126,13 @@
 | [耳龄测试](%E5%AA%92%E4%BD%93/%E8%80%B3%E9%BE%84%E6%B5%8B%E8%AF%95-eartest/README.md) | 1\.0\.6 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E8%80%B3%E9%BE%84%E6%B5%8B%E8%AF%95-eartest/%E8%80%B3%E9%BE%84%E6%B5%8B%E8%AF%95-eartest.zip) | 7.9 KB |
 | [音频实验室](%E5%AA%92%E4%BD%93/%E9%9F%B3%E9%A2%91%E5%AE%9E%E9%AA%8C%E5%AE%A4-audiolab/README.md) | 1\.2\.6 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E9%9F%B3%E9%A2%91%E5%AE%9E%E9%AA%8C%E5%AE%A4-audiolab/%E9%9F%B3%E9%A2%91%E5%AE%9E%E9%AA%8C%E5%AE%A4-audiolab.zip) | 17.5 KB |
 | [乐器盒](%E5%AA%92%E4%BD%93/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box/README.md) | 2\.1\.1 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box/%E4%B9%90%E5%99%A8%E7%9B%92-instrument_box.zip) | 82.1 KB |
+| [乐谱库](%E5%AA%92%E4%BD%93/%E4%B9%90%E8%B0%B1%E5%BA%93-scorelibrary/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E4%B9%90%E8%B0%B1%E5%BA%93-scorelibrary/%E4%B9%90%E8%B0%B1%E5%BA%93-scorelibrary.zip) | 2333.8 KB |
 | [乐谱播放](%E5%AA%92%E4%BD%93/%E4%B9%90%E8%B0%B1%E6%92%AD%E6%94%BE-score_player/README.md) | 2\.1\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E4%B9%90%E8%B0%B1%E6%92%AD%E6%94%BE-score_player/%E4%B9%90%E8%B0%B1%E6%92%AD%E6%94%BE-score_player.zip) | 54.8 KB |
 | [白噪音](%E5%AA%92%E4%BD%93/%E7%99%BD%E5%99%AA%E9%9F%B3-whitenoise/README.md) | 1\.0\.9 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E7%99%BD%E5%99%AA%E9%9F%B3-whitenoise/%E7%99%BD%E5%99%AA%E9%9F%B3-whitenoise.zip) | 12.5 KB |
 | [节拍器](%E5%AA%92%E4%BD%93/%E8%8A%82%E6%8B%8D%E5%99%A8-metronome/README.md) | 1\.0\.5 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E8%8A%82%E6%8B%8D%E5%99%A8-metronome/%E8%8A%82%E6%8B%8D%E5%99%A8-metronome.zip) | 8.3 KB |
 | [超级乐器](%E5%AA%92%E4%BD%93/%E8%B6%85%E7%BA%A7%E4%B9%90%E5%99%A8-super_band/README.md) | 2\.1\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E8%B6%85%E7%BA%A7%E4%B9%90%E5%99%A8-super_band/%E8%B6%85%E7%BA%A7%E4%B9%90%E5%99%A8-super_band.zip) | 43.6 KB |
 | [随身钢琴](%E5%AA%92%E4%BD%93/%E9%9A%8F%E8%BA%AB%E9%92%A2%E7%90%B4-piano/README.md) | 1\.1\.10 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E9%9A%8F%E8%BA%AB%E9%92%A2%E7%90%B4-piano/%E9%9A%8F%E8%BA%AB%E9%92%A2%E7%90%B4-piano.zip) | 40.5 KB |
+| [音程训练](%E5%AA%92%E4%BD%93/%E9%9F%B3%E7%A8%8B%E8%AE%AD%E7%BB%83-earinterval/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E9%9F%B3%E7%A8%8B%E8%AE%AD%E7%BB%83-earinterval/%E9%9F%B3%E7%A8%8B%E8%AE%AD%E7%BB%83-earinterval.zip) | 21.9 KB |
 
 ## 生活
 
@@ -161,6 +174,9 @@
 | [数字记忆](%E5%A8%B1%E4%B9%90/%E6%95%B0%E5%AD%97%E8%AE%B0%E5%BF%86-memory/README.md) | 1\.0\.3 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E6%95%B0%E5%AD%97%E8%AE%B0%E5%BF%86-memory/%E6%95%B0%E5%AD%97%E8%AE%B0%E5%BF%86-memory.zip) | 7.3 KB |
 | [舒尔特方格](%E5%A8%B1%E4%B9%90/%E8%88%92%E5%B0%94%E7%89%B9%E6%96%B9%E6%A0%BC-schulte/README.md) | 1\.0\.8 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E8%88%92%E5%B0%94%E7%89%B9%E6%96%B9%E6%A0%BC-schulte/%E8%88%92%E5%B0%94%E7%89%B9%E6%96%B9%E6%A0%BC-schulte.zip) | 10.8 KB |
 | [记忆彩灯](%E5%A8%B1%E4%B9%90/%E8%AE%B0%E5%BF%86%E5%BD%A9%E7%81%AF-simon/README.md) | 1\.1\.2 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E8%AE%B0%E5%BF%86%E5%BD%A9%E7%81%AF-simon/%E8%AE%B0%E5%BF%86%E5%BD%A9%E7%81%AF-simon.zip) | 6.9 KB |
+| [循环赛排程](%E5%A8%B1%E4%B9%90/%E5%BE%AA%E7%8E%AF%E8%B5%9B%E6%8E%92%E7%A8%8B-roundrobin/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E5%BE%AA%E7%8E%AF%E8%B5%9B%E6%8E%92%E7%A8%8B-roundrobin/%E5%BE%AA%E7%8E%AF%E8%B5%9B%E6%8E%92%E7%A8%8B-roundrobin.zip) | 19.9 KB |
+| [桌游记分](%E5%A8%B1%E4%B9%90/%E6%A1%8C%E6%B8%B8%E8%AE%B0%E5%88%86-scoreboard/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E6%A1%8C%E6%B8%B8%E8%AE%B0%E5%88%86-scoreboard/%E6%A1%8C%E6%B8%B8%E8%AE%B0%E5%88%86-scoreboard.zip) | 16.2 KB |
+| [淘汰赛编排](%E5%A8%B1%E4%B9%90/%E6%B7%98%E6%B1%B0%E8%B5%9B%E7%BC%96%E6%8E%92-bracket/README.md) | 1\.0\.0 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E6%B7%98%E6%B1%B0%E8%B5%9B%E7%BC%96%E6%8E%92-bracket/%E6%B7%98%E6%B1%B0%E8%B5%9B%E7%BC%96%E6%8E%92-bracket.zip) | 19.9 KB |
 | [每日一签](%E5%A8%B1%E4%B9%90/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%AD%BE-sign/README.md) | 1\.0\.6 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%AD%BE-sign/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%AD%BE-sign.zip) | 36.6 KB |
 | [答案之书](%E5%A8%B1%E4%B9%90/%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6-answers/README.md) | 1\.0\.5 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6-answers/%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6-answers.zip) | 6.0 KB |
 | [跑团骰子](%E5%A8%B1%E4%B9%90/%E8%B7%91%E5%9B%A2%E9%AA%B0%E5%AD%90-dice/README.md) | 1\.0\.7 | [下载 ZIP](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%A8%B1%E4%B9%90/%E8%B7%91%E5%9B%A2%E9%AA%B0%E5%AD%90-dice/%E8%B7%91%E5%9B%A2%E9%AA%B0%E5%AD%90-dice.zip) | 14.5 KB |

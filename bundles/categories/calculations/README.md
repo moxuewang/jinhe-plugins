@@ -1,9 +1,9 @@
 # 计算分类工具包
 
-包含 7 件可扩展工具，适用于锦盒 1.8.61。
+包含 7 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/calculations/jinhe-tools-calculations.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/calculations/jinhe-tools-calculations.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -17,4 +17,4 @@
 
 ZIP：75473 bytes
 
-SHA-256：`c211773c88566fe0b890d042d4a378df19712a00abd3078c54c96e33beca0ead`
+SHA-256：`40bcd3e485ea58364ee2957d81326687064791f1b9beb9ff3166ab30b6e56af4`

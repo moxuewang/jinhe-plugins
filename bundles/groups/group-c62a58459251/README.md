@@ -1,9 +1,9 @@
 # 图片生成族工具包
 
-包含 2 件可扩展工具，适用于锦盒 1.8.61。
+包含 2 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c62a58459251/jinhe-tools-group-c62a58459251.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c62a58459251/jinhe-tools-group-c62a58459251.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -12,4 +12,4 @@
 
 ZIP：26826 bytes
 
-SHA-256：`49b362960679a29b14ee03b07b10f14febe4a8d7236403174bd6b00a772f365a`
+SHA-256：`580a0441d89e96ce1131a364afdd0e5465e9619b43a28329a42841b5128ace10`

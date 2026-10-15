@@ -1,9 +1,9 @@
 # 生活分类工具包
 
-包含 15 件可扩展工具，适用于锦盒 1.8.61。
+包含 15 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/life/jinhe-tools-life.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/life/jinhe-tools-life.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -23,6 +23,6 @@
 | 体重记录 | 1\.0\.8 | 生活 | 健康记录 |
 | 世界时钟 | 1\.0\.7 | 生活 | 日期提醒 |
 
-ZIP：215518 bytes
+ZIP：215519 bytes
 
-SHA-256：`967f039cc785569bc863c7f42557cbfb5f8e07c6f86e70504c16dca08297c24d`
+SHA-256：`ade60bb25674d26174ad2fb663b99a4dbb85efd272ef2eebafa6f763f0f2ab3b`

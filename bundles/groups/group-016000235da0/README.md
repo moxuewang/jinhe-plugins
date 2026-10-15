@@ -1,9 +1,9 @@
 # 理财计算族工具包
 
-包含 3 件可扩展工具，适用于锦盒 1.8.61。
+包含 3 件可扩展工具，适用于锦盒 1.8.62。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
-[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-016000235da0/jinhe-tools-group-016000235da0.zip)。锦盒 1.8.61 请在「我的 → 工具与插件 → 导入插件包」中选择 ZIP，无需解压。新版统一入口叫「工具管理 → 导入工具包」。
+[下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-016000235da0/jinhe-tools-group-016000235da0.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
 
 | 工具 | 版本 | 分类 | 族 |
 |---|---|---|---|
@@ -13,4 +13,4 @@
 
 ZIP：34811 bytes
 
-SHA-256：`aaebeca5bd1d47e18c0f5eb6b9a0456e8589682cd5043ff90c5a3718a611254b`
+SHA-256：`143d9ba99d6e649137b14e117295add36501aaf5f84ddb8bea773c31fbfcc7bc`
