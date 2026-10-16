@@ -1,6 +1,6 @@
 # 赛事记分族工具包
 
-包含 3 件可扩展工具，适用于锦盒 1.8.63。
+包含 3 件可扩展工具，适用于锦盒 1.8.64。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-34a788010167/jinhe-tools-group-34a788010167.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -13,4 +13,4 @@
 
 ZIP：58192 bytes
 
-SHA-256：`17c5e2abaca9385678612680a2a755bd0482a0bc2eef199b7dea94e1e87ea2ea`
+SHA-256：`13277a14694470f000085f31f5f300696e04f480f2389e0b5c4d0d2bfa39f7e3`

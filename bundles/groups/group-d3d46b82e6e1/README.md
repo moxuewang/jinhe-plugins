@@ -1,6 +1,6 @@
 # 待办笔记族工具包
 
-包含 2 件可扩展工具，适用于锦盒 1.8.63。
+包含 2 件可扩展工具，适用于锦盒 1.8.64。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-d3d46b82e6e1/jinhe-tools-group-d3d46b82e6e1.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -12,4 +12,4 @@
 
 ZIP：26715 bytes
 
-SHA-256：`59862d174d68f935357351c0c0c797b3abb32e33b481a711851a2baf905e10a6`
+SHA-256：`68dc2bbdba7cd7e35b487b8498938386f7c43a9e005520fd64dabd697e846dba`

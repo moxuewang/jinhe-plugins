@@ -1,6 +1,6 @@
 # 媒体分类工具包
 
-包含 10 件可扩展工具，适用于锦盒 1.8.63。
+包含 10 件可扩展工具，适用于锦盒 1.8.64。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/media/jinhe-tools-media.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -20,4 +20,4 @@
 
 ZIP：2688271 bytes
 
-SHA-256：`e5588ae1b9dbca5b184bf8fdbea511ef87d89e61c809e2e58dcbaa350f913546`
+SHA-256：`a8791be392fa0d45fc42ea3d8e5bc51872d2b500f11ef4e70243940c78809b8c`

@@ -1,6 +1,6 @@
 # 健康记录族工具包
 
-包含 3 件可扩展工具，适用于锦盒 1.8.63。
+包含 3 件可扩展工具，适用于锦盒 1.8.64。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bd197c9a6cb5/jinhe-tools-group-bd197c9a6cb5.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -13,4 +13,4 @@
 
 ZIP：33341 bytes
 
-SHA-256：`751c812052f845e961b4600c736184c55e1f06a1e87f6fd55f3f4008a169ef47`
+SHA-256：`004904919ccd6f79d7bb64038f1eb55f72d40cb24695fbc1ebe7f414ab73c8d4`

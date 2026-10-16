@@ -1,6 +1,6 @@
 # 记忆专注族工具包
 
-包含 3 件可扩展工具，适用于锦盒 1.8.63。
+包含 3 件可扩展工具，适用于锦盒 1.8.64。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-03c2f79dbf7b/jinhe-tools-group-03c2f79dbf7b.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -13,4 +13,4 @@
 
 ZIP：26023 bytes
 
-SHA-256：`0d3b5ac1d51b91f8599b87f72fc234a07669c4557234220ce746c23544709d7f`
+SHA-256：`f46168507bb600e9992d5a539047acdafdd80abe11ce760291aee76635d72b1e`
