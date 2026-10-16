@@ -12,6 +12,6 @@
 | iOS 计算器 | 1\.2\.7 | 计算 | 日常算账 |
 | 百分比 | 1\.0\.0 | 计算 | 日常算账 |
 
-ZIP：37153 bytes
+ZIP：37155 bytes
 
-SHA-256：`cb14a7702b9dfc7b04a9eb6d3c402fee713905ceb7a2075bbf5406320a9b9350`
+SHA-256：`f834f671482a353b535f6dffbf8a1b8f16b6d5ae5af5927d76f783a39b78d676`

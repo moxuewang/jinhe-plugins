@@ -1,6 +1,6 @@
 # 编码解码族工具包
 
-包含 1 件可扩展工具，适用于锦盒 1.8.64。
+包含 1 件可扩展工具，适用于锦盒 1.8.65。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-50957843efd4/jinhe-tools-group-50957843efd4.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -11,4 +11,4 @@
 
 ZIP：8309 bytes
 
-SHA-256：`5a8f3544bf85a6819cf43a0ba55880587166a35b1f82ba8ef6c13cac4222bbfe`
+SHA-256：`5fb7454ce2851a4e848c665a071a0952e2c5672aec2ef9933ee946d8e75afdcc`

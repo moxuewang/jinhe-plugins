@@ -1,6 +1,6 @@
 # 证件密码族工具包
 
-包含 3 件可扩展工具，适用于锦盒 1.8.64。
+包含 3 件可扩展工具，适用于锦盒 1.8.65。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c335ecaf15fe/jinhe-tools-group-c335ecaf15fe.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -13,4 +13,4 @@
 
 ZIP：83265 bytes
 
-SHA-256：`c9a77d86ae1fe963b6fe160ac04110a9f2db35bc0d793370dabd8ce02bd0a29f`
+SHA-256：`0f8e04958829529cd692c51557e3d1347461e776c85bc14826d804ee3d1cefbb`

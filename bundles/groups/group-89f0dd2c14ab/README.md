@@ -1,6 +1,6 @@
 # 音乐声音族工具包
 
-包含 8 件可扩展工具，适用于锦盒 1.8.64。
+包含 8 件可扩展工具，适用于锦盒 1.8.65。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-89f0dd2c14ab/jinhe-tools-group-89f0dd2c14ab.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -16,6 +16,6 @@
 | 超级乐器 | 2\.1\.0 | 媒体 | 音乐声音 |
 | 白噪音 | 1\.0\.9 | 媒体 | 音乐声音 |
 
-ZIP：2662098 bytes
+ZIP：2662097 bytes
 
-SHA-256：`e7b0495c17eed5192c82d75d6703dc0fc2b6febe5eaa0fcc07c6ffbe85662414`
+SHA-256：`c6d0cfa4dfb553d8f01acf03dddb4085dbdf0cbfb651de71bad8851a891c0599`

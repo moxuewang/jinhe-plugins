@@ -1,6 +1,6 @@
 # 网络文件族工具包
 
-包含 1 件可扩展工具，适用于锦盒 1.8.64。
+包含 1 件可扩展工具，适用于锦盒 1.8.65。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-e349e4c54efe/jinhe-tools-group-e349e4c54efe.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -11,4 +11,4 @@
 
 ZIP：8489 bytes
 
-SHA-256：`d11cfadb7ad718b623bbe8310d5bc67b7162f80590a80bbf1478257aa70a5c6a`
+SHA-256：`1b85c7fc22686d64307fc56918fd2dd09e0e7e1526e8767ced2238d623c1844b`

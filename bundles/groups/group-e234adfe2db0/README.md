@@ -1,6 +1,6 @@
 # 益智游戏族工具包
 
-包含 9 件可扩展工具，适用于锦盒 1.8.64。
+包含 9 件可扩展工具，适用于锦盒 1.8.65。
 应用内其他原生工具依赖安装包，不包含在此工具包中。
 
 [下载工具包](https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-e234adfe2db0/jinhe-tools-group-e234adfe2db0.zip)。在「我的 → 工具管理 → 导入工具包」中选择 ZIP，无需解压。也可用锦盒直接打开。
@@ -17,6 +17,6 @@
 | 数独 | 1\.1\.6 | 娱乐 | 益智游戏 |
 | 猜单词 | 1\.0\.3 | 娱乐 | 益智游戏 |
 
-ZIP：103505 bytes
+ZIP：103506 bytes
 
-SHA-256：`a24b9f299f9ba62ed8ebf09e32c28240f1a942ce0ed31ab6029c781d46a9fbc6`
+SHA-256：`b2baed08779af8cb35c726e454f22ada83ea829a637a0a0ee50484f334e5c01f`

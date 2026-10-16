@@ -564,6 +564,95 @@
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E8%AE%A1%E7%AE%97/%E7%94%B5%E8%B4%B9%E8%AE%A1%E7%AE%97-eleccalc/%E7%94%B5%E8%B4%B9%E8%AE%A1%E7%AE%97-eleccalc.zip"
     },
     {
+      "id": "checkrun",
+      "name": "流程核对单",
+      "version": "1.1.0",
+      "category": "效率",
+      "group": "作业执行",
+      "归属group": "作业执行",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 7343,
+          "sha256": "d9aa9fae83a199858c7b6b113a790a37f28c851b888a29d5de22775a5198e64b"
+        },
+        {
+          "path": "base.js",
+          "bytes": 4577,
+          "sha256": "3ae43136a0f992722d772c67c067f6b8fcdf3fe5108f84bc71481c1fcf4b4192"
+        },
+        {
+          "path": "data-root.js",
+          "bytes": 1107,
+          "sha256": "dc1dda2c86f3f8b952d8e56e06763bf89909cd78945ba9cfa75570f8141b2b38"
+        },
+        {
+          "path": "icon/checkrun-icon.svg",
+          "bytes": 892,
+          "sha256": "bda3dec30e0bb92b2bb4739af436a13cecfde2c46e10f00ebb100ddabd158be4"
+        },
+        {
+          "path": "icon/checkrun-mark.svg",
+          "bytes": 836,
+          "sha256": "e0fe6287096575765295cf3da86a4adf5f662ac22fa6eede0a43c90a92c2abc2"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 3120,
+          "sha256": "27b2bdd1d69bc05edc9e750fc323be5e82643ddce8c59d0d04f3ff08fe8ec016"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4536,
+          "sha256": "8ae2f1bab3cc1792e0217047febbf01ed99e4ed0901008c64ffc0fdb71126ea1"
+        },
+        {
+          "path": "io.js",
+          "bytes": 11563,
+          "sha256": "c6971e4a48e0820c318509528118dd427151ce749bc9831f249d45b4134699a9"
+        },
+        {
+          "path": "legacy-revisions.js",
+          "bytes": 17770,
+          "sha256": "b843d21aefd7112fe55038651da7077ff4b4287b939c4c1196a7d310073f4326"
+        },
+        {
+          "path": "model.js",
+          "bytes": 5728,
+          "sha256": "f944de36f2e543e3ae37cecaea1659570134828ce0d18b16b453d3b9245da40e"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 393,
+          "sha256": "2f22b6366926ca9f1c39b143b97923c13158d620363897c439caa70ef2ef02e1"
+        },
+        {
+          "path": "revisions.js",
+          "bytes": 18860,
+          "sha256": "65ec5c482e9c20de6bce29962b5cfe041e3302d79c30793e2737150eb584940b"
+        },
+        {
+          "path": "sha256.js",
+          "bytes": 2927,
+          "sha256": "528461c7491ffa35bed2fe136b0e400816f148176d049ac3feacf2b252dccb69"
+        },
+        {
+          "path": "style.css",
+          "bytes": 4642,
+          "sha256": "7b37cc8f3dd5731021275b53eafb5179f3552459946616f3569272817ab63cb8"
+        },
+        {
+          "path": "ui.js",
+          "bytes": 8535,
+          "sha256": "356047fb3529089c64fe3f3f10f29af7478beaf0051138992c8f4eb620b43283"
+        }
+      ],
+      "archiveBytes": 34251,
+      "archiveSha256": "4824127b8380e8e55e5f6514e851235a99f1824e5a564fb0e228c929374cadd1",
+      "relativePath": "效率/流程核对单-checkrun/流程核对单-checkrun.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E6%B5%81%E7%A8%8B%E6%A0%B8%E5%AF%B9%E5%8D%95-checkrun/%E6%B5%81%E7%A8%8B%E6%A0%B8%E5%AF%B9%E5%8D%95-checkrun.zip"
+    },
+    {
       "id": "apk1",
       "name": "APK.1 安装",
       "version": "1.0.5",
@@ -1440,6 +1529,70 @@
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E6%95%88%E7%8E%87/%E8%A1%A8%E6%A0%BC%E7%AD%9B%E9%80%89-csvquery/%E8%A1%A8%E6%A0%BC%E7%AD%9B%E9%80%89-csvquery.zip"
     },
     {
+      "id": "srtstudio",
+      "name": "字幕校对",
+      "version": "1.0.0",
+      "category": "媒体",
+      "group": "字幕文档",
+      "归属group": "字幕文档",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 15019,
+          "sha256": "0f02e3d2d0fbce400f5461d7eb63198524e10abe6e4aa4caae0b7c8fc189b4c3"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 3059,
+          "sha256": "c49ca26f6041f68488a9bbe6284b0bb8427a643a9e4525937c0b1b78c0b48abb"
+        },
+        {
+          "path": "icon/srtstudio-icon.svg",
+          "bytes": 1375,
+          "sha256": "7faf3874129f0c1cd1bfc4b04b482c24df6f6d039f18be62c47db51ad10f8726"
+        },
+        {
+          "path": "icon/srtstudio-mark.svg",
+          "bytes": 1090,
+          "sha256": "c2de25ee9f57f4f459bd71cf107946712f6a6bbffdda62e7d21b7f1b8c97f68e"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5781,
+          "sha256": "2839b4778429968bd1128169840e2a7576c7c82b381508e219ea5b19b26d3385"
+        },
+        {
+          "path": "model.js",
+          "bytes": 10586,
+          "sha256": "86b0b1dff757efb5c62f6be12c4ece2aaaa0b7777aab01f6aef0e8769647c903"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 370,
+          "sha256": "6867838fe126e4a8498adc273717d5e226941aa6e456e25075834396de7c4bd2"
+        },
+        {
+          "path": "store.js",
+          "bytes": 3225,
+          "sha256": "25ad740a8a1054e29afa4364925dcc77ac3c397ed7bdb9005abedad73a14702a"
+        },
+        {
+          "path": "style.css",
+          "bytes": 3576,
+          "sha256": "4a8640779e95bc6ef28024eef487242618d6cc2978c37ed192f82068391ca6e0"
+        },
+        {
+          "path": "transport.js",
+          "bytes": 6375,
+          "sha256": "81c4de918c2b00ff474b90e041fbbe09b1e112d287adeb119e4c868eaedd9e8b"
+        }
+      ],
+      "archiveBytes": 19881,
+      "archiveSha256": "e0a99008a67dd97db3b4c58ffe4ffda48764382ae2f4159a62371a11e23d1681",
+      "relativePath": "媒体/字幕校对-srtstudio/字幕校对-srtstudio.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E5%AA%92%E4%BD%93/%E5%AD%97%E5%B9%95%E6%A0%A1%E5%AF%B9-srtstudio/%E5%AD%97%E5%B9%95%E6%A0%A1%E5%AF%B9-srtstudio.zip"
+    },
+    {
       "id": "eartest",
       "name": "耳龄测试",
       "version": "1.0.6",
@@ -2217,6 +2370,95 @@
       "archiveSha256": "aa08c58168ccf9e175d3ff5643cc6f1abae994089e5d3dcc59cf2848aaedeb30",
       "relativePath": "生活/倒数日-days/倒数日-days.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E7%94%9F%E6%B4%BB/%E5%80%92%E6%95%B0%E6%97%A5-days/%E5%80%92%E6%95%B0%E6%97%A5-days.zip"
+    },
+    {
+      "id": "borrowtrack",
+      "name": "物品借还",
+      "version": "1.1.0",
+      "category": "生活",
+      "group": "物品管理",
+      "归属group": "物品管理",
+      "文件字节sha256": [
+        {
+          "path": "app.js",
+          "bytes": 6891,
+          "sha256": "6568479ca4c1a1c87de76653af702f11f6dddf86c3ea658a8c3753adfc22c576"
+        },
+        {
+          "path": "base.js",
+          "bytes": 4577,
+          "sha256": "3ae43136a0f992722d772c67c067f6b8fcdf3fe5108f84bc71481c1fcf4b4192"
+        },
+        {
+          "path": "data-root.js",
+          "bytes": 1107,
+          "sha256": "dc1dda2c86f3f8b952d8e56e06763bf89909cd78945ba9cfa75570f8141b2b38"
+        },
+        {
+          "path": "icon/borrowtrack-icon.svg",
+          "bytes": 849,
+          "sha256": "dc9f052039ea835de07e289b8e40ad052d82ffbf0c105bcb8058d68a5e86c6fb"
+        },
+        {
+          "path": "icon/borrowtrack-mark.svg",
+          "bytes": 793,
+          "sha256": "a24da585f88439ec5dcb939aefbf8f8d13ef0bd56e29f98c4cecb7494d903c3d"
+        },
+        {
+          "path": "icon/icon-preview.html",
+          "bytes": 3177,
+          "sha256": "d65c7b99fc16ae62353c98ad6e7e61fad5e252a0ece8b1f11f403b78b7dc27ad"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5097,
+          "sha256": "1407a55bf3ba1269540e46eb83311b3ab99a8b056eac0bfef52a5ac8e2fc1815"
+        },
+        {
+          "path": "io.js",
+          "bytes": 11563,
+          "sha256": "c6971e4a48e0820c318509528118dd427151ce749bc9831f249d45b4134699a9"
+        },
+        {
+          "path": "legacy-revisions.js",
+          "bytes": 17770,
+          "sha256": "b843d21aefd7112fe55038651da7077ff4b4287b939c4c1196a7d310073f4326"
+        },
+        {
+          "path": "model.js",
+          "bytes": 5395,
+          "sha256": "415fb297317c70d7bacecec290a7b4a5c97c4b8fa307a1021fe6800ee7ae4c12"
+        },
+        {
+          "path": "plugin.json",
+          "bytes": 397,
+          "sha256": "db873b4333d85428c12cae95ec4b124f05a8636b54814077dc3b6f2ebefcbf42"
+        },
+        {
+          "path": "revisions.js",
+          "bytes": 18860,
+          "sha256": "65ec5c482e9c20de6bce29962b5cfe041e3302d79c30793e2737150eb584940b"
+        },
+        {
+          "path": "sha256.js",
+          "bytes": 2927,
+          "sha256": "528461c7491ffa35bed2fe136b0e400816f148176d049ac3feacf2b252dccb69"
+        },
+        {
+          "path": "style.css",
+          "bytes": 4642,
+          "sha256": "7b37cc8f3dd5731021275b53eafb5179f3552459946616f3569272817ab63cb8"
+        },
+        {
+          "path": "ui.js",
+          "bytes": 8535,
+          "sha256": "356047fb3529089c64fe3f3f10f29af7478beaf0051138992c8f4eb620b43283"
+        }
+      ],
+      "archiveBytes": 34202,
+      "archiveSha256": "32faf16a90f00d06b72cb775ea6079cb9817153ba2934dddc2d51dc5a11ed718",
+      "relativePath": "生活/物品借还-borrowtrack/物品借还-borrowtrack.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/%E7%94%9F%E6%B4%BB/%E7%89%A9%E5%93%81%E5%80%9F%E8%BF%98-borrowtrack/%E7%89%A9%E5%93%81%E5%80%9F%E8%BF%98-borrowtrack.zip"
     },
     {
       "id": "screentest",
@@ -3304,7 +3546,7 @@
       "id": "all:all",
       "kind": "all",
       "name": "官方可扩展工具全集",
-      "toolCount": 95,
+      "toolCount": 98,
       "pluginIds": [
         "aasplit",
         "answers",
@@ -3313,9 +3555,11 @@
         "bankbin",
         "barcode",
         "bmi",
+        "borrowtrack",
         "bracket",
         "carplate",
         "cartonnet",
+        "checkrun",
         "chinesecolors",
         "coursetable",
         "cps",
@@ -3381,6 +3625,7 @@
         "sleepcalc",
         "snake",
         "speedtest",
+        "srtstudio",
         "sudoku",
         "super_band",
         "tablejoin",
@@ -3402,12 +3647,26 @@
         "wordle",
         "worldclock"
       ],
-      "archiveBytes": 4095744,
-      "archiveSha256": "22be73de688adbdf4e49fde8d0bac99a6ce789bd325176d0363be99d09432807",
+      "archiveBytes": 4186503,
+      "archiveSha256": "01fb792503bab16f8bea41fa73886573391d40ca4b109b647056cf2d3ef7c037",
       "relativePath": "bundles/all/jinhe-tools-all.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/all/jinhe-tools-all.zip",
       "bundleFormatVersion": 2,
       "minApp": "1.8.64"
+    },
+    {
+      "id": "group:group-470729498922",
+      "kind": "group",
+      "name": "作业执行族工具包",
+      "toolCount": 1,
+      "pluginIds": [
+        "checkrun"
+      ],
+      "archiveBytes": 34844,
+      "archiveSha256": "2325d76ba6c3bed9ccc839a7729fc7f71640199a281ebd845f2cf103f0b62868",
+      "relativePath": "bundles/groups/group-470729498922/jinhe-tools-group-470729498922.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-470729498922/jinhe-tools-group-470729498922.zip",
+      "group": "作业执行"
     },
     {
       "id": "group:group-bd69b3a41b11",
@@ -3419,8 +3678,8 @@
         "health",
         "tdee"
       ],
-      "archiveBytes": 27327,
-      "archiveSha256": "01886b07753676cf8af6359078cb61dcb276fe5b7f103bebe3de1aa1f4994feb",
+      "archiveBytes": 27329,
+      "archiveSha256": "ea693d30c6b0bb79b53b870483d64ea6d5a6a179209453f4b380352642856d55",
       "relativePath": "bundles/groups/group-bd69b3a41b11/jinhe-tools-group-bd69b3a41b11.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bd69b3a41b11/jinhe-tools-group-bd69b3a41b11.zip",
       "group": "健康计算",
@@ -3438,7 +3697,7 @@
         "weight"
       ],
       "archiveBytes": 33341,
-      "archiveSha256": "004904919ccd6f79d7bb64038f1eb55f72d40cb24695fbc1ebe7f414ab73c8d4",
+      "archiveSha256": "a2f265a92e85677ba1d5eff0e4586d601de3bb89e8387a86311069ede159e79f",
       "relativePath": "bundles/groups/group-bd197c9a6cb5/jinhe-tools-group-bd197c9a6cb5.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bd197c9a6cb5/jinhe-tools-group-bd197c9a6cb5.zip",
       "group": "健康记录"
@@ -3452,7 +3711,7 @@
         "hitokoto"
       ],
       "archiveBytes": 10725,
-      "archiveSha256": "6001ea767663dbf00ca223100dc074e4ab9d1376bc0180fb277a4a727327a87e",
+      "archiveSha256": "b1cab2a3ac2c58c4d248901fb9fd812e0122fdd35ba5df98dc1df7ace98f13ec",
       "relativePath": "bundles/groups/group-54368dd38e57/jinhe-tools-group-54368dd38e57.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-54368dd38e57/jinhe-tools-group-54368dd38e57.zip",
       "group": "公开数据"
@@ -3470,7 +3729,7 @@
         "watermark"
       ],
       "archiveBytes": 60266,
-      "archiveSha256": "927d4cfc5155edfb00b5aff1de5372945d96e2ff00e4c573a2e866d2a70fcbda",
+      "archiveSha256": "e1d09176803c901cfa9fa880dd01fca18def17b826b574e3e199123cf1cd38fa",
       "relativePath": "bundles/groups/group-9bdbd23bf420/jinhe-tools-group-9bdbd23bf420.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-9bdbd23bf420/jinhe-tools-group-9bdbd23bf420.zip",
       "group": "图文创作"
@@ -3485,10 +3744,24 @@
         "wallpaper"
       ],
       "archiveBytes": 26826,
-      "archiveSha256": "32c9889939fb62b439b6e9d453c3c3e0d4aec4f6be8ac39932456c0ad2fc9623",
+      "archiveSha256": "7c5cea20e7e4c4be27f4cd25e0b5b57c018fdbd95db57a9d2c9296ad432d2291",
       "relativePath": "bundles/groups/group-c62a58459251/jinhe-tools-group-c62a58459251.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c62a58459251/jinhe-tools-group-c62a58459251.zip",
       "group": "图片生成"
+    },
+    {
+      "id": "group:group-51b8f37fbd04",
+      "kind": "group",
+      "name": "字幕文档族工具包",
+      "toolCount": 1,
+      "pluginIds": [
+        "srtstudio"
+      ],
+      "archiveBytes": 20394,
+      "archiveSha256": "1133ceeb0f268a4ca7bd1ada05e6c44b6947f0e5dab235492f749fe9b3cddc75",
+      "relativePath": "bundles/groups/group-51b8f37fbd04/jinhe-tools-group-51b8f37fbd04.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-51b8f37fbd04/jinhe-tools-group-51b8f37fbd04.zip",
+      "group": "字幕文档"
     },
     {
       "id": "group:group-a46c766b092a",
@@ -3500,7 +3773,7 @@
         "webapk"
       ],
       "archiveBytes": 12995,
-      "archiveSha256": "d94c5af919a9250d383ef68c83173eb78f7934684afb31160f090b779567a1b9",
+      "archiveSha256": "f82ec6c98de4eb3b1cef178a0b54c02fba01af13d19db688a95ead0c3f8e726e",
       "relativePath": "bundles/groups/group-a46c766b092a/jinhe-tools-group-a46c766b092a.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-a46c766b092a/jinhe-tools-group-a46c766b092a.zip",
       "group": "安装传输"
@@ -3513,8 +3786,8 @@
       "pluginIds": [
         "uuidgen"
       ],
-      "archiveBytes": 9016,
-      "archiveSha256": "f7962625d0195b4f0e3f30d01a7024b82db8fd12f3e3a7f40659ee3b7880221e",
+      "archiveBytes": 9018,
+      "archiveSha256": "ff7a3046dfe7e01a8b431ccd05da3871c5225a27040b9e121eb0ce0ac749bc15",
       "relativePath": "bundles/groups/group-4d15a50c5c09/jinhe-tools-group-4d15a50c5c09.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-4d15a50c5c09/jinhe-tools-group-4d15a50c5c09.zip",
       "group": "开发运维",
@@ -3531,7 +3804,7 @@
         "eartest"
       ],
       "archiveBytes": 26498,
-      "archiveSha256": "b60c690bb5a5f68d96e09b4bba3421b21f906fb85f983dc925d5e04f7ef432ce",
+      "archiveSha256": "497180c239852ce0797a51a6f62f83c38bbc6f6a2ae170c6b2c88f53646bd167",
       "relativePath": "bundles/groups/group-8d16c0b51497/jinhe-tools-group-8d16c0b51497.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-8d16c0b51497/jinhe-tools-group-8d16c0b51497.zip",
       "group": "录音声学"
@@ -3546,7 +3819,7 @@
         "mindmap"
       ],
       "archiveBytes": 26715,
-      "archiveSha256": "68dc2bbdba7cd7e35b487b8498938386f7c43a9e005520fd64dabd697e846dba",
+      "archiveSha256": "b67348902030e120da921bc977f2aa014a18fe25b8707420c158491122f8e3f2",
       "relativePath": "bundles/groups/group-d3d46b82e6e1/jinhe-tools-group-d3d46b82e6e1.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-d3d46b82e6e1/jinhe-tools-group-d3d46b82e6e1.zip",
       "group": "待办笔记"
@@ -3560,7 +3833,7 @@
         "cartonnet"
       ],
       "archiveBytes": 235444,
-      "archiveSha256": "d1354603abaf87205d9bbe917fe74e1a194d23c37ce82a4e0a27d1b7bbe8b2d4",
+      "archiveSha256": "e2b203a323b2b380175046d95b5664218bee8803834ec751eda5ccca3c42a905",
       "relativePath": "bundles/groups/group-f32da7e5b26d/jinhe-tools-group-f32da7e5b26d.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-f32da7e5b26d/jinhe-tools-group-f32da7e5b26d.zip",
       "group": "手工绘图"
@@ -3575,7 +3848,7 @@
         "reaction"
       ],
       "archiveBytes": 15340,
-      "archiveSha256": "8dd4c0151db2bcbe8ec208d444dbf68df874d0b2ab15dbdbb4ebe50130621482",
+      "archiveSha256": "69b83248a5d4bafc9f6104660b9d2c6e931d1d8d198ef7da5f56cab58928785a",
       "relativePath": "bundles/groups/group-826128a9d469/jinhe-tools-group-826128a9d469.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-826128a9d469/jinhe-tools-group-826128a9d469.zip",
       "group": "手速反应"
@@ -3589,7 +3862,7 @@
         "decisionmatrix"
       ],
       "archiveBytes": 29332,
-      "archiveSha256": "e5010cbc8ac3c6c536c0c19b6bdf19b4fda9bbeb669ee0b5518291bd2efd4e03",
+      "archiveSha256": "23c85aa3b48d93b3ae91abc3a070a11381256786d9ee27f95b2ee10c7fd697c5",
       "relativePath": "bundles/groups/group-18344516eb2a/jinhe-tools-group-18344516eb2a.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-18344516eb2a/jinhe-tools-group-18344516eb2a.zip",
       "group": "效率规划"
@@ -3604,7 +3877,7 @@
         "woodenfish"
       ],
       "archiveBytes": 24755,
-      "archiveSha256": "065c1706f59e75aef83496005253ee96f9f50c4caf71a8c4d59888042077d827",
+      "archiveSha256": "dabf55b56d29a0724e0b269d84736836cf1a975bf6bd77dd3cbd0faac943b17f",
       "relativePath": "bundles/groups/group-bc6629ad4405/jinhe-tools-group-bc6629ad4405.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bc6629ad4405/jinhe-tools-group-bc6629ad4405.zip",
       "group": "整活决策"
@@ -3621,7 +3894,7 @@
         "manifestdiff"
       ],
       "archiveBytes": 48566,
-      "archiveSha256": "6c6c511f57be3cf7ea3acce23503c451c541c37a3aee88702013ef2a6f4b1ab1",
+      "archiveSha256": "ba28285d46402a6898b81dc5319b0f2dfc070aef31d39f6154a1f6029832f7d6",
       "relativePath": "bundles/groups/group-c82d6144ec50/jinhe-tools-group-c82d6144ec50.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c82d6144ec50/jinhe-tools-group-c82d6144ec50.zip",
       "group": "文件整理"
@@ -3634,8 +3907,8 @@
       "pluginIds": [
         "wordcount"
       ],
-      "archiveBytes": 9542,
-      "archiveSha256": "a7404ba0c193d2fada0be1db275a690ab94f5c9684c2694c6e59b5400d288c21",
+      "archiveBytes": 9544,
+      "archiveSha256": "2c3fd4d08bf7ce3ee9cb11d8e5d3dffc53bf18497cb6a40fd4b9533439ffb72d",
       "relativePath": "bundles/groups/group-65d1c37c27e5/jinhe-tools-group-65d1c37c27e5.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-65d1c37c27e5/jinhe-tools-group-65d1c37c27e5.zip",
       "group": "文本编辑",
@@ -3651,7 +3924,7 @@
         "pdf2txt"
       ],
       "archiveBytes": 20139,
-      "archiveSha256": "a154a4faf4c0bdda7889de8c860de5129054b1a0021a83106a8509fdaba47054",
+      "archiveSha256": "e09acaece2e85eaccde37ca0d955c73e0629471aa91571fb0bb67c2fdb777bab",
       "relativePath": "bundles/groups/group-cc62cccb4371/jinhe-tools-group-cc62cccb4371.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-cc62cccb4371/jinhe-tools-group-cc62cccb4371.zip",
       "group": "文档提词"
@@ -3667,8 +3940,8 @@
         "ioscalc",
         "percentcalc"
       ],
-      "archiveBytes": 37153,
-      "archiveSha256": "cb14a7702b9dfc7b04a9eb6d3c402fee713905ceb7a2075bbf5406320a9b9350",
+      "archiveBytes": 37155,
+      "archiveSha256": "f834f671482a353b535f6dffbf8a1b8f16b6d5ae5af5927d76f783a39b78d676",
       "relativePath": "bundles/groups/group-0fa38f8382e0/jinhe-tools-group-0fa38f8382e0.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-0fa38f8382e0/jinhe-tools-group-0fa38f8382e0.zip",
       "group": "日常算账",
@@ -3685,7 +3958,7 @@
         "worldclock"
       ],
       "archiveBytes": 32653,
-      "archiveSha256": "45f6d1eea41dd1e1d3ac372e68240859c6bd2751d5eb7a491994d957f8d8cdca",
+      "archiveSha256": "f5a9164f63dd944ff1556f9f3d8749d9ee288e7c32c543d78ce8e80804afbd17",
       "relativePath": "bundles/groups/group-734bfa95fd19/jinhe-tools-group-734bfa95fd19.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-734bfa95fd19/jinhe-tools-group-734bfa95fd19.zip",
       "group": "日期提醒"
@@ -3700,7 +3973,7 @@
         "projectpath"
       ],
       "archiveBytes": 32855,
-      "archiveSha256": "94082ddb191c9b85d27a696682d09667d07da2f23deed2851cca94a40ba00267",
+      "archiveSha256": "50de03a96ea3ddef0d0c2d1b998abb64fd729312947164d8fbe7612d4c3a0376",
       "relativePath": "bundles/groups/group-eb9488ef113c/jinhe-tools-group-eb9488ef113c.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-eb9488ef113c/jinhe-tools-group-eb9488ef113c.zip",
       "group": "时间管理"
@@ -3713,8 +3986,8 @@
       "pluginIds": [
         "readtime"
       ],
-      "archiveBytes": 8824,
-      "archiveSha256": "9eec8ea587716773e14189b5c642c5e83838a50e52689d2bb6400e33238e478e",
+      "archiveBytes": 8826,
+      "archiveSha256": "c721a992fa79fc806b51f70c498e860d84e94698f38beb1b65a94079631e44d3",
       "relativePath": "bundles/groups/group-bfa1c3092183/jinhe-tools-group-bfa1c3092183.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-bfa1c3092183/jinhe-tools-group-bfa1c3092183.zip",
       "group": "朗读语音",
@@ -3730,10 +4003,24 @@
         "coursetable"
       ],
       "archiveBytes": 13514,
-      "archiveSha256": "b6bd49e69f3da3c4218a2988202a7787d73cf5d6d4f266bec70dba5f605c2536",
+      "archiveSha256": "b880d25843e7f862cb9184aed0c27d29d0a0cad1ee20c514fc741af7de0559a6",
       "relativePath": "bundles/groups/group-53634894e133/jinhe-tools-group-53634894e133.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-53634894e133/jinhe-tools-group-53634894e133.zip",
       "group": "校园课程"
+    },
+    {
+      "id": "group:group-031a348be748",
+      "kind": "group",
+      "name": "物品管理族工具包",
+      "toolCount": 1,
+      "pluginIds": [
+        "borrowtrack"
+      ],
+      "archiveBytes": 34878,
+      "archiveSha256": "afa6be80fe8462357ad6ba868a4450d72d86c24768e4d6c1a7f1e47038d312f0",
+      "relativePath": "bundles/groups/group-031a348be748/jinhe-tools-group-031a348be748.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-031a348be748/jinhe-tools-group-031a348be748.zip",
+      "group": "物品管理"
     },
     {
       "id": "group:group-1709f84637ad",
@@ -3744,7 +4031,7 @@
         "elements"
       ],
       "archiveBytes": 14260,
-      "archiveSha256": "eba07a967db5637c8be5a1c190f072fe546291ef3922eeca50b55ed7ef017fc9",
+      "archiveSha256": "474ce2fd2ed7e0bf77cd4ab4b7f3a7b077a040c2d01ab6bbeb7cb610f5e80f7a",
       "relativePath": "bundles/groups/group-1709f84637ad/jinhe-tools-group-1709f84637ad.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-1709f84637ad/jinhe-tools-group-1709f84637ad.zip",
       "group": "理科速查"
@@ -3760,7 +4047,7 @@
         "taxcalc"
       ],
       "archiveBytes": 34811,
-      "archiveSha256": "5aea2b63a7275793f4d5647af0f7f98803cc0d2ab08aadfee6c3896b17c7da8d",
+      "archiveSha256": "987ecf76dfd1c00488518765e4fc4388096d781c6ee28deca751a66a9ed65d79",
       "relativePath": "bundles/groups/group-016000235da0/jinhe-tools-group-016000235da0.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-016000235da0/jinhe-tools-group-016000235da0.zip",
       "group": "理财计算"
@@ -3781,8 +4068,8 @@
         "sudoku",
         "wordle"
       ],
-      "archiveBytes": 103505,
-      "archiveSha256": "a24b9f299f9ba62ed8ebf09e32c28240f1a942ce0ed31ab6029c781d46a9fbc6",
+      "archiveBytes": 103506,
+      "archiveSha256": "b2baed08779af8cb35c726e454f22ada83ea829a637a0a0ee50484f334e5c01f",
       "relativePath": "bundles/groups/group-e234adfe2db0/jinhe-tools-group-e234adfe2db0.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-e234adfe2db0/jinhe-tools-group-e234adfe2db0.zip",
       "group": "益智游戏"
@@ -3797,7 +4084,7 @@
         "screentest"
       ],
       "archiveBytes": 16311,
-      "archiveSha256": "27b5696138ed82361ec89f882b1c1155cfa56e1723475266ee733c21ba5e0bab",
+      "archiveSha256": "127f44dfd4f63aa538020f39af4d3cbfd0260cf1a09f83a4c90c4d26cc8b413c",
       "relativePath": "bundles/groups/group-1337b94c3453/jinhe-tools-group-1337b94c3453.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-1337b94c3453/jinhe-tools-group-1337b94c3453.zip",
       "group": "硬件传感"
@@ -3811,7 +4098,7 @@
         "unicode"
       ],
       "archiveBytes": 8309,
-      "archiveSha256": "5a8f3544bf85a6819cf43a0ba55880587166a35b1f82ba8ef6c13cac4222bbfe",
+      "archiveSha256": "5fb7454ce2851a4e848c665a071a0952e2c5672aec2ef9933ee946d8e75afdcc",
       "relativePath": "bundles/groups/group-50957843efd4/jinhe-tools-group-50957843efd4.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-50957843efd4/jinhe-tools-group-50957843efd4.zip",
       "group": "编码解码"
@@ -3825,7 +4112,7 @@
         "speedtest"
       ],
       "archiveBytes": 12319,
-      "archiveSha256": "96f74661d8f090804f900ab02c63ac43655c576d6b85c4c43c3379fc413c7113",
+      "archiveSha256": "14965b9c7bd2445f4dfe54e87dcf20539c959a8cae660bfa127d469df0bdd491",
       "relativePath": "bundles/groups/group-a5dc9a1212ba/jinhe-tools-group-a5dc9a1212ba.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-a5dc9a1212ba/jinhe-tools-group-a5dc9a1212ba.zip",
       "group": "网络工具"
@@ -3839,7 +4126,7 @@
         "downloader"
       ],
       "archiveBytes": 8489,
-      "archiveSha256": "d11cfadb7ad718b623bbe8310d5bc67b7162f80590a80bbf1478257aa70a5c6a",
+      "archiveSha256": "1b85c7fc22686d64307fc56918fd2dd09e0e7e1526e8767ced2238d623c1844b",
       "relativePath": "bundles/groups/group-e349e4c54efe/jinhe-tools-group-e349e4c54efe.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-e349e4c54efe/jinhe-tools-group-e349e4c54efe.zip",
       "group": "网络文件"
@@ -3853,7 +4140,7 @@
         "exchrate"
       ],
       "archiveBytes": 8691,
-      "archiveSha256": "57c532416a4ff2a7b630f4787d2f246a51970ff232eba3a0b75cea81b54e78a0",
+      "archiveSha256": "381d49dee834ea38f63c6c521afef05bd4cf5d2123ea2f57d8c3e3de5ed0595d",
       "relativePath": "bundles/groups/group-f148a2bd4c32/jinhe-tools-group-f148a2bd4c32.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-f148a2bd4c32/jinhe-tools-group-f148a2bd4c32.zip",
       "group": "行情财经"
@@ -3870,7 +4157,7 @@
         "tablejoin"
       ],
       "archiveBytes": 132507,
-      "archiveSha256": "41d7bd2fc1edb6865635d0719314e7fd5afc23d7c7558e34a3d28af2dff5242a",
+      "archiveSha256": "92bde42cc3b4c3181232d647b8472285c21bdafee8f380d26835e604d74bb3ac",
       "relativePath": "bundles/groups/group-b3f32ead847b/jinhe-tools-group-b3f32ead847b.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-b3f32ead847b/jinhe-tools-group-b3f32ead847b.zip",
       "group": "表格数据"
@@ -3886,7 +4173,7 @@
         "simon"
       ],
       "archiveBytes": 26023,
-      "archiveSha256": "f46168507bb600e9992d5a539047acdafdd80abe11ce760291aee76635d72b1e",
+      "archiveSha256": "905b4f445e620dcbd7a824ec4bec685e03ed5780806b87bfd4ffd82708417c26",
       "relativePath": "bundles/groups/group-03c2f79dbf7b/jinhe-tools-group-03c2f79dbf7b.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-03c2f79dbf7b/jinhe-tools-group-03c2f79dbf7b.zip",
       "group": "记忆专注"
@@ -3902,7 +4189,7 @@
         "sizechart"
       ],
       "archiveBytes": 31734,
-      "archiveSha256": "99e8164b58f6434725b1b5b004185ad11ff7fec42e4f7cb3469627919c496bb9",
+      "archiveSha256": "74dd6aee267f1190cf86e18d671010f32e2209ee31bd39d2d422c753e018fd33",
       "relativePath": "bundles/groups/group-f647f3a263ae/jinhe-tools-group-f647f3a263ae.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-f647f3a263ae/jinhe-tools-group-f647f3a263ae.zip",
       "group": "记账参考"
@@ -3918,7 +4205,7 @@
         "passbook"
       ],
       "archiveBytes": 83265,
-      "archiveSha256": "c9a77d86ae1fe963b6fe160ac04110a9f2db35bc0d793370dabd8ce02bd0a29f",
+      "archiveSha256": "0f8e04958829529cd692c51557e3d1347461e776c85bc14826d804ee3d1cefbb",
       "relativePath": "bundles/groups/group-c335ecaf15fe/jinhe-tools-group-c335ecaf15fe.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-c335ecaf15fe/jinhe-tools-group-c335ecaf15fe.zip",
       "group": "证件密码"
@@ -3933,7 +4220,7 @@
         "typing"
       ],
       "archiveBytes": 49759,
-      "archiveSha256": "9c48e2954c6ffefa82da824cc6f375d85160e6343cc50a7890cf0c99fb4005b9",
+      "archiveSha256": "77708292ff2fcd2f20eb078e61a455318a0a7d1d7be949ba61860e06f2409f59",
       "relativePath": "bundles/groups/group-8996778bc9d7/jinhe-tools-group-8996778bc9d7.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-8996778bc9d7/jinhe-tools-group-8996778bc9d7.zip",
       "group": "语言输入"
@@ -3949,7 +4236,7 @@
         "scoreboard"
       ],
       "archiveBytes": 58192,
-      "archiveSha256": "13277a14694470f000085f31f5f300696e04f480f2389e0b5c4d0d2bfa39f7e3",
+      "archiveSha256": "2d92fd96f46d72ee0baabb09cf07faeb4cb2f253b92dcbb95f5f8d59bdafa894",
       "relativePath": "bundles/groups/group-34a788010167/jinhe-tools-group-34a788010167.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-34a788010167/jinhe-tools-group-34a788010167.zip",
       "group": "赛事记分"
@@ -3964,7 +4251,7 @@
         "fuelcalc"
       ],
       "archiveBytes": 19844,
-      "archiveSha256": "38ddb3c2960d2bee7fe116e5fb612e756aa7a87f9134bf2778d495890a0f8a26",
+      "archiveSha256": "3964a64d74db92117dd2b7c1ab49ffd4d00799ae29b42af4586ee587c709d92a",
       "relativePath": "bundles/groups/group-af968b9b9f2e/jinhe-tools-group-af968b9b9f2e.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-af968b9b9f2e/jinhe-tools-group-af968b9b9f2e.zip",
       "group": "车辆出行"
@@ -3984,8 +4271,8 @@
         "super_band",
         "whitenoise"
       ],
-      "archiveBytes": 2662098,
-      "archiveSha256": "e7b0495c17eed5192c82d75d6703dc0fc2b6febe5eaa0fcc07c6ffbe85662414",
+      "archiveBytes": 2662097,
+      "archiveSha256": "c6d0cfa4dfb553d8f01acf03dddb4085dbdf0cbfb651de71bad8851a891c0599",
       "relativePath": "bundles/groups/group-89f0dd2c14ab/jinhe-tools-group-89f0dd2c14ab.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-89f0dd2c14ab/jinhe-tools-group-89f0dd2c14ab.zip",
       "group": "音乐声音"
@@ -4000,7 +4287,7 @@
         "palettegen"
       ],
       "archiveBytes": 20981,
-      "archiveSha256": "54751fc7399842eec0d0b295028ab10138518e97236c9ad583e4b8d0cd0bcade",
+      "archiveSha256": "998b479da612ebb5704940fd4983021ef57135445d25178d23b852bbee36531b",
       "relativePath": "bundles/groups/group-5ad36c5aaf45/jinhe-tools-group-5ad36c5aaf45.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-5ad36c5aaf45/jinhe-tools-group-5ad36c5aaf45.zip",
       "group": "颜色配色"
@@ -4016,7 +4303,7 @@
         "sign"
       ],
       "archiveBytes": 58840,
-      "archiveSha256": "c3414453659b701eeb3b3158e12b300e9c13341b402f9d68a05a8d58246b6681",
+      "archiveSha256": "94c32096e8a51bbc3432651ad592f9e9d1f5b07b7d0cfb1fca8791270a02b7e0",
       "relativePath": "bundles/groups/group-4b8953dd470d/jinhe-tools-group-4b8953dd470d.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/groups/group-4b8953dd470d/jinhe-tools-group-4b8953dd470d.zip",
       "group": "骰子抽签"
@@ -4030,8 +4317,8 @@
         "unicode",
         "wordcount"
       ],
-      "archiveBytes": 17660,
-      "archiveSha256": "20e63903dcbc63d39bf40d8f85e9cc948efdd9463210a7b4b9e2b8b0524a364d",
+      "archiveBytes": 17663,
+      "archiveSha256": "43a6ee759faa9aaff30f77e4c3c465262acb47a13591cd224627a45dd30fa23c",
       "relativePath": "bundles/categories/text/jinhe-tools-text.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/text/jinhe-tools-text.zip",
       "category": "文本",
@@ -4055,7 +4342,7 @@
         "watermark"
       ],
       "archiveBytes": 107416,
-      "archiveSha256": "7e5f18e50792c3f8a6ef948cd8325333deeb88f0275575336d4e904cdf534d8a",
+      "archiveSha256": "28f52ba7f5042823d81c88a17c0c5f92c227232ae212f8a3d6cf9aa8f5244f11",
       "relativePath": "bundles/categories/images/jinhe-tools-images.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/images/jinhe-tools-images.zip",
       "category": "图片"
@@ -4077,8 +4364,8 @@
         "taxcalc",
         "tdee"
       ],
-      "archiveBytes": 98796,
-      "archiveSha256": "0ae40061bb4229dc40921c18593c9539ad8e8c0bd6b06d5c4fafd4fcfbc01d04",
+      "archiveBytes": 98799,
+      "archiveSha256": "50005234d118b5674e7f3cd9f5f3a08563f42cc75230c627be788442b0fa3908",
       "relativePath": "bundles/categories/calculations/jinhe-tools-calculations.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/calculations/jinhe-tools-calculations.zip",
       "category": "计算",
@@ -4089,9 +4376,10 @@
       "id": "category:productivity",
       "kind": "category",
       "name": "效率分类工具包",
-      "toolCount": 18,
+      "toolCount": 19,
       "pluginIds": [
         "apk1",
+        "checkrun",
         "csvquery",
         "decisionmatrix",
         "filedesk",
@@ -4110,8 +4398,8 @@
         "uuidgen",
         "webapk"
       ],
-      "archiveBytes": 323194,
-      "archiveSha256": "5befcd13aec43ecc4daf1d21cfe0393a1460ca8362681e69c435b5e9efe66b94",
+      "archiveBytes": 358484,
+      "archiveSha256": "3808e92d9aa6b4f3c7700c31fb37811e8c4bcf86806dfbcc8358ab49aba9debd",
       "relativePath": "bundles/categories/productivity/jinhe-tools-productivity.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/productivity/jinhe-tools-productivity.zip",
       "category": "效率",
@@ -4122,7 +4410,7 @@
       "id": "category:media",
       "kind": "category",
       "name": "媒体分类工具包",
-      "toolCount": 10,
+      "toolCount": 11,
       "pluginIds": [
         "audiolab",
         "earinterval",
@@ -4132,11 +4420,12 @@
         "piano",
         "score_player",
         "scorelibrary",
+        "srtstudio",
         "super_band",
         "whitenoise"
       ],
-      "archiveBytes": 2688271,
-      "archiveSha256": "a8791be392fa0d45fc42ea3d8e5bc51872d2b500f11ef4e70243940c78809b8c",
+      "archiveBytes": 2708358,
+      "archiveSha256": "8fd90f5a6d0f89ddb72231b329bd169bf0043862951506d7fe003a382b403236",
       "relativePath": "bundles/categories/media/jinhe-tools-media.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/media/jinhe-tools-media.zip",
       "category": "媒体"
@@ -4145,9 +4434,10 @@
       "id": "category:life",
       "kind": "category",
       "name": "生活分类工具包",
-      "toolCount": 16,
+      "toolCount": 17,
       "pluginIds": [
         "bankbin",
+        "borrowtrack",
         "carplate",
         "cartonnet",
         "days",
@@ -4164,8 +4454,8 @@
         "weight",
         "worldclock"
       ],
-      "archiveBytes": 450644,
-      "archiveSha256": "dc0c62df7a5276d1fc5a51f8f52e9e95cbcc8e599343993c3519d845bf3b681b",
+      "archiveBytes": 485208,
+      "archiveSha256": "3683d4d765c8753ad31e4e8a5e85655c76702eeae78eb9cf2e64b405c0e8c868",
       "relativePath": "bundles/categories/life/jinhe-tools-life.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/life/jinhe-tools-life.zip",
       "category": "生活"
@@ -4199,8 +4489,8 @@
         "woodenfish",
         "wordle"
       ],
-      "archiveBytes": 285008,
-      "archiveSha256": "e769c36542862d32884c121e0b177db0235fe61244806f301a475d7773461608",
+      "archiveBytes": 285009,
+      "archiveSha256": "b5f3f4993e78e9fd5d9c04a2cb23cbd0413053208fd9c1d089eb982fc4278d17",
       "relativePath": "bundles/categories/games/jinhe-tools-games.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/games/jinhe-tools-games.zip",
       "category": "娱乐"
@@ -4217,7 +4507,7 @@
         "typing"
       ],
       "archiveBytes": 76907,
-      "archiveSha256": "413af323d256a53c00953069a22bbce4b27a77fc0eb3145b7fac954e90b7c19b",
+      "archiveSha256": "28ad886cb48cd7fcf17607123a7febd695f8d96a3bf8dc295c5bfddd707f2972",
       "relativePath": "bundles/categories/learning/jinhe-tools-learning.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/learning/jinhe-tools-learning.zip",
       "category": "学习"
@@ -4234,17 +4524,17 @@
         "speedtest"
       ],
       "archiveBytes": 39302,
-      "archiveSha256": "f06e4a81e607fe5cba60fb9bdddc3b2e984adb44a9b28869911c4a11583529a7",
+      "archiveSha256": "ca7006d153faee3488216f045f3d4c21f346bef78337e55775bef8790e09ef4e",
       "relativePath": "bundles/categories/online/jinhe-tools-online.zip",
       "downloadUrl": "https://raw.githubusercontent.com/moxuewang/jinhe-plugins/main/bundles/categories/online/jinhe-tools-online.zip",
       "category": "联网"
     }
   ],
-  "toolCount": 95,
+  "toolCount": 98,
   "partial": false,
   "bundleFormat": "jinhe-plugin-bundle",
   "bundleFormatVersion": 2,
-  "app": "1.8.64",
+  "app": "1.8.65",
   "submissionUrl": "https://github.com/moxuewang/jinhe-plugins/issues/new?template=submit-tool.yml",
   "minApp": "1.8.64",
   "nativeProvenance": {
@@ -4253,14 +4543,14 @@
     "stage": "local-payload-verification",
     "published": false,
     "sourceAPK": {
-      "fileName": "锦盒-v1.8.64-arm64.apk",
-      "sha256": "2f0dc1741f417f139f5cfd51584f3f4ca597e9412fcadcfaee5473180167c6ab"
+      "fileName": "锦盒-v1.8.65-arm64.apk",
+      "sha256": "ea4c4d1a5d4a5aeb116b480e85a1513fa81c053be3ee37c174c7d8b1d728ba0d"
     },
     "sourceCatalog": {
       "fileName": "native-tool-modules.json",
       "sha256": "3a5083987eef12ff1ea04bc13f145e2fce3e785444a80ecb8e6bac7ba981cbb5"
     },
-    "sourceAndroidManifestSha256": "10eb9a0feaabec8eabea253250ca3c04a18962f89262f0e05325f87a2d2d45f2",
+    "sourceAndroidManifestSha256": "86386169b25614d25a17e06e28437370e5f82be897662fb3f65ad298f684c03e",
     "hostApi": 1,
     "resourceContract": "production-base-programmatic-v1",
     "minSdk": 24,
